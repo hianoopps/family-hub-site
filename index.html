@@ -322,7 +322,7 @@ button{cursor:pointer}
 
   <div class="cols two">
     <div class="card sec">
-      <div class="sec-head"><h2 class="h2">School desk</h2><span class="pill c" style="--cc:var(--sun)">School</span></div>
+      <div class="sec-head"><h2 class="h2">School desk</h2><span class="pill c" style="--cc:var(--sun)">Buckswood, Year 5</span></div>
       <ul class="rows" id="homeSchool"><li><span class="d">-</span><div><p>Loading school notices</p></div></li></ul>
       <button class="btn dark sm" data-go="school" style="align-self:flex-start">open school tab</button>
     </div>
@@ -399,14 +399,14 @@ button{cursor:pointer}
 <!-- SCHOOL -->
 <section class="view" id="view-school" style="--tab:var(--lime)" hidden>
   <div class="banner">
-    <div><p class="eyebrow">Tasks and notices</p><h1>School desk</h1></div>
-    
+    <div><p class="eyebrow">Buckswood School Riyadh · Year 5</p><h1>School desk</h1></div>
+    <div class="sync" id="schoolSync"><i></i><span>Loading</span></div>
   </div>
   <div class="cols two">
     <div class="card sec">
       <div class="sec-head"><h2 class="h2">Tasks and deadlines</h2><span class="pill c" style="--cc:var(--coral)" id="taskCount">0 open</span></div>
       <div id="schoolTasks"></div>
-      
+      <p class="small">Tick items off on this device. New ones arrive from Edunation emails.</p>
     </div>
     <div class="card sec">
       <div class="sec-head"><h2 class="h2">Activities and events</h2></div>
@@ -492,7 +492,7 @@ button{cursor:pointer}
   </div>
 </section>
 
-<p class="foot">Budget ranges are typical Riyadh family living costs. Everything you add is saved in your own browser only.</p>
+<p class="foot">School notices are refreshed from school emails every 2 hours. Budget ranges are typical Riyadh family living costs. Things you add are saved in your own browser only.</p>
 </main>
 
 <button class="fab" id="fab" hidden><b>+</b>Add expense</button>
@@ -961,7 +961,7 @@ button{cursor:pointer}
   }
   function renderSync(){
     var t=syncLine();
-    [].forEach(function(id){var n=$(id);if(!n)return;n.className='sync'+(t[1]?' off':'');n.querySelector('span').textContent=t[0]});
+    ['schoolSync','moneySync'].forEach(function(id){var n=$(id);if(!n)return;n.className='sync'+(t[1]?' off':'');n.querySelector('span').textContent=t[0]});
   }
   function items(k){return schoolItems.filter(function(x){return x.kind===k})}
   function byDateDesc(a,b){return (a.date||'')<(b.date||'')?1:-1}
@@ -1011,7 +1011,7 @@ button{cursor:pointer}
     rows.forEach(function(x){ul.appendChild(h('li',{},[h('span',{class:'d',text:shortD(x.date)}),h('div',{},[h('h3',{text:x.title}),h('p',{text:(x.kind==='task'?'Task'+(x.due?', due '+shortD(x.due):''):(x.tag||'Announcement'))})])]))});
   }
   function snapArr(sn){return sn.docs.map(function(d){var o=d.data()||{};o.id=d.id;return o})}
-  function startLive(){return;
+  function startLive(){startStatic();return;
     if(!window.claude||!claude.use){syncState='off';renderSync();return}
     claude.use('db').then(function(db){
       if(!db){syncState='off';renderSync();return}
@@ -1024,6 +1024,12 @@ button{cursor:pointer}
         db.doc('meta/sync').onSnapshot(function(sn){syncMeta=sn.exists?sn.data():null;renderSync()},bad);
       }catch(e){bad()}
     },function(){syncState='off';renderSync()});
+  }
+  function startStatic(){
+    var load=function(){fetch('school.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
+      schoolItems=d.items||[];syncEvents=(d.events||[]).map(function(o){o.seed=true;return o}).filter(function(o){return o.start&&o.end});syncMeta={lastSync:d.updated};syncState='on';renderSchool();renderCalendar();renderHome();
+    }).catch(function(){syncState='off';renderSync()})};
+    load();setInterval(load,6e5);
   }
   var monthTouched=false;
   function initMonthIfNeeded(){if(!monthTouched)initMonth()}

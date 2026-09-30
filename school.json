@@ -1,0 +1,326 @@
+{
+ "updated": "2026-09-30T09:54:54Z",
+ "items": [
+  {
+   "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
+   "date": "2026-09-14",
+   "kind": "activity",
+   "title": "Term 1 Not-So-Boring Clubs",
+   "id": "a_clubs"
+  },
+  {
+   "body": "Tue 15 Sep, 2:30 pm, in the classroom. Open chance to ask general questions about routines and subjects. Message the class teacher to confirm. Not for one-to-one discussion of your child.",
+   "date": "2026-09-15",
+   "kind": "activity",
+   "title": "Year 5 coffee afternoon",
+   "id": "a_coffee"
+  },
+  {
+   "body": "28 and 29 Sep. No after-school clubs on both days. Normal 1:30 pm dismissal from the Multipurpose Hall.",
+   "date": "2026-09-28",
+   "kind": "activity",
+   "title": "IB PYP verification visit",
+   "id": "a_ibpyp"
+  },
+  {
+   "body": "Families invited 12:30 to 2:00 pm in the Multipurpose Hall. Outfit of choice, nut-free treats welcome. Dismissal 1:30 pm if not attending.",
+   "date": "2026-09-22",
+   "kind": "activity",
+   "title": "Saudi National Day celebration",
+   "id": "a_natday"
+  },
+  {
+   "body": "Ministry of Education guidance moved learning online for the day. On-campus classes resumed 28 Sep.",
+   "date": "2026-09-27",
+   "kind": "activity",
+   "title": "Campus closed, learning online",
+   "id": "a_online"
+  },
+  {
+   "body": "Light exercise session from the PE teacher and the Year 5 Spanish worksheet, shared for the online day.",
+   "date": "2026-09-27",
+   "kind": "activity",
+   "title": "PE and Spanish at home",
+   "id": "a_pe"
+  },
+  {
+   "body": "Birthday celebrations now happen in the last lesson, 12:50 to 1:20 pm. Parents may cut the cake and take photos. Everything must finish by 1:20 pm because school buses leave at 1:25 pm.",
+   "date": "2026-09-17",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Birthdays at Buckswood Riyadh",
+   "id": "n_birthdays"
+  },
+  {
+   "body": "Students took part in a bullying awareness session led by a behaviour modification specialist, in collaboration with Vigour Locomotion Rehabilitation Center. It covered what bullying is, its effects, and treating others with empathy.",
+   "date": "2026-09-21",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Bullying awareness session",
+   "id": "n_bullying"
+  },
+  {
+   "body": "Enrolled children got a confirmation announcement in Edunation. If you got none, your child is not in a Monday club and must be collected at 1:30 pm. Tuesday to Thursday confirmations followed.",
+   "date": "2026-09-13",
+   "kind": "announcement",
+   "tag": "Clubs",
+   "title": "Club enrolment confirmation, Mon 14 Sep",
+   "id": "n_club_confirm"
+  },
+  {
+   "body": "Registration for Term 1 Not-So-Boring Clubs opened through an online form. Places are first come, first served.",
+   "date": "2026-09-10",
+   "kind": "announcement",
+   "tag": "Clubs",
+   "title": "Term 1 clubs: registration open",
+   "id": "n_club_open"
+  },
+  {
+   "body": "Some clubs still had places. Each child may keep at most two clubs. To swap, say in the form Notes which choice to remove, otherwise one is removed at random.",
+   "date": "2026-09-11",
+   "kind": "announcement",
+   "tag": "Clubs",
+   "title": "Club registration reminder: limited spaces",
+   "id": "n_club_remind"
+  },
+  {
+   "body": "Children not in clubs are collected at 1:30 pm. Club children at 2:30 pm sharp. A sibling not in a club must still leave at 1:30 pm. Staff cannot supervise late pick-ups after 2:30 pm.",
+   "date": "2026-09-15",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Timely student collection",
+   "id": "n_collect"
+  },
+  {
+   "body": "A welcome message to Buckswood families about greeting children at the gate each morning.",
+   "date": "2026-09-13",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "A message from Dr. T",
+   "id": "n_drt"
+  },
+  {
+   "body": "EduPik is a new dismissal feature in the Edunation app, trialled from the week of 20 Sep. Send the pickup request in the app between 1:20 and 1:45 pm. Dismissal starts 1:30 pm from the Multipurpose Hall. Keep the Edunation app installed and updated. Parent guides (English and Arabic) were attached to the email.",
+   "date": "2026-09-16",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "EduPik dismissal system: parent information",
+   "id": "n_edupik"
+  },
+  {
+   "body": "EduPik started 20 Sep. Have the Edunation app downloaded, updated and working before collection time. EduPik is open 1:20 to 1:45 pm, dismissal begins 1:30 pm at the Multipurpose Hall. Contact the school if the app gives trouble.",
+   "date": "2026-09-20",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Reminder: EduPik dismissal system starts today",
+   "id": "n_edupik2"
+  },
+  {
+   "body": "A brochure about the importance of personal hygiene for children was shared.",
+   "date": "2026-09-13",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Personal hygiene awareness",
+   "id": "n_hygiene"
+  },
+  {
+   "body": "IB verification team visits 28 and 29 Sep. No after-school clubs on those days, school day and 1:30 pm dismissal unchanged.",
+   "date": "2026-09-24",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "IB PYP verification visit and club update",
+   "id": "n_ibpyp"
+  },
+  {
+   "body": "Strict no-jewelry rule for all grades, for safety and safeguarding. Exceptions: a simple watch and one pair of small plain studs for girls with pierced ears.",
+   "date": "2026-09-30",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "No jewelry policy",
+   "id": "n_jewelry"
+  },
+  {
+   "body": "A library book and card came home. Return the book by Sunday and enjoy quiet reading time before then.",
+   "date": "2026-09-17",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Year 5 parents: library book and card",
+   "id": "n_library"
+  },
+  {
+   "body": "Tue 22 Sep, 12:30 to 2:00 pm, Multipurpose Hall. Attending parents collect their child from the homeroom teacher after performances. Others: dismissal 1:30 pm. Thu 24 Sep is a normal school day.",
+   "date": "2026-09-21",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Saudi National Day celebration and arrangements",
+   "id": "n_natday2"
+  },
+  {
+   "body": "Tue 22 Sep was a normal school day. Parents invited 12:30 to 2:00 pm for refreshments and to meet homeroom and subject teachers. Dress code: green and white. No clubs that day. Buses ran as usual.",
+   "date": "2026-09-16",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Saudi National Day celebration, 22 Sep",
+   "id": "n_natday_inv"
+  },
+  {
+   "body": "Strict nut-free rule: no peanuts, tree nuts, nut butters or spreads in lunchboxes, because some students and staff have severe allergies. From the Designated Safeguarding Lead and Head of Pastoral Care.",
+   "date": "2026-09-15",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Nut-free school policy",
+   "id": "n_nutfree"
+  },
+  {
+   "body": "Campuses closed on Ministry guidance. Teachers shared handouts in the morning, official online classes started the next day.",
+   "date": "2026-09-27",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Online learning arrangements",
+   "id": "n_online"
+  },
+  {
+   "body": "School back on campus 28 Sep. Arrive on time, return textbooks and handouts, buses run as normal, no clubs due to the IB visit.",
+   "date": "2026-09-27",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Regular on-campus classes resume",
+   "id": "n_resume"
+  },
+  {
+   "body": "Dismissal 1:30 pm from the Multipurpose Hall (EduPik pickup window 1:20 to 1:45 pm). Club pick-up 2:30 pm. Birthday celebrations 12:50 to 1:20 pm. Buses leave from 1:25 pm. Nut-free school. No jewelry except a simple watch and small plain studs.",
+   "date": "2026-09-20",
+   "kind": "announcement",
+   "tag": "Routine",
+   "title": "Daily timings at a glance",
+   "id": "n_routine"
+  },
+  {
+   "body": "Front desk note about staff recruitment and development.",
+   "date": "2026-09-24",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "How Buckswood recruits, welcomes and develops its team",
+   "id": "n_staff"
+  },
+  {
+   "body": "Collect your child's textbooks from school before 3:30 pm because lessons were online this week.",
+   "date": "2026-09-27",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Textbook collection before 3:30 pm",
+   "id": "n_textbooks"
+  },
+  {
+   "body": "A tutorial video was shared to help families join online classes through Edunation.",
+   "date": "2026-09-27",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Edunation tutorial video for online classes",
+   "id": "n_tutorial"
+  },
+  {
+   "body": "Maths, English and Science worksheets to complete at home, plus a science video.",
+   "date": "2026-09-27",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Year 5 online activities, Sunday 27 Sep",
+   "id": "n_y5online"
+  },
+  {
+   "body": "Online form, first come first served. Swap requests go in the Notes field.",
+   "date": "2026-09-10",
+   "due": "2026-09-13",
+   "kind": "task",
+   "title": "Register for Term 1 clubs (max two)",
+   "id": "t_clubs"
+  },
+  {
+   "body": "Needed for the daily pickup request (1:20 to 1:45 pm) and to keep receiving announcements.",
+   "date": "2026-09-16",
+   "due": "2026-09-20",
+   "kind": "task",
+   "title": "Install and update the Edunation app for EduPik",
+   "id": "t_edupik_app"
+  },
+  {
+   "body": "Library book and card came home on 17 Sep. Keep them safe and read together.",
+   "date": "2026-09-17",
+   "due": "2026-09-20",
+   "kind": "task",
+   "title": "Return the library book",
+   "id": "t_library"
+  },
+  {
+   "body": "Bring back the books collected for the online day when school reopens.",
+   "date": "2026-09-27",
+   "due": "2026-09-28",
+   "kind": "task",
+   "title": "Return textbooks and handouts",
+   "id": "t_textbooks"
+  },
+  {
+   "body": "Only a simple watch and one pair of small plain studs for girls with pierced ears. Policy PDF attached to the email.",
+   "date": "2026-09-30",
+   "due": "",
+   "kind": "task",
+   "title": "Read the uniform and no-jewelry policy",
+   "id": "t_uniform"
+  },
+  {
+   "body": "Seed Dispersal matching activity and counting back in 10s, plus the science video on the class link.",
+   "date": "2026-09-27",
+   "due": "2026-09-27",
+   "kind": "task",
+   "title": "Year 5 worksheets: Maths, English, Science",
+   "id": "t_worksheets"
+  },
+  {
+   "body": "Settling in and building friendships. Maths: Place Value unit. Reading: finding each child's level. Unit of Inquiry: Who We Are (culture, values, families, communities). Thanks to parents who contributed to the class Padlet.",
+   "date": "2026-09-10",
+   "kind": "weekly",
+   "title": "Year 5, end of week 1 (This Week in Leeds)",
+   "id": "w_week1"
+  },
+  {
+   "body": "English: biographies and autobiographies, key features and pair work. Maths: numbers in standard, word and expanded form, plus a Saudi Arabia shape project with number facts. Science: seedlings and how plants begin to grow. Drama: Martin Luther King Jr.'s speech and rights and responsibilities. A new student was named Student of the Week.",
+   "date": "2026-09-17",
+   "kind": "weekly",
+   "title": "Year 5, end of week 2",
+   "id": "w_week2"
+  },
+  {
+   "body": "English, Drama and Unit of Inquiry: monologues and biographies, speaking and performance skills.\nMaths: numbers in standard, word and expanded form, counting in powers of 10.\nScience: pollination, seedlings and early plant growth.\nHighlight: Saudi National Day celebration.",
+   "date": "2026-09-24",
+   "kind": "weekly",
+   "title": "Year 5, end of week 3",
+   "id": "w_week3"
+  }
+ ],
+ "events": [
+  {
+   "end": "2026-09-15",
+   "kind": "school",
+   "start": "2026-09-15",
+   "time": "14:30",
+   "title": "Year 5 coffee afternoon, 2:30 pm",
+   "id": "coffee"
+  },
+  {
+   "end": "2026-09-29",
+   "kind": "school",
+   "start": "2026-09-28",
+   "time": "",
+   "title": "IB PYP verification visit, no after-school clubs",
+   "id": "ibpyp"
+  },
+  {
+   "end": "2026-09-22",
+   "kind": "school",
+   "start": "2026-09-22",
+   "time": "12:30",
+   "title": "Saudi National Day celebration, 12:30 to 2:00 pm",
+   "id": "natday"
+  }
+ ]
+}
