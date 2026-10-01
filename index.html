@@ -192,8 +192,18 @@ button{cursor:pointer}
 .day[aria-pressed="true"]{background:var(--sky);color:var(--on)}
 .dots{display:flex;gap:3px;flex-wrap:wrap;justify-content:center}
 .dots i{width:8px;height:8px;border-radius:50%;background:var(--cc);border:1px solid rgba(20,36,58,.25)}
-.ev{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:12px;border-radius:18px;background:var(--surface-2);margin-bottom:8px}
-.ev .sw{width:14px;height:44px;border-radius:8px;background:var(--cc)}
+.ev{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;padding:12px;border-radius:18px;background:var(--surface-2);margin-bottom:8px}
+.ev .sw{align-self:stretch;min-height:44px}
+.ev-act{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.ev-act .rem{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:800;color:var(--muted)}
+.ev-act select{width:auto;max-width:100%;background:var(--surface);border:2px solid var(--line);border-radius:999px;padding:6px 10px;font-weight:800;font-size:.8rem}
+.ev-act a.btn{text-decoration:none}
+.remcard{background:var(--sun);color:var(--on);border-radius:24px;padding:18px 20px;display:flex;flex-direction:column;gap:10px}
+.remcard .rt{font-family:var(--font-display);font-weight:600;font-size:1.15rem}
+.remrow{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;background:rgba(255,255,255,.45);border-radius:16px;padding:10px 12px}
+.remrow b{display:block;overflow-wrap:anywhere}
+.remrow span{font-size:.8rem;font-weight:700;opacity:.8}
+.ev .sw{width:14px;border-radius:8px;background:var(--cc)}
 .ev .t{font-weight:800;overflow-wrap:anywhere}
 .ev .m{font-size:.8rem;color:var(--muted)}
 
@@ -295,6 +305,7 @@ button{cursor:pointer}
     </div>
   </div>
 
+  <div id="remHome" hidden></div>
   <div class="quick">
     <button class="qa" style="--cc:var(--mint)" data-quick="expense"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-money"/></svg>Add an expense</button>
     <button class="qa" style="--cc:var(--sky)" data-quick="event"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cal"/></svg>Add a date</button>
@@ -446,9 +457,11 @@ button{cursor:pointer}
           <div class="field"><label for="evTitle">Add a date</label><input class="input" id="evTitle" placeholder="Birthday, appointment, trip" required></div>
           <div class="chips" id="evKinds"></div>
           <div class="cols two" style="gap:10px"><div class="field"><label for="evDate">Day</label><input class="input" id="evDate" type="date" required></div><div class="field"><label for="evTime">Time (optional)</label><input class="input" id="evTime" type="time"></div></div>
+          <div class="field"><label for="evRem">Remind me</label><select class="input" id="evRem"><option value="">No reminder</option><option value="0">At the time</option><option value="15">15 minutes before</option><option value="60">1 hour before</option><option value="1440">1 day before</option><option value="10080">1 week before</option></select><span class="small">Dates without a time remind at 09:00. Reminders show on Home and here when you open the page. Each date also has an Add to Google Calendar link.</span></div>
           <button class="btn wide" type="submit">save to calendar</button>
         </form>
       </div>
+      <div id="remCal" hidden></div>
       <div class="card sec"><h2 class="h2">Coming up</h2><div id="upcoming"></div></div>
     </div>
   </div>
@@ -492,7 +505,7 @@ button{cursor:pointer}
   </div>
 </section>
 
-<p class="foot">School notices are refreshed from school emails every 2 hours. Budget ranges are typical Riyadh family living costs. Things you add are saved in your own browser only.</p>
+<p class="foot" id="footNote">School, bill and receipt details are synced from Gmail every 2 hours. Budget ranges come from the Riyadh living-expense sheets in Google Drive. Things you add yourself are saved in this browser.</p>
 </main>
 
 <button class="fab" id="fab" hidden><b>+</b>Add expense</button>
@@ -550,6 +563,11 @@ button{cursor:pointer}
   function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
   function ls(k,def){try{var r=localStorage.getItem(k);return r==null?def:JSON.parse(r)}catch(e){return def}}
   function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+  var SDB=null;
+  function sw(p){try{p.catch(function(e){toast('Not saved for everyone ('+((e&&e.code)||'error')+')')})}catch(e){}}
+  function put(col,id,data){if(SDB)sw(SDB.collection(col).doc(String(id)).set(data))}
+  function del(col,id){if(SDB)sw(SDB.collection(col).doc(String(id)).delete())}
+  function strip(o){var c={};Object.keys(o).forEach(function(k){if(k!=='id'&&k!=='seed'&&k!=='src')c[k]=o[k]});return c}
   function copy(text,done){
     var ok=function(){if(done)done(true)};
     try{navigator.clipboard.writeText(text).then(ok,function(){if(done)done(false)})}catch(e){if(done)done(false)}
@@ -582,17 +600,8 @@ button{cursor:pointer}
   ];
   function cat(n){for(var i=0;i<CATS.length;i++)if(CATS[i].n===n)return CATS[i];return CATS[9]}
   var GUIDE={'Groceries':[2500,4000],'Transport & Fuel':[300,600],'Food & Dining':[500,1500],'Leisure & Sports':[500,1500],'Housing & Utilities':[600,1500]};
-  var KEY='riyadhAppExpenses_v6',BKEY='famBudget_v1';
-  var seed=[
-    {id:1,date:'2026-06-05',amount:350,category:'Groceries',note:'Lulu Hypermarket'},
-    {id:2,date:'2026-06-12',amount:1200,category:'Housing & Utilities',note:'SEC Electricity'},
-    {id:3,date:'2026-06-20',amount:450,category:'Shopping',note:'Riyadh Park Mall'},
-    {id:4,date:'2026-06-28',amount:400,category:'Food & Dining',note:'Weekend Dinner'},
-    {id:5,date:'2026-07-02',amount:250,category:'Leisure & Sports',note:'Inline Skating Academy'},
-    {id:6,date:'2026-07-04',amount:299,category:'Housing & Utilities',note:'STC Fiber Internet'},
-    {id:7,date:'2026-07-06',amount:300,category:'Gifts',note:'Birthday Gift'},
-    {id:8,date:'2026-07-07',amount:45,category:'Food & Dining',note:'South Indian Breakfast'}
-  ];
+  var KEY='riyadhAppExpenses_v7',BKEY='famBudget_v1';
+  var seed=[];
   var expenses=ls(KEY,null);
   if(!Array.isArray(expenses))expenses=seed.slice();
   expenses.forEach(function(e){ // accept older entries saved with a leading emoji
@@ -606,7 +615,7 @@ button{cursor:pointer}
   function ecur(e){return e.cur==='INR'?'INR':'SAR'}
   function allExp(){return expenses.concat(synced)}
   function curExp(){return allExp().filter(function(e){return ecur(e)===curSel})}
-  function saveExp(){lsSet(KEY,expenses)}
+  function saveExp(){if(!SDB)lsSet(KEY,expenses)}
   function hasData(m){return allExp().some(function(e){return e.date.slice(0,7)===m})}
   function monthTotals(m){var t={};curExp().forEach(function(e){if(e.date.slice(0,7)===m)t[e.category]=(t[e.category]||0)+e.amount});return t}
   function sum(o){return Object.keys(o).reduce(function(a,k){return a+o[k]},0)}
@@ -688,7 +697,7 @@ button{cursor:pointer}
     renderOverview();renderHistory();renderCharts();renderHome();
   }
   $('budgetEdit').addEventListener('click',function(){var f=$('budgetForm');f.hidden=!f.hidden;if(!f.hidden){$('budgetIn').value=budget;$('budgetIn').focus()}});
-  $('budgetForm').addEventListener('submit',function(ev){ev.preventDefault();var v=parseFloat($('budgetIn').value);if(v>=0){budget=v;lsSet(BKEY,budget)}$('budgetForm').hidden=true;renderMoney()});
+  $('budgetForm').addEventListener('submit',function(ev){ev.preventDefault();var v=parseFloat($('budgetIn').value);if(v>=0){budget=v;lsSet(BKEY,budget);put('settings','budget',{value:v})}$('budgetForm').hidden=true;renderMoney()});
   $('copyCsv').addEventListener('click',function(){
     var rows=allExp().slice().sort(function(a,b){return a.date<b.date?1:-1}).map(function(e){return [e.date,'"'+e.note.replace(/"/g,'""')+'"','"'+e.category+'"',e.amount,ecur(e)].join(',')});
     var csv=['Date,Description,Category,Amount,Currency'].concat(rows).join('\n');
@@ -729,14 +738,14 @@ button{cursor:pointer}
     var amt=parseFloat($('shAmount').value);
     if(!(amt>0)){$('shAmount').focus();return}
     var note=$('shNote').value.trim()||shCat,date=$('shDate').value;
-    if(editId){expenses.forEach(function(e){if(e.id===editId){e.amount=amt;e.category=shCat;e.note=note;e.date=date}})}
-    else expenses.push({id:Date.now(),date:date,amount:amt,category:shCat,note:note,cur:curSel});
+    if(editId){expenses.forEach(function(e){if(e.id===editId){e.amount=amt;e.category=shCat;e.note=note;e.date=date;put('expenses',e.id,strip(e))}})}
+    else{var ne={id:'e'+Date.now(),date:date,amount:amt,category:shCat,note:note,cur:curSel};expenses.push(ne);put('expenses',ne.id,strip(ne))}
     viewMonth=date.slice(0,7);saveExp();closeSheet();renderMoney();toast('Saved '+M(amt)+' for '+shCat);
   });
   $('shDelete').addEventListener('click',function(){
     var e=expenses.filter(function(x){return x.id===editId})[0];if(!e)return;
-    expenses=expenses.filter(function(x){return x.id!==editId});saveExp();closeSheet();renderMoney();
-    toast('Deleted '+e.note,function(){expenses.push(e);saveExp();renderMoney()});
+    expenses=expenses.filter(function(x){return x.id!==editId});del('expenses',e.id);saveExp();closeSheet();renderMoney();
+    toast('Deleted '+e.note,function(){expenses.push(e);put('expenses',e.id,strip(e));saveExp();renderMoney()});
   });
 
   /* charts */
@@ -797,13 +806,48 @@ button{cursor:pointer}
     var list=allEvents().filter(function(e){return e.end>=todayISO()}).sort(function(a,b){return a.start<b.start?-1:1}).slice(0,6);
     if(!list.length)up.appendChild(h('p',{class:'small',text:'No upcoming dates. Add one above.'}));
     list.forEach(function(e){up.appendChild(evRow(e,false))});
+    renderReminders();
   }
+  var RKEY='famRem_v1',RDKEY='famRemDone_v1',remMap=ls(RKEY,{}),remDone=ls(RDKEY,{});
+  if(!remMap||typeof remMap!=='object')remMap={};if(!remDone||typeof remDone!=='object')remDone={};
+  var REMS=[['','No reminder'],['0','At the time'],['15','15 minutes before'],['60','1 hour before'],['1440','1 day before'],['10080','1 week before']];
+  function remOf(e){var v=remMap[e.id];return v===undefined||v===''||v===null?null:Number(v)}
+  function remLabel(m){for(var i=0;i<REMS.length;i++)if(REMS[i][0]===String(m))return REMS[i][1];return m+' minutes before'}
+  function evStart(e){var p=(e.time||'09:00').split(':');var d=pd(e.start);d.setHours(+p[0],+p[1],0,0);return d}
+  function evEnd(e){if(e.time&&e.start===e.end)return new Date(evStart(e).getTime()+36e5);var d=pd(e.end);d.setHours(23,59,0,0);return d}
+  function remAt(e){var m=remOf(e);return m==null?null:new Date(evStart(e).getTime()-m*6e4)}
+  function gstamp(d){return d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate())+'T'+pad(d.getHours())+pad(d.getMinutes())+'00'}
+  function gday(s){return s.replace(/-/g,'')}
+  function gcalUrl(e){
+    var dates;
+    if(e.time){var st=evStart(e),en=evEnd(e);if(e.start!==e.end){en=new Date(pd(e.end));var p=e.time.split(':');en.setHours(+p[0]+1,+p[1],0,0)}dates=gstamp(st)+'/'+gstamp(en)}
+    else dates=gday(e.start)+'/'+gday(addDays(e.end,1));
+    var m=remOf(e),det='From the family hub.'+(m==null?'':' Reminder wanted: '+remLabel(m).toLowerCase()+'. Set it under Notifications in Google Calendar.');
+    return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(e.title)+'&dates='+dates+'&details='+encodeURIComponent(det)+'&ctz=Asia%2FRiyadh';
+  }
+  function setRem(e,v){if(v==='')delete remMap[e.id];else remMap[e.id]=v;delete remDone[e.id+'|'+e.start];lsSet(RKEY,remMap);lsSet(RDKEY,remDone);renderCalendar();renderHome()}
   function evRow(e,canDel){
     var when=e.start===e.end?dayLabel(e.start):dayLabel(e.start)+' to '+dayLabel(e.end);
-    var meta=when+(e.time?' · '+e.time:'')+' · '+kind(e.kind).n;
-    var del=(canDel&&!e.seed)?h('button',{class:'btn ghost sm',type:'button',text:'Remove',onclick:function(){userEvents=userEvents.filter(function(x){return x.id!==e.id});lsSet(EKEY,userEvents);renderCalendar();renderHome()}}):h('span');
-    return h('div',{class:'ev'},[h('span',{class:'sw',style:'--cc:'+kind(e.kind).c}),h('span',{},[h('div',{class:'t',text:e.title}),h('div',{class:'m',text:meta})]),del]);
+    var m=remOf(e);
+    var meta=when+(e.time?' · '+e.time:'')+' · '+kind(e.kind).n+(m==null?'':' · Reminder '+remLabel(m).toLowerCase());
+    var sel=h('select',{'aria-label':'Reminder for '+e.title,onchange:function(){setRem(e,this.value)}},REMS.map(function(r){return h('option',{value:r[0],text:r[1],selected:String(m==null?'':m)===r[0]})}));
+    var acts=[h('label',{class:'rem'},['Remind',sel]),h('a',{class:'btn ghost sm',href:gcalUrl(e),target:'_blank',rel:'noopener',text:'Add to Google Calendar'})];
+    if(canDel&&!e.seed)acts.push(h('button',{class:'btn ghost sm',type:'button',text:'Remove',onclick:function(){del('events',e.id);userEvents=userEvents.filter(function(x){return x.id!==e.id});delete remMap[e.id];lsSet(EKEY,userEvents);lsSet(RKEY,remMap);renderCalendar();renderHome()}}));
+    return h('div',{class:'ev'},[h('span',{class:'sw',style:'--cc:'+kind(e.kind).c}),h('div',{},[h('div',{class:'t',text:e.title}),h('div',{class:'m',text:meta}),h('div',{class:'ev-act'},acts)])]);
   }
+  function renderReminders(){
+    var now=new Date(),due=allEvents().filter(function(e){var r=remAt(e);return r&&r<=now&&evEnd(e)>=now&&!remDone[e.id+'|'+e.start]}).sort(function(a,b){return evStart(a)-evStart(b)});
+    ['remHome','remCal'].forEach(function(id){
+      var box=$(id);if(!box)return;box.innerHTML='';box.hidden=!due.length;if(!due.length)return;
+      var card=h('div',{class:'remcard',role:'status'},[h('div',{class:'rt',text:due.length===1?'1 reminder':due.length+' reminders'})]);
+      due.forEach(function(e){
+        var mins=Math.round((evStart(e)-now)/6e4),when=mins>=1440?'in '+Math.round(mins/1440)+' day'+(Math.round(mins/1440)>1?'s':''):mins>=60?'in '+Math.round(mins/60)+' h':mins>0?'in '+mins+' min':'now';
+        card.appendChild(h('div',{class:'remrow'},[h('div',{},[h('b',{text:e.title}),h('span',{text:dayLabel(e.start)+(e.time?' · '+e.time:'')+' · '+when})]),h('button',{class:'btn dark sm',type:'button',text:'Got it',onclick:function(){remDone[e.id+'|'+e.start]=1;lsSet(RDKEY,remDone);renderReminders()}})]));
+      });
+      box.appendChild(card);
+    });
+  }
+  setInterval(renderReminders,6e4);
   function buildKinds(){
     var k=$('evKinds');k.innerHTML='';
     KINDS.forEach(function(x){k.appendChild(h('button',{class:'chip',type:'button',style:'--cc:'+x.c,'aria-pressed':String(evKind===x.k),text:x.n,onclick:function(){evKind=x.k;buildKinds()}}))});
@@ -815,16 +859,17 @@ button{cursor:pointer}
   $('evForm').addEventListener('submit',function(ev){
     ev.preventDefault();
     var d=$('evDate').value,t=$('evTitle').value.trim();if(!t||!d)return;
-    userEvents.push({id:'u'+Date.now(),title:t,start:d,end:d,time:$('evTime').value,kind:evKind});
-    lsSet(EKEY,userEvents);$('evTitle').value='';$('evTime').value='';selDay=d;calMonth=d.slice(0,7);
+    var nid='u'+Date.now(),rv=$('evRem').value;userEvents.push({id:nid,title:t,start:d,end:d,time:$('evTime').value,kind:evKind});put('events',nid,{title:t,start:d,end:d,time:$('evTime').value,kind:evKind});
+    if(rv!==''){remMap[nid]=rv;lsSet(RKEY,remMap)}
+    lsSet(EKEY,userEvents);$('evTitle').value='';$('evTime').value='';$('evRem').value='';selDay=d;calMonth=d.slice(0,7);
     renderCalendar();renderHome();toast('Added to the calendar');
   });
 
   /* ---------- PHOTOS ---------- */
   var FRAMES=['#ff7a59','#3aa8ff','#ffbf2f','#ff6fae','#2fd3a0','#9a82ff'];
   var SEEDP=[];
-  var CKEY='famCaps_v1',caps=ls(CKEY,{}),userPhotos=[],db=null,lbIdx=0,delArm=false;
-  function allPhotos(){return SEEDP.map(function(p){return {id:p.id,src:p.src,cap:caps[p.id]||p.cap,seed:true}}).concat(userPhotos.map(function(p){return {id:p.id,src:p.src,cap:p.cap,seed:false}}))}
+  var CKEY='famCaps_v1',caps=ls(CKEY,{}),userPhotos=[],sharedPhotos=null,db=null,lbIdx=0,delArm=false;
+  function allPhotos(){return SEEDP.map(function(p){return {id:p.id,src:p.src,cap:caps[p.id]||p.cap,seed:true}}).concat((sharedPhotos||userPhotos).map(function(p){return {id:p.id,src:p.src,cap:p.cap,seed:false}}))}
   function idbOpen(){return new Promise(function(res){try{var r=indexedDB.open('familyHub',1);r.onupgradeneeded=function(){r.result.createObjectStore('photos',{keyPath:'id'})};r.onsuccess=function(){res(r.result)};r.onerror=function(){res(null)}}catch(e){res(null)}})}
   function idbAll(){return new Promise(function(res){if(!db)return res([]);try{var q=db.transaction('photos').objectStore('photos').getAll();q.onsuccess=function(){res(q.result||[])};q.onerror=function(){res([])}}catch(e){res([])}})}
   function idbPut(p){if(!db)return;try{db.transaction('photos','readwrite').objectStore('photos').put(p)}catch(e){}}
@@ -836,7 +881,7 @@ button{cursor:pointer}
     });
     $('photoCount').textContent=all.length?all.length+' photos in the album':'Your album';
     if(!all.length)m.appendChild(h('p',{class:'empty',text:'No photos yet. Tap add photos to start the album.'}));
-    if(!db)$('photoNote').textContent='Tap a photo to open it. This browser blocks photo storage, so photos you add last until you close the page.';
+    if(sharedPhotos)$('photoNote').textContent='Shared with the family: photos you add appear for everyone. Tap a photo to edit its caption.';else if(!db)$('photoNote').textContent='Tap a photo to open it. This browser blocks photo storage, so photos you add last until you close the page.';
   }
   function openLb(i){var all=allPhotos();lbIdx=(i+all.length)%all.length;var p=all[lbIdx];delArm=false;
     $('lbImg').src=p.src;$('lbImg').alt=p.cap;$('lbImg').style.setProperty('--fc',FRAMES[lbIdx%FRAMES.length]);$('lbCap').value=p.cap;
@@ -846,24 +891,31 @@ button{cursor:pointer}
   $('lbClose').addEventListener('click',function(){$('lb').hidden=true});
   $('lbCap').addEventListener('change',function(){
     var p=allPhotos()[lbIdx],v=this.value.trim()||p.cap;
-    if(p.seed){caps[p.id]=v;lsSet(CKEY,caps)}else{userPhotos.forEach(function(u){if(u.id===p.id){u.cap=v;idbPut(u)}})}
+    if(p.seed){caps[p.id]=v;lsSet(CKEY,caps);put('settings','captions',{map:caps})}else if(sharedPhotos){sharedPhotos.forEach(function(u){if(u.id===p.id){u.cap=v;put('photos',u.id,{src:u.src,cap:v,ts:u.ts||0})}})}else{userPhotos.forEach(function(u){if(u.id===p.id){u.cap=v;idbPut(u)}})}
     renderPhotos();renderHome();
   });
   $('lbDel').addEventListener('click',function(){
     var p=allPhotos()[lbIdx];if(p.seed)return;
     if(!delArm){delArm=true;this.textContent='Tap again to delete';return}
-    userPhotos=userPhotos.filter(function(u){return u.id!==p.id});idbDel(p.id);$('lb').hidden=true;renderPhotos();renderHome();
+    if(sharedPhotos){del('photos',p.id);sharedPhotos=sharedPhotos.filter(function(u){return u.id!==p.id})}else{userPhotos=userPhotos.filter(function(u){return u.id!==p.id});idbDel(p.id)}$('lb').hidden=true;renderPhotos();renderHome();
   });
-  function resize(file){return new Promise(function(res){
+  function resize(file,mx,q){mx=mx||1200;q=q||.82;return new Promise(function(res){
     var fr=new FileReader();
     fr.onload=function(){var im=new Image();im.onload=function(){
-      var s=Math.min(1,1200/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*s);c.height=Math.round(im.height*s);
-      c.getContext('2d').drawImage(im,0,0,c.width,c.height);res(c.toDataURL('image/jpeg',.82))};im.onerror=function(){res(null)};im.src=fr.result};
+      var s=Math.min(1,mx/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*s);c.height=Math.round(im.height*s);
+      c.getContext('2d').drawImage(im,0,0,c.width,c.height);res(c.toDataURL('image/jpeg',q))};im.onerror=function(){res(null)};im.src=fr.result};
     fr.onerror=function(){res(null)};fr.readAsDataURL(file);
   })}
+  var LIM=240000;
+  function fitShared(file){
+    var tries=[[1100,.78],[900,.7],[720,.62],[560,.55]],i=0;
+    function next(){if(i>=tries.length)return Promise.resolve(null);var t=tries[i++];return resize(file,t[0],t[1]).then(function(src){return src&&src.length<=LIM?src:next()})}
+    return next();
+  }
+  function shrinkData(src){return new Promise(function(res){var im=new Image();im.onload=function(){var mx=900,q=.7;(function go(){var s=Math.min(1,mx/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*s);c.height=Math.round(im.height*s);c.getContext('2d').drawImage(im,0,0,c.width,c.height);var d=c.toDataURL('image/jpeg',q);if(d.length<=LIM||mx<500)res(d.length<=LIM?d:null);else{mx-=150;q-=.06;go()}})()};im.onerror=function(){res(null)};im.src=src})}
   $('photoIn').addEventListener('change',function(){
     var files=Array.prototype.slice.call(this.files||[]),self=this,n=0;
-    Promise.all(files.map(function(f,i){return resize(f).then(function(src){if(!src)return;n++;var p={id:'u'+Date.now()+'_'+i,src:src,cap:'Added '+dayLabel(todayISO())};userPhotos.push(p);idbPut(p)})})).then(function(){
+    Promise.all(files.map(function(f,i){if(sharedPhotos)return fitShared(f).then(function(src){if(!src){toast('That photo is too large to share');return}n++;var id='p'+Date.now()+'_'+i,ts=Date.now();sharedPhotos.push({id:id,src:src,cap:'Added '+dayLabel(todayISO()),ts:ts});put('photos',id,{src:src,cap:'Added '+dayLabel(todayISO()),ts:ts})});return resize(f).then(function(src){if(!src)return;n++;var p={id:'u'+Date.now()+'_'+i,src:src,cap:'Added '+dayLabel(todayISO())};userPhotos.push(p);idbPut(p)})})).then(function(){
       self.value='';renderPhotos();renderHome();if(n)toast(n+' photo'+(n>1?'s':'')+' added')});
   });
   $('potd').addEventListener('click',function(){var all=allPhotos();var d=new Date();if(!all.length)return;var idx=Math.floor(d/864e5)%all.length;show('photos');openLb(idx)});
@@ -887,15 +939,15 @@ button{cursor:pointer}
       arr.forEach(function(it){
         var id='li'+it.id;
         ul.appendChild(h('div',{class:'item'+(it.done?' done':'')},[
-          h('input',{type:'checkbox',id:id,checked:it.done,onchange:function(){it.done=this.checked;lsSet(LKEY,lists);renderLists()}}),
+          h('input',{type:'checkbox',id:id,checked:it.done,onchange:function(){it.done=this.checked;put('list_items',it.id,{list:L.k,t:it.t,done:it.done,ts:it.ts||0});lsSet(LKEY,lists);renderLists()}}),
           h('label',{for:id,text:it.t}),
-          h('button',{type:'button','aria-label':'Remove '+it.t,text:'×',onclick:function(){lists[L.k]=arr.filter(function(x){return x.id!==it.id});lsSet(LKEY,lists);renderLists()}})
+          h('button',{type:'button','aria-label':'Remove '+it.t,text:'×',onclick:function(){del('list_items',it.id);lists[L.k]=arr.filter(function(x){return x.id!==it.id});lsSet(LKEY,lists);renderLists()}})
         ]));
       });
       var inp=h('input',{class:'input',id:'add_'+L.k,placeholder:L.ph,'aria-label':'Add to '+L.t});
-      var form=h('form',{class:'addrow',onsubmit:function(ev){ev.preventDefault();var v=inp.value.trim();if(!v)return;arr.push({id:Date.now(),t:v,done:false});lsSet(LKEY,lists);renderLists();var n=$('add_'+L.k);if(n)n.focus()}},[inp,h('button',{class:'btn',type:'submit',style:'--tab:'+L.c,text:'Add'})]);
+      var form=h('form',{class:'addrow',onsubmit:function(ev){ev.preventDefault();var v=inp.value.trim();if(!v)return;var ni={id:'l'+Date.now(),t:v,done:false,ts:Date.now()};arr.push(ni);put('list_items',ni.id,{list:L.k,t:v,done:false,ts:ni.ts});lsSet(LKEY,lists);renderLists();var n=$('add_'+L.k);if(n)n.focus()}},[inp,h('button',{class:'btn',type:'submit',style:'--tab:'+L.c,text:'Add'})]);
       var left=arr.filter(function(x){return !x.done}).length;
-      var clear=arr.some(function(x){return x.done})?h('button',{class:'btn ghost sm',type:'button',text:'Clear ticked',style:'margin-top:10px',onclick:function(){lists[L.k]=arr.filter(function(x){return !x.done});lsSet(LKEY,lists);renderLists()}}):null;
+      var clear=arr.some(function(x){return x.done})?h('button',{class:'btn ghost sm',type:'button',text:'Clear ticked',style:'margin-top:10px',onclick:function(){arr.filter(function(x){return x.done}).forEach(function(x){del('list_items',x.id)});lists[L.k]=arr.filter(function(x){return !x.done});lsSet(LKEY,lists);renderLists()}}):null;
       box.appendChild(h('div',{class:'card lst'},[h('div',{class:'head',style:'--cc:'+L.c},[h('span',{text:L.t}),h('span',{class:'num',text:left+' left'})]),ul,form,clear]));
     });
   }
@@ -919,7 +971,7 @@ button{cursor:pointer}
     var ul=$('iqList');ul.innerHTML='';
     IQ.forEach(function(it,i){
       var id='iq'+i,on=ticks.indexOf(i)>-1;
-      ul.appendChild(h('li',{class:on?'done':''},[h('input',{type:'checkbox',id:id,checked:on,onchange:function(){ticks=ticks.filter(function(x){return x!==i});if(this.checked)ticks.push(i);lsSet(IKEY,ticks);renderIq()}}),h('label',{for:id},[h('span',{class:'ct',text:it[0]}),h('span',{class:'cd',text:it[1]})])]));
+      ul.appendChild(h('li',{class:on?'done':''},[h('input',{type:'checkbox',id:id,checked:on,onchange:function(){ticks=ticks.filter(function(x){return x!==i});if(this.checked)ticks.push(i);lsSet(IKEY,ticks);put('settings','iqama',{ticks:ticks});renderIq()}}),h('label',{for:id},[h('span',{class:'ct',text:it[0]}),h('span',{class:'cd',text:it[1]})])]));
     });
     $('iqProg').textContent=ticks.length+' of '+IQ.length;
   }
@@ -940,6 +992,7 @@ button{cursor:pointer}
     }
     var all=allPhotos(),p=all.length?all[Math.floor(new Date()/864e5)%all.length]:null;
     $('potd').hidden=!all.length;if(p){$('potdImg').src=p.src;$('potdCap').textContent='Photo of the day · '+p.cap}
+    renderReminders();
   }
   document.querySelectorAll('[data-quick]').forEach(function(b){b.addEventListener('click',function(){
     var q=b.dataset.quick;
@@ -977,7 +1030,7 @@ button{cursor:pointer}
     tasks.forEach(function(x){
       var id='st'+x.id,late=x.due&&x.due<t0&&!sdone[x.id];
       tb.appendChild(h('div',{class:'task'+(sdone[x.id]?' done':''),style:'--cc:'+(late?'var(--coral)':'var(--lime)')},[
-        h('input',{type:'checkbox',id:id,checked:!!sdone[x.id],'aria-label':'Done: '+x.title,onchange:function(){sdone[x.id]=this.checked;if(!this.checked)delete sdone[x.id];lsSet(SDKEY,sdone);renderSchool()}}),
+        h('input',{type:'checkbox',id:id,checked:!!sdone[x.id],'aria-label':'Done: '+x.title,onchange:function(){sdone[x.id]=this.checked;if(!this.checked)delete sdone[x.id];lsSet(SDKEY,sdone);if(this.checked)put('school_done',x.id,{done:true});else del('school_done',x.id);renderSchool()}}),
         h('label',{for:id},[h('h3',{text:x.title}),x.body?h('p',{text:x.body}):null]),
         h('span',{class:'pill c',style:'--cc:'+(late?'var(--coral)':'var(--surface-2)'),text:x.due?(late?'Was due ':'Due ')+shortD(x.due):'No date'})
       ]));
@@ -1022,8 +1075,39 @@ button{cursor:pointer}
         db.collection('school_items').onSnapshot(function(sn){schoolItems=snapArr(sn);renderSchool()},bad);
         db.collection('sync_events').onSnapshot(function(sn){syncEvents=snapArr(sn).map(function(o){o.seed=true;return o}).filter(function(o){return o.start&&o.end});renderCalendar();renderHome()},bad);
         db.doc('meta/sync').onSnapshot(function(sn){syncMeta=sn.exists?sn.data():null;renderSync()},bad);
+        startShared(db);
       }catch(e){bad()}
     },function(){syncState='off';renderSync()});
+  }
+  var db0=null;
+  function startShared(db){
+    SDB=db;
+    var off=function(e){toast('Shared data unavailable ('+((e&&e.code)||'error')+')')};
+    db.collection('expenses').onSnapshot(function(sn){expenses=snapArr(sn).map(function(o){o.amount=Number(o.amount)||0;return o}).filter(function(o){return o.date});initMonthIfNeeded();renderMoney()},off);
+    db.doc('settings/budget').onSnapshot(function(sn){if(sn.exists&&sn.data()&&sn.data().value>=0){budget=Number(sn.data().value)}renderMoney()},off);
+    db.collection('events').onSnapshot(function(sn){userEvents=snapArr(sn).filter(function(o){return o.start&&o.end});renderCalendar();renderHome()},off);
+    db.collection('list_items').onSnapshot(function(sn){
+      var nl={};LISTS.forEach(function(L){nl[L.k]=[]});
+      snapArr(sn).sort(function(a,b){return (a.ts||0)-(b.ts||0)}).forEach(function(o){(nl[o.list]||(nl[o.list]=[])).push({id:o.id,t:o.t,done:!!o.done,ts:o.ts||0})});
+      lists=nl;renderLists()},off);
+    db.collection('school_done').onSnapshot(function(sn){var m={};sn.docs.forEach(function(d){m[d.id]=true});sdone=m;renderSchool()},off);
+    db.doc('settings/iqama').onSnapshot(function(sn){if(sn.exists&&sn.data()&&Array.isArray(sn.data().ticks))ticks=sn.data().ticks;else ticks=[];renderIq()},off);
+    db.collection('photos').onSnapshot(function(sn){sharedPhotos=snapArr(sn).filter(function(o){return o.src}).sort(function(a,b){return (a.ts||0)-(b.ts||0)});renderPhotos();renderHome()},off);
+    if(!ls('famPhotosMigrated_v1',false)){idbOpen().then(function(d){if(!d)return[];db0=d;return new Promise(function(r){try{var q=d.transaction('photos').objectStore('photos').getAll();q.onsuccess=function(){r(q.result||[])};q.onerror=function(){r([])}}catch(e){r([])}})}).then(function(rows){
+      (rows||[]).forEach(function(p,i){shrinkData(p.src).then(function(src){if(src)put('photos','m'+String(p.id).replace(/[^A-Za-z0-9_-]/g,''),{src:src,cap:p.cap||'',ts:Date.now()+i})})});lsSet('famPhotosMigrated_v1',true)})}
+    db.doc('settings/captions').onSnapshot(function(sn){if(sn.exists&&sn.data()&&sn.data().map)caps=sn.data().map;renderPhotos();renderHome()},off);
+    var t1='Shared with the family: what you add here is saved for everyone and updates live.';
+    if($('expNote'))$('expNote').textContent='Shared with the family: entries you add appear for everyone.';
+    $('footNote').textContent='School, bill and receipt details are synced from Gmail every 2 hours. '+t1+' Photos are shared too.';
+    // one-time copy of anything this browser saved before sharing was on
+    if(!ls('famMigrated_v1',false)){
+      try{
+        var le=ls(KEY,null);if(Array.isArray(le))le.forEach(function(e){if(typeof e.id==='number'&&e.id>1000&&e.date)put('expenses','m'+e.id,strip(e))});
+        var lev=ls(EKEY,[]);if(Array.isArray(lev))lev.forEach(function(e){if(e&&e.start)put('events',e.id,strip(e))});
+        var ll=ls(LKEY,null);if(ll&&typeof ll==='object')Object.keys(ll).forEach(function(k){(ll[k]||[]).forEach(function(it){if(it&&it.id>1000)put('list_items','m'+it.id,{list:k,t:it.t,done:!!it.done,ts:it.id})})});
+      }catch(e){}
+      lsSet('famMigrated_v1',true);
+    }
   }
   function startStatic(){
     var load=function(){fetch('school.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
