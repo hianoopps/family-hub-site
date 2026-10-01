@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T10:47:05Z",
+ "updated": "2026-10-01T09:05:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -131,6 +131,15 @@
    "tag": "Learning",
    "title": "Personal hygiene awareness",
    "id": "n_hygiene"
+  },
+  {
+   "body": "After the recent IB PYP verification visit, the school received the official letter of acceptance from the IB. Buckswood School Riyadh is now an IB PYP Authorised School. The school thanked staff, students and the parents who met the visiting team.",
+   "date": "2026-10-01",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "Buckswood is now an IB PYP Authorised School",
+   "due": "",
+   "id": "n_ibauth"
   },
   {
    "body": "IB verification team visits 28 and 29 Sep. No after-school clubs on those days, school day and 1:30 pm dismissal unchanged.",
