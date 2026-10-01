@@ -298,14 +298,15 @@ button{cursor:pointer}
       <h1 style="margin-top:8px">hello,<br><span>family.</span></h1>
       <p class="sub">Money, dates, photos and lists for all of us, in one place.</p>
     </div>
-    <div class="cluster">
-      <div class="oval tall" style="--fc:var(--sky)"><span class="ph-e">🏡</span></div>
-      <div class="oval" style="--fc:var(--coral)"><span class="ph-e">🌟</span></div>
-      <div class="oval" style="--fc:var(--sun)"><span class="ph-e">🎈</span></div>
+    <div class="cluster" aria-hidden="false">
+      <div class="oval tall" style="--fc:var(--sky)"><img src="img/selfie.jpg" alt="Smiling girl with blue glasses outside an apartment block"></div>
+      <div class="oval cut" style="--fc:var(--coral)"><img src="img/cutout.png" alt="Girl in sunglasses and a pink top"></div>
+      <div class="oval" style="--fc:var(--sun)"><img src="img/koala.jpg" alt="Toy koala hugging a bonsai tree"></div>
     </div>
   </div>
 
   <div id="remHome" hidden></div>
+
   <div class="quick">
     <button class="qa" style="--cc:var(--mint)" data-quick="expense"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-money"/></svg>Add an expense</button>
     <button class="qa" style="--cc:var(--sky)" data-quick="event"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-cal"/></svg>Add a date</button>
@@ -867,7 +868,14 @@ button{cursor:pointer}
 
   /* ---------- PHOTOS ---------- */
   var FRAMES=['#ff7a59','#3aa8ff','#ffbf2f','#ff6fae','#2fd3a0','#9a82ff'];
-  var SEEDP=[];
+  var SEEDP=[
+    {id:'p1',src:'img/collage.jpg',cap:'The little ones, all in frames'},
+    {id:'p2',src:'img/selfie.jpg',cap:'Walking home, blue glasses'},
+    {id:'p3',src:'img/bridge.jpg',cap:'Bridge over the river, morning light'},
+    {id:'p4',src:'img/cutout.png',cap:'Sunshine and sunglasses'},
+    {id:'p5',src:'img/koala.jpg',cap:'Koala hugging the bonsai'},
+    {id:'p6',src:'img/kurta.jpg',cap:'A relaxed evening in pink'}
+  ];
   var CKEY='famCaps_v1',caps=ls(CKEY,{}),userPhotos=[],sharedPhotos=null,db=null,lbIdx=0,delArm=false;
   function allPhotos(){return SEEDP.map(function(p){return {id:p.id,src:p.src,cap:caps[p.id]||p.cap,seed:true}}).concat((sharedPhotos||userPhotos).map(function(p){return {id:p.id,src:p.src,cap:p.cap,seed:false}}))}
   function idbOpen(){return new Promise(function(res){try{var r=indexedDB.open('familyHub',1);r.onupgradeneeded=function(){r.result.createObjectStore('photos',{keyPath:'id'})};r.onsuccess=function(){res(r.result)};r.onerror=function(){res(null)}}catch(e){res(null)}})}
