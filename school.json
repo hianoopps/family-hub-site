@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T09:05:00Z",
+ "updated": "2026-10-01T12:46:37Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -42,6 +42,14 @@
    "kind": "activity",
    "title": "PE and Spanish at home",
    "id": "a_pe"
+  },
+  {
+   "body": "Scouts were welcomed to Buckswood Riyadh for Year 5 and Year 6. An orientation meeting is on Fri 2 Oct at 10:00 am, with a second one on 16 Oct at 10:00 am. Interested families were asked to complete the school's online form by 6:00 pm on 1 Oct.",
+   "date": "2026-10-02",
+   "due": "",
+   "kind": "activity",
+   "title": "Scouts orientation meeting for Year 5 and 6 families",
+   "id": "a_scouts"
   },
   {
    "body": "Birthday celebrations now happen in the last lesson, 12:50 to 1:20 pm. Parents may cut the cake and take photos. Everything must finish by 1:20 pm because school buses leave at 1:25 pm.",
@@ -135,10 +143,10 @@
   {
    "body": "After the recent IB PYP verification visit, the school received the official letter of acceptance from the IB. Buckswood School Riyadh is now an IB PYP Authorised School. The school thanked staff, students and the parents who met the visiting team.",
    "date": "2026-10-01",
+   "due": "",
    "kind": "announcement",
    "tag": "News",
    "title": "Buckswood is now an IB PYP Authorised School",
-   "due": "",
    "id": "n_ibauth"
   },
   {
@@ -270,6 +278,14 @@
    "id": "t_library"
   },
   {
+   "body": "As part of the Who We Are unit, each student does an individual Spanish project and picks ONE option: a short video about themselves and their culture, or a poster with a short class presentation. Deadline is Thursday 15 Oct. A document with instructions, vocabulary and examples was attached; read it together with your child.",
+   "date": "2026-10-01",
+   "due": "2026-10-15",
+   "kind": "task",
+   "title": "Year 5 Spanish project: Mi identidad",
+   "id": "t_spanish"
+  },
+  {
    "body": "Bring back the books collected for the online day when school reopens.",
    "date": "2026-09-27",
    "due": "2026-09-28",
@@ -313,6 +329,14 @@
    "kind": "weekly",
    "title": "Year 5, end of week 3",
    "id": "w_week3"
+  },
+  {
+   "body": "Wrapping up the Who We Are unit: students studied five activists, presented freeze-frames and are writing and performing monologues. Maths: comparing numbers up to one million, negative numbers and a mental-arithmetic test. Science: seeds were planted and will be observed over the coming week. Highlight: the IB observation lesson went very well.",
+   "date": "2026-10-01",
+   "due": "",
+   "kind": "weekly",
+   "title": "Year 5, end of week 4",
+   "id": "w_week4"
   }
  ],
  "events": [
@@ -339,6 +363,30 @@
    "time": "12:30",
    "title": "Saudi National Day celebration, 12:30 to 2:00 pm",
    "id": "natday"
+  },
+  {
+   "end": "2026-10-02",
+   "kind": "school",
+   "start": "2026-10-02",
+   "time": "10:00",
+   "title": "Scouts orientation meeting, 10:00 am",
+   "id": "scouts1"
+  },
+  {
+   "end": "2026-10-16",
+   "kind": "school",
+   "start": "2026-10-16",
+   "time": "10:00",
+   "title": "Scouts orientation meeting (second), 10:00 am",
+   "id": "scouts2"
+  },
+  {
+   "end": "2026-10-15",
+   "kind": "school",
+   "start": "2026-10-15",
+   "time": "",
+   "title": "Year 5 Spanish project deadline",
+   "id": "spanish"
   }
  ]
 }
