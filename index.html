@@ -245,6 +245,7 @@ button{cursor:pointer}
 .resorts small{display:block;font-weight:600;color:var(--muted)}
 
 .sharebar{border-radius:20px;padding:14px 18px;font-weight:800;display:flex;gap:10px;align-items:flex-start;margin-bottom:20px;background:var(--sun);color:var(--on)}
+.sharebar.ok{background:var(--mint)}
 .sharebar.ro{background:var(--coral)}
 .sharebar b{font-family:var(--font-display);font-weight:600}
 .ph-e{display:flex;align-items:center;justify-content:center;height:100%;font-size:3.4rem}
@@ -575,7 +576,7 @@ button{cursor:pointer}
     public:['This public page does not share edits','Expenses, dates, lists and photos you add here stay on this device only. Use the private family link to add things everyone can see.']
   };
   function setShare(st){var b=$('shareBar');if(!b)return;if(!SHARE[st]){b.hidden=true;return}b.hidden=false;b.className='sharebar'+(st==='readonly'?' ro':'');$('shareTitle').textContent=SHARE[st][0];$('shareText').textContent=SHARE[st][1]}
-  function sw(p){try{p.catch(function(e){var c=(e&&e.code)||'error';if(c==='not_granted'||c==='permission_denied'||c==='unauthenticated'){canWrite=false;setShare('readonly')}toast('Not saved for everyone ('+c+')')})}catch(e){}}
+  function sw(p){try{p.catch(function(e){var c=(e&&e.code)||'error';if(c==='not_granted'||c==='permission_denied'||c==='unauthenticated'){canWrite=false;if(typeof ghKeyUI==='function'){ghKeyUI();ghEmit()}else setShare('readonly')}toast('Not saved for everyone ('+c+')')})}catch(e){}}
   function put(col,id,data){if(SDB)sw(SDB.collection(col).doc(String(id)).set(data))}
   function del(col,id){if(SDB)sw(SDB.collection(col).doc(String(id)).delete())}
   function strip(o){var c={};Object.keys(o).forEach(function(k){if(k!=='id'&&k!=='seed'&&k!=='src')c[k]=o[k]});return c}
@@ -746,7 +747,7 @@ button{cursor:pointer}
   $('fab').addEventListener('click',function(){openSheet()});
   $('sheet').addEventListener('submit',function(ev){
     ev.preventDefault();
-    if(SDB&&canWrite===false){toast('View only: ask Anoop for Contributor access');return}
+    if(SDB&&canWrite===false){toast('Enter the family key at the top of the page to save for everyone');ghKeyUI();return}
     var amt=parseFloat($('shAmount').value);
     if(!(amt>0)){$('shAmount').focus();return}
     var note=$('shNote').value.trim()||shCat,date=$('shDate').value;
@@ -1083,7 +1084,7 @@ button{cursor:pointer}
     rows.forEach(function(x){ul.appendChild(h('li',{},[h('span',{class:'d',text:shortD(x.date)}),h('div',{},[h('h3',{text:x.title}),h('p',{text:(x.kind==='task'?'Task'+(x.due?', due '+shortD(x.due):''):(x.tag||'Announcement'))})])]))});
   }
   function snapArr(sn){return sn.docs.map(function(d){var o=d.data()||{};o.id=d.id;return o})}
-  function startLive(){setShare('public');startStatic();return;
+  function startLive(){startStatic();startGitHubDb();return;
     if(!window.claude||!claude.use){syncState='off';renderSync();setShare('local');return}
     claude.use('db').then(function(db){
       if(!db){syncState='off';renderSync();setShare('local');return}
@@ -1113,14 +1114,14 @@ button{cursor:pointer}
     db.collection('school_done').onSnapshot(function(sn){var m={};sn.docs.forEach(function(d){m[d.id]=true});sdone=m;renderSchool()},off);
     db.doc('settings/iqama').onSnapshot(function(sn){if(sn.exists&&sn.data()&&Array.isArray(sn.data().ticks))ticks=sn.data().ticks;else ticks=[];renderIq()},off);
     db.collection('photos').onSnapshot(function(sn){sharedPhotos=snapArr(sn).filter(function(o){return o.src}).sort(function(a,b){return (a.ts||0)-(b.ts||0)});renderPhotos();renderHome()},off);
-    if(!ls('famPhotosMigrated_v1',false)){idbOpen().then(function(d){if(!d)return[];db0=d;return new Promise(function(r){try{var q=d.transaction('photos').objectStore('photos').getAll();q.onsuccess=function(){r(q.result||[])};q.onerror=function(){r([])}}catch(e){r([])}})}).then(function(rows){
+    if(canWrite!==false&&!ls('famPhotosMigrated_v1',false)){idbOpen().then(function(d){if(!d)return[];db0=d;return new Promise(function(r){try{var q=d.transaction('photos').objectStore('photos').getAll();q.onsuccess=function(){r(q.result||[])};q.onerror=function(){r([])}}catch(e){r([])}})}).then(function(rows){
       (rows||[]).forEach(function(p,i){shrinkData(p.src).then(function(src){if(src)put('photos','m'+String(p.id).replace(/[^A-Za-z0-9_-]/g,''),{src:src,cap:p.cap||'',ts:Date.now()+i})})});lsSet('famPhotosMigrated_v1',true)})}
     db.doc('settings/captions').onSnapshot(function(sn){if(sn.exists&&sn.data()&&sn.data().map)caps=sn.data().map;renderPhotos();renderHome()},off);
     var t1='Shared with the family: what you add here is saved for everyone and updates live.';
     if($('expNote'))$('expNote').textContent='Shared with the family: entries you add appear for everyone.';
     $('footNote').textContent='School, bill and receipt details are synced from Gmail every 2 hours. '+t1+' Photos are shared too.';
     // one-time copy of anything this browser saved before sharing was on
-    if(!ls('famMigrated_v1',false)){
+    if(canWrite!==false&&!ls('famMigrated_v1',false)){
       try{
         var le=ls(KEY,null);if(Array.isArray(le))le.forEach(function(e){if(typeof e.id==='number'&&e.id>1000&&e.date)put('expenses','m'+e.id,strip(e))});
         var lev=ls(EKEY,[]);if(Array.isArray(lev))lev.forEach(function(e){if(e&&e.start)put('events',e.id,strip(e))});
@@ -1134,6 +1135,66 @@ button{cursor:pointer}
       schoolItems=d.items||[];syncEvents=(d.events||[]).map(function(o){o.seed=true;return o}).filter(function(o){return o.start&&o.end});syncMeta={lastSync:d.updated};syncState='on';renderSchool();renderCalendar();renderHome();
     }).catch(function(){syncState='off';renderSync()})};
     load();setInterval(load,6e5);
+  }
+  /* ---------- GitHub-backed family database (data.json in the repo) ---------- */
+  var GH={owner:'hianoopps',repo:'family-hub-site',path:'data.json',branch:'main'};
+  var GKEY='famGhKey_v1';
+  function ghKey(){return ls(GKEY,'')||''}
+  function b64d(s){var bin=atob(String(s).replace(/\s/g,''));var bytes=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);return new TextDecoder().decode(bytes)}
+  function b64e(str){var bytes=new TextEncoder().encode(str),bin='';for(var i=0;i<bytes.length;i+=8192)bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+8192));return btoa(bin)}
+  function ghHeaders(){var h={'Accept':'application/vnd.github+json'};var k=ghKey();if(k)h['Authorization']='Bearer '+k;return h}
+  function ghUrl(p){return 'https://api.github.com/repos/'+GH.owner+'/'+GH.repo+'/contents/'+p}
+  function ghGet(){return fetch(ghUrl(GH.path)+'?ref='+GH.branch+'&t='+Date.now(),{headers:ghHeaders(),cache:'no-store'}).then(function(r){
+      if(r.status===404)return {sha:null,data:{cols:{},docs:{}}};
+      if(!r.ok)throw {code:'http_'+r.status};
+      return r.json().then(function(j){var d={};try{d=JSON.parse(b64d(j.content))}catch(e){};d.cols=d.cols||{};d.docs=d.docs||{};return {sha:j.sha,data:d}})})}
+  function ghPutFile(path,b64,msg,sha){var body={message:msg,content:b64,branch:GH.branch};if(sha)body.sha=sha;
+    return fetch(ghUrl(path),{method:'PUT',headers:Object.assign({'Content-Type':'application/json'},ghHeaders()),body:JSON.stringify(body)}).then(function(r){if(!r.ok){var c=r.status===409||r.status===422?'conflict':(r.status===401||r.status===403||r.status===404?'not_granted':'http_'+r.status);throw {code:c}}return r.json()})}
+  var ghState={data:{cols:{},docs:{}},sha:null,sig:''},ghSubs=[],ghQueue=Promise.resolve();
+  function ghEmit(){ghSubs.forEach(function(f){try{f()}catch(e){}})}
+  function ghApply(r){var sig=JSON.stringify(r.data);ghState.sha=r.sha;if(sig!==ghState.sig){ghState.sig=sig;ghState.data=r.data;ghEmit()}}
+  function ghRefresh(){return ghGet().then(ghApply,function(){})}
+  function ghCommit(mut,msg){
+    if(!ghKey())return Promise.reject({code:'not_granted'});
+    var run=function(){var tries=0;
+      function attempt(){return ghGet().then(function(r){mut(r.data);var txt=JSON.stringify(r.data,null,1);
+        return ghPutFile(GH.path,b64e(txt),msg,r.sha).then(function(res){ghApply({sha:res.content&&res.content.sha,data:r.data})})}).catch(function(e){if(e&&e.code==='conflict'&&tries++<4)return new Promise(function(ok){setTimeout(ok,700*tries)}).then(attempt);throw e})}
+      return attempt()};
+    var p=ghQueue.then(run,run);ghQueue=p.catch(function(){});return p}
+  function ghUploadPhoto(id,dataUrl){var path='photos/'+id+'.jpg';return ghPutFile(path,dataUrl.split(',')[1],'Add photo',null).then(function(){return path})}
+  function ghRawUrl(path){return 'https://raw.githubusercontent.com/'+GH.owner+'/'+GH.repo+'/'+GH.branch+'/'+path}
+  function ghCol(c){return ghState.data.cols[c]||{}}
+  var ghdb={
+    collection:function(c){return {
+      doc:function(id){return ghdb.doc(c+'/'+id)},
+      onSnapshot:function(f){var run=function(){var m=ghCol(c);f({docs:Object.keys(m).map(function(id){var v=m[id];if(c==='photos'&&v&&v.path&&!v.src){v=Object.assign({},v,{src:ghRawUrl(v.path)})}return {id:id,data:function(){return JSON.parse(JSON.stringify(v))}}})})};ghSubs.push(run);run();return function(){}}
+    }},
+    doc:function(p){var i=p.lastIndexOf('/'),c=p.slice(0,i),id=p.slice(i+1);return {
+      set:function(d){
+        if(c==='photos'&&d&&d.src){
+          if(d.src.indexOf('data:')===0){return ghUploadPhoto(id,d.src).then(function(path){return ghCommit(function(x){(x.cols.photos=x.cols.photos||{})[id]={path:path,cap:d.cap||'',ts:d.ts||Date.now()}},'Add photo')})}
+          var keep=ghCol('photos')[id];return ghCommit(function(x){var cur=(x.cols.photos||{})[id]||keep||{};(x.cols.photos=x.cols.photos||{})[id]={path:cur.path,cap:d.cap||'',ts:d.ts||cur.ts||0}},'Edit photo caption')}
+        return ghCommit(function(x){if(c.indexOf('/')<0&&['settings','meta'].indexOf(c)<0){(x.cols[c]=x.cols[c]||{})[id]=d}else{x.docs[p]=d}},'Update '+c)},
+      delete:function(){return ghCommit(function(x){if(x.cols[c])delete x.cols[c][id];delete x.docs[p]},'Remove from '+c)},
+      onSnapshot:function(f){var run=function(){var v=(ghState.data.docs||{})[p];f({exists:v!==undefined,data:function(){return v}})};ghSubs.push(run);run();return function(){}}
+    }}
+  };
+  function ghKeyUI(){
+    var bar=$('shareBar');if(!bar)return;
+    var has=!!ghKey();
+    SHARE.public=has?['Shared with the family','Changes you make here are saved to the family database on GitHub and show up for everyone within a minute.']:['View only on this device','You can see everything the family has added. To add or change things, enter the family key below once on this device.'];
+    setShare('public');bar.className='sharebar'+(has?' ok':'');
+    var old=$('keyForm');if(old)old.remove();
+    var inp=h('input',{class:'input',id:'keyIn',type:'password',placeholder:'Family key',autocomplete:'off','aria-label':'Family key',style:'max-width:260px;background:rgba(255,255,255,.7)'});
+    var f=h('form',{id:'keyForm',class:'addrow',style:'flex-wrap:wrap',onsubmit:function(ev){ev.preventDefault();var v=inp.value.trim();if(!v)return;lsSet(GKEY,v);canWrite=null;ghKeyUI();ghRefresh();toast('Family key saved on this device')}},has?[h('button',{class:'btn ghost sm',type:'button',text:'Remove key from this device',onclick:function(){lsSet(GKEY,'');ghKeyUI()}})]:[inp,h('button',{class:'btn dark sm',type:'submit',text:'Save key'})]);
+    $('shareText').parentNode.appendChild(f);
+    canWrite=has?null:false;
+  }
+  function startGitHubDb(){
+    ghKeyUI();
+    ghRefresh().then(function(){startShared(ghdb);ghKeyUI()});
+    setInterval(function(){if(!document.hidden)ghRefresh()},ghKey()?30000:90000);
+    document.addEventListener('visibilitychange',function(){if(!document.hidden)ghRefresh()});
   }
   var monthTouched=false;
   function initMonthIfNeeded(){if(!monthTouched)initMonth()}

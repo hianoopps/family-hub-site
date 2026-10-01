@@ -1,0 +1,35 @@
+{
+ "cols": {
+  "list_items": {
+   "d1": {
+    "list": "todo",
+    "t": "Name who collects the MISA award on 10 Oct",
+    "done": false,
+    "ts": 1
+   },
+   "d2": {
+    "list": "todo",
+    "t": "Tell the school we cannot attend the ceremony",
+    "done": false,
+    "ts": 2
+   },
+   "d3": {
+    "list": "school",
+    "t": "Return library book on time",
+    "done": false,
+    "ts": 3
+   },
+   "d4": {
+    "list": "school",
+    "t": "Keep the Edunation app updated for EduPik pickup",
+    "done": false,
+    "ts": 4
+   }
+  }
+ },
+ "docs": {
+  "settings/budget": {
+   "value": 9100
+  }
+ }
+}
