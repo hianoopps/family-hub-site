@@ -244,6 +244,9 @@ button{cursor:pointer}
 .resorts li{background:var(--surface-2);border-radius:16px;padding:12px 14px;font-weight:800}
 .resorts small{display:block;font-weight:600;color:var(--muted)}
 
+.sharebar{border-radius:20px;padding:14px 18px;font-weight:800;display:flex;gap:10px;align-items:flex-start;margin-bottom:20px;background:var(--sun);color:var(--on)}
+.sharebar.ro{background:var(--coral)}
+.sharebar b{font-family:var(--font-display);font-weight:600}
 .ph-e{display:flex;align-items:center;justify-content:center;height:100%;font-size:3.4rem}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom,0px));background:var(--fg);color:var(--bg);padding:12px 18px;border-radius:999px;display:flex;gap:14px;align-items:center;font-weight:800;z-index:80;max-width:calc(100% - 32px)}
 .toast button{background:none;border:0;color:inherit;text-decoration:underline;font-weight:800}
@@ -289,6 +292,7 @@ button{cursor:pointer}
 </nav>
 
 <main class="wrap">
+<div class="sharebar" id="shareBar" role="status" hidden><span aria-hidden="true">⚠️</span><div><b id="shareTitle"></b><div id="shareText" style="font-weight:700"></div></div></div>
 
 <!-- HOME -->
 <section class="view" id="view-home" style="--tab:var(--coral)">
@@ -564,8 +568,14 @@ button{cursor:pointer}
   function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
   function ls(k,def){try{var r=localStorage.getItem(k);return r==null?def:JSON.parse(r)}catch(e){return def}}
   function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
-  var SDB=null;
-  function sw(p){try{p.catch(function(e){toast('Not saved for everyone ('+((e&&e.code)||'error')+')')})}catch(e){}}
+  var SDB=null,canWrite=null;
+  var SHARE={
+    local:['Not connected to the family database','You are not signed in to Claude, or this page has not been shared with you. Anything you add here stays on this device only and other family members will not see it.'],
+    readonly:['View only','You can see the family data, but your changes are not being saved for everyone. Ask Anoop to give you Contributor access from the page\'s Share menu.'],
+    public:['This public page does not share edits','Expenses, dates, lists and photos you add here stay on this device only. Use the private family link to add things everyone can see.']
+  };
+  function setShare(st){var b=$('shareBar');if(!b)return;if(!SHARE[st]){b.hidden=true;return}b.hidden=false;b.className='sharebar'+(st==='readonly'?' ro':'');$('shareTitle').textContent=SHARE[st][0];$('shareText').textContent=SHARE[st][1]}
+  function sw(p){try{p.catch(function(e){var c=(e&&e.code)||'error';if(c==='not_granted'||c==='permission_denied'||c==='unauthenticated'){canWrite=false;setShare('readonly')}toast('Not saved for everyone ('+c+')')})}catch(e){}}
   function put(col,id,data){if(SDB)sw(SDB.collection(col).doc(String(id)).set(data))}
   function del(col,id){if(SDB)sw(SDB.collection(col).doc(String(id)).delete())}
   function strip(o){var c={};Object.keys(o).forEach(function(k){if(k!=='id'&&k!=='seed'&&k!=='src')c[k]=o[k]});return c}
@@ -736,6 +746,7 @@ button{cursor:pointer}
   $('fab').addEventListener('click',function(){openSheet()});
   $('sheet').addEventListener('submit',function(ev){
     ev.preventDefault();
+    if(SDB&&canWrite===false){toast('View only: ask Anoop for Contributor access');return}
     var amt=parseFloat($('shAmount').value);
     if(!(amt>0)){$('shAmount').focus();return}
     var note=$('shNote').value.trim()||shCat,date=$('shDate').value;
@@ -1072,10 +1083,10 @@ button{cursor:pointer}
     rows.forEach(function(x){ul.appendChild(h('li',{},[h('span',{class:'d',text:shortD(x.date)}),h('div',{},[h('h3',{text:x.title}),h('p',{text:(x.kind==='task'?'Task'+(x.due?', due '+shortD(x.due):''):(x.tag||'Announcement'))})])]))});
   }
   function snapArr(sn){return sn.docs.map(function(d){var o=d.data()||{};o.id=d.id;return o})}
-  function startLive(){startStatic();return;
-    if(!window.claude||!claude.use){syncState='off';renderSync();return}
+  function startLive(){setShare('public');startStatic();return;
+    if(!window.claude||!claude.use){syncState='off';renderSync();setShare('local');return}
     claude.use('db').then(function(db){
-      if(!db){syncState='off';renderSync();return}
+      if(!db){syncState='off';renderSync();setShare('local');return}
       syncState='on';
       var bad=function(){syncState='off';renderSync()};
       try{
@@ -1089,7 +1100,8 @@ button{cursor:pointer}
   }
   var db0=null;
   function startShared(db){
-    SDB=db;
+    SDB=db;setShare('');
+    try{claude.use('user').then(function(u){if(!u)return;u.can('data.write').then(function(v){if(v===false){canWrite=false;setShare('readonly')}else if(v===true)canWrite=true},function(){})},function(){})}catch(e){}
     var off=function(e){toast('Shared data unavailable ('+((e&&e.code)||'error')+')')};
     db.collection('expenses').onSnapshot(function(sn){expenses=snapArr(sn).map(function(o){o.amount=Number(o.amount)||0;return o}).filter(function(o){return o.date});initMonthIfNeeded();renderMoney()},off);
     db.doc('settings/budget').onSnapshot(function(sn){if(sn.exists&&sn.data()&&sn.data().value>=0){budget=Number(sn.data().value)}renderMoney()},off);
