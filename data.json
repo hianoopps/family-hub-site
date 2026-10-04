@@ -222,6 +222,13 @@
     "category": "Shopping",
     "note": "Malu’s shoes and jeans",
     "cur": "SAR"
+   },
+   "e1791143057231": {
+    "date": "2026-10-04",
+    "amount": 252,
+    "category": "Groceries",
+    "note": "Carrefour",
+    "cur": "SAR"
    }
   },
   "school_done": {
