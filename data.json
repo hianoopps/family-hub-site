@@ -236,6 +236,13 @@
     "category": "Transport & Fuel",
     "note": "Car cleaning",
     "cur": "SAR"
+   },
+   "e1791143100027": {
+    "date": "2026-10-04",
+    "amount": 80,
+    "category": "Housing & Utilities",
+    "note": "House cleaning",
+    "cur": "SAR"
    }
   },
   "school_done": {
