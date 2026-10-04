@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T12:46:37Z",
+ "updated": "2026-10-04T09:00:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -21,6 +21,14 @@
    "kind": "activity",
    "title": "IB PYP verification visit",
    "id": "a_ibpyp"
+  },
+  {
+   "body": "Thursday 8 October is Jeans Day. All students come in light blue or dark blue jeans only, no black, white, grey or other colours. Teachers will introduce the history of denim in class. It remains a normal school day with the usual timetable.",
+   "date": "2026-10-04",
+   "due": "",
+   "kind": "activity",
+   "title": "Jeans Day, Thu 8 Oct",
+   "id": "a_jeans"
   },
   {
    "body": "Families invited 12:30 to 2:00 pm in the Multipurpose Hall. Outfit of choice, nut-free treats welcome. Dismissal 1:30 pm if not attending.",
@@ -355,6 +363,14 @@
    "time": "",
    "title": "IB PYP verification visit, no after-school clubs",
    "id": "ibpyp"
+  },
+  {
+   "end": "2026-10-08",
+   "kind": "school",
+   "start": "2026-10-08",
+   "time": "",
+   "title": "Jeans Day, blue jeans only",
+   "id": "jeans"
   },
   {
    "end": "2026-09-22",
