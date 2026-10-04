@@ -243,6 +243,13 @@
     "category": "Housing & Utilities",
     "note": "House cleaning",
     "cur": "SAR"
+   },
+   "e1791143151594": {
+    "date": "2026-10-04",
+    "amount": 250,
+    "category": "Miscellaneous",
+    "note": "Phone and Internet",
+    "cur": "SAR"
    }
   },
   "school_done": {
