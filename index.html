@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Family Hub</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#ff7a59">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Family">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 </head>
 <body>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@500;700;800&display=swap">
@@ -25,7 +33,7 @@
   --bg:#0e1a27; --surface:#162536; --surface-2:#1e3247; --line:#2a4158; --fg:#eef4fb; --muted:#9db0c6; --deep:#7fa6c4; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
-body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;font-weight:500;line-height:1.5;padding-inline:var(--gutter);padding-block:24px 110px;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;font-weight:500;line-height:1.5;padding-inline:var(--gutter);padding-block:max(24px,calc(env(safe-area-inset-top,0px) + 12px)) 110px;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1040px;margin-inline:auto}
 h1,h2,h3,p,ul,ol{margin:0}
 ul,ol{padding:0;list-style:none}
@@ -1211,5 +1219,6 @@ button{cursor:pointer}
 })();
 </script>
 
+<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){})})}</script>
 </body>
 </html>
