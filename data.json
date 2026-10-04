@@ -229,6 +229,13 @@
     "category": "Groceries",
     "note": "Carrefour",
     "cur": "SAR"
+   },
+   "e1791143081208": {
+    "date": "2026-10-04",
+    "amount": 90,
+    "category": "Transport & Fuel",
+    "note": "Car cleaning",
+    "cur": "SAR"
    }
   },
   "school_done": {
