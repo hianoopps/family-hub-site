@@ -220,6 +220,9 @@
   "school_done": {
    "t_clubs": {
     "done": true
+   },
+   "t_edupik_app": {
+    "done": true
    }
   }
  },
