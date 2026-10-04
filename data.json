@@ -25,6 +25,190 @@
     "done": false,
     "ts": 4
    }
+  },
+  "expenses": {
+   "e1790976189943": {
+    "amount": 15,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-10-03",
+    "note": "Groceries"
+   },
+   "e1791096472272": {
+    "amount": 110,
+    "category": "Gifts",
+    "cur": "SAR",
+    "date": "2026-10-03",
+    "note": "Ammu's b day"
+   },
+   "e1790952321952": {
+    "amount": 336,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-10-01",
+    "note": "Groceries"
+   },
+   "e1790952333953": {
+    "amount": 100,
+    "category": "Food & Dining",
+    "cur": "SAR",
+    "date": "2026-10-02",
+    "note": "Food & Dining"
+   },
+   "e1790952356233": {
+    "amount": 300,
+    "category": "Leisure & Sports",
+    "cur": "SAR",
+    "date": "2026-10-02",
+    "note": "Swimming"
+   },
+   "g_1a0d764e1a1fd0af": {
+    "amount": 102.49,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-09-25",
+    "note": "Lulu order (Gmail)"
+   },
+   "g_1a0f0538e45a3762": {
+    "amount": 75,
+    "category": "Miscellaneous",
+    "cur": "INR",
+    "date": "2026-09-29",
+    "note": "Apple iCloud+ 50 GB monthly (Gmail)"
+   },
+   "g_1a0cf1b52aee1b5f": {
+    "amount": 592,
+    "category": "Healthcare",
+    "cur": "INR",
+    "date": "2026-09-23",
+    "note": "1mg pharmacy order (Gmail)"
+   },
+   "g_1a0948d1eda21771": {
+    "amount": 58.95,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-09-12",
+    "note": "Lulu order (Gmail)"
+   },
+   "g_1a0821cf5281683e": {
+    "amount": 100,
+    "category": "Leisure & Sports",
+    "cur": "SAR",
+    "date": "2026-09-08",
+    "note": "Rollsiders skating trial order (Gmail)"
+   },
+   "g_1a0a4948eb888b3b": {
+    "amount": 4740,
+    "category": "Housing & Utilities",
+    "cur": "INR",
+    "date": "2026-09-15",
+    "note": "MSEDCL electricity bill (Gmail)"
+   },
+   "g_1a0e3cce57f19293": {
+    "amount": 1310.01,
+    "category": "Housing & Utilities",
+    "cur": "INR",
+    "date": "2026-09-27",
+    "note": "Vi postpaid bill Aug 27 to Sep 26 (Gmail)"
+   },
+   "g_1a085eac7912949e": {
+    "amount": 134.14,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-09-09",
+    "note": "Lulu order (Gmail)"
+   },
+   "g_1a0cd6dee60ce38f": {
+    "amount": 17887,
+    "category": "Transport & Fuel",
+    "cur": "INR",
+    "date": "2026-09-23",
+    "note": "Air India Express flight booking (Gmail)"
+   },
+   "g_1a0e1dcd4c30305d": {
+    "amount": 287.5,
+    "category": "Housing & Utilities",
+    "cur": "SAR",
+    "date": "2026-09-27",
+    "note": "stc mobile bill (Gmail)"
+   },
+   "g_1a0c7e054ac4ed88": {
+    "amount": 296,
+    "category": "Shopping",
+    "cur": "SAR",
+    "date": "2026-09-22",
+    "note": "IBRAQ perfumes order (Gmail)"
+   },
+   "g_1a0dd1fe16f0dcab": {
+    "amount": 951,
+    "category": "Housing & Utilities",
+    "cur": "INR",
+    "date": "2026-09-26",
+    "note": "Jio mobile payment via UPI (Gmail)"
+   },
+   "g_1a09fb8c2d2f0956": {
+    "amount": 63.69,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-09-14",
+    "note": "Lulu order (Gmail)"
+   },
+   "g_1a071b8e04c035ca": {
+    "amount": 6630.27,
+    "category": "Miscellaneous",
+    "cur": "INR",
+    "date": "2026-09-05",
+    "note": "Axis Max Life term plan premium (Gmail)"
+   },
+   "g_1a08c99f5f64e086": {
+    "amount": 2307,
+    "category": "Gifts",
+    "cur": "INR",
+    "date": "2026-09-11",
+    "note": "FNP gift order (Gmail)"
+   },
+   "g_1a10228563869f99": {
+    "amount": 109.99,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-10-03",
+    "note": "noon supermall order (Gmail)"
+   },
+   "g_1a0e40e6e07b1c9d": {
+    "amount": 66.65,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-09-27",
+    "note": "Lulu order (Gmail)"
+   },
+   "g_1a0fc55f6cad352b": {
+    "amount": 11604,
+    "category": "Housing & Utilities",
+    "cur": "INR",
+    "date": "2026-10-02",
+    "note": "Amazon order wardrobe (Gmail)"
+   },
+   "g_1a0ed154e517ece7": {
+    "amount": 784,
+    "category": "Housing & Utilities",
+    "cur": "INR",
+    "date": "2026-09-29",
+    "note": "Amazon order moisture absorbers (Gmail)"
+   },
+   "g_1a0eed1ce1a2d77e": {
+    "amount": 130.34,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-09-29",
+    "note": "Lulu order (Gmail)"
+   },
+   "g_1a05e5f07fb0fea8": {
+    "amount": 122.49,
+    "category": "Groceries",
+    "cur": "SAR",
+    "date": "2026-09-01",
+    "note": "noon supermall order (Gmail)"
+   }
   }
  },
  "docs": {
