@@ -215,6 +215,13 @@
     "category": "Groceries",
     "note": "Groceries",
     "cur": "SAR"
+   },
+   "e1791143033022": {
+    "date": "2026-10-04",
+    "amount": 180,
+    "category": "Shopping",
+    "note": "Malu’s shoes and jeans",
+    "cur": "SAR"
    }
   },
   "school_done": {
