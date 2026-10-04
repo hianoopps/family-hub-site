@@ -1,5 +1,5 @@
 // Family Hub service worker: app shell offline, live data always from the network.
-const CACHE='family-hub-v1';
+const CACHE='family-hub-v2';
 const SHELL=['./','./index.html','./manifest.webmanifest','./icons/icon-180.png','./icons/icon-192.png','./icons/icon-512.png',
  './img/selfie.jpg','./img/cutout.png','./img/koala.jpg','./img/collage.jpg','./img/bridge.jpg','./img/kurta.jpg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});

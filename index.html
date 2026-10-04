@@ -1150,9 +1150,11 @@ button{cursor:pointer}
   function ghKey(){return ls(GKEY,'')||''}
   function b64d(s){var bin=atob(String(s).replace(/\s/g,''));var bytes=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);return new TextDecoder().decode(bytes)}
   function b64e(str){var bytes=new TextEncoder().encode(str),bin='';for(var i=0;i<bytes.length;i+=8192)bin+=String.fromCharCode.apply(null,bytes.subarray(i,i+8192));return btoa(bin)}
-  function ghHeaders(){var h={'Accept':'application/vnd.github+json'};var k=ghKey();if(k)h['Authorization']='Bearer '+k;return h}
+  var ghKeyBad=false,ghLoadErr='',ghLoadedAt=0;
+  function ghHeaders(noAuth){var h={'Accept':'application/vnd.github+json'};var k=ghKey();if(k&&!noAuth&&!ghKeyBad)h['Authorization']='Bearer '+k;return h}
   function ghUrl(p){return 'https://api.github.com/repos/'+GH.owner+'/'+GH.repo+'/contents/'+p}
-  function ghGet(){return fetch(ghUrl(GH.path)+'?ref='+GH.branch+'&t='+Date.now(),{headers:ghHeaders(),cache:'no-store'}).then(function(r){
+  function ghGet(noAuth){var authed=!!ghKey()&&!noAuth&&!ghKeyBad;return fetch(ghUrl(GH.path)+'?ref='+GH.branch+'&t='+Date.now(),{headers:ghHeaders(noAuth),cache:'no-store'}).then(function(r){
+      if(authed&&(r.status===401||r.status===403||r.status===404)){ghKeyBad=true;ghKeyUI();return ghGet(true)}
       if(r.status===404)return {sha:null,data:{cols:{},docs:{}}};
       if(!r.ok)throw {code:'http_'+r.status};
       return r.json().then(function(j){var d={};try{d=JSON.parse(b64d(j.content))}catch(e){};d.cols=d.cols||{};d.docs=d.docs||{};return {sha:j.sha,data:d}})})}
@@ -1161,9 +1163,10 @@ button{cursor:pointer}
   var ghState={data:{cols:{},docs:{}},sha:null,sig:''},ghSubs=[],ghQueue=Promise.resolve();
   function ghEmit(){ghSubs.forEach(function(f){try{f()}catch(e){}})}
   function ghApply(r){var sig=JSON.stringify(r.data);ghState.sha=r.sha;if(sig!==ghState.sig){ghState.sig=sig;ghState.data=r.data;ghEmit()}}
-  function ghRefresh(){return ghGet().then(ghApply,function(){})}
+  function ghRefresh(){return ghGet().then(function(r){ghLoadErr='';ghLoadedAt=Date.now();ghApply(r);ghStatus()},function(e){ghLoadErr=(e&&e.code)||'network';ghStatus()})}
+  function ghStatus(){var n=$('ghStat');if(!n)return;n.textContent=ghLoadErr?'Could not load the family data ('+ghLoadErr+'). Check the internet connection; it retries automatically.':(ghLoadedAt?'Family data loaded at '+new Date(ghLoadedAt).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'})+'.':'Loading family data…')}
   function ghCommit(mut,msg){
-    if(!ghKey())return Promise.reject({code:'not_granted'});
+    if(!ghKey()||ghKeyBad)return Promise.reject({code:'not_granted'});
     var run=function(){var tries=0;
       function attempt(){return ghGet().then(function(r){mut(r.data);var txt=JSON.stringify(r.data,null,1);
         return ghPutFile(GH.path,b64e(txt),msg,r.sha).then(function(res){ghApply({sha:res.content&&res.content.sha,data:r.data})})}).catch(function(e){if(e&&e.code==='conflict'&&tries++<4)return new Promise(function(ok){setTimeout(ok,700*tries)}).then(attempt);throw e})}
@@ -1189,13 +1192,14 @@ button{cursor:pointer}
   };
   function ghKeyUI(){
     var bar=$('shareBar');if(!bar)return;
-    var has=!!ghKey();
-    SHARE.public=has?['Shared with the family','Changes you make here are saved to the family database on GitHub and show up for everyone within a minute.']:['View only on this device','You can see everything the family has added. To add or change things, enter the family key below once on this device.'];
-    setShare('public');bar.className='sharebar'+(has?' ok':'');
+    var has=!!ghKey()&&!ghKeyBad;
+    SHARE.public=ghKeyBad?['Family key not accepted by GitHub','The key saved on this device was refused, so changes cannot be saved. You can still see the family data. Remove the key and paste a new one (Contents: Read and write on family-hub-site).']:has?['Shared with the family','Changes you make here are saved to the family database on GitHub and show up for everyone within a minute.']:['View only on this device','You can see everything the family has added. To add or change things, enter the family key below once on this device.'];
+    setShare('public');bar.className='sharebar'+(ghKeyBad?' ro':has?' ok':'');bar.firstChild.textContent=ghKeyBad?'⛔':has?'✅':'👀';
     var old=$('keyForm');if(old)old.remove();
     var inp=h('input',{class:'input',id:'keyIn',type:'password',placeholder:'Family key',autocomplete:'off','aria-label':'Family key',style:'max-width:260px;background:rgba(255,255,255,.7)'});
-    var f=h('form',{id:'keyForm',class:'addrow',style:'flex-wrap:wrap',onsubmit:function(ev){ev.preventDefault();var v=inp.value.trim();if(!v)return;lsSet(GKEY,v);canWrite=null;ghKeyUI();ghRefresh();toast('Family key saved on this device')}},has?[h('button',{class:'btn ghost sm',type:'button',text:'Remove key from this device',onclick:function(){lsSet(GKEY,'');ghKeyUI()}})]:[inp,h('button',{class:'btn dark sm',type:'submit',text:'Save key'})]);
+    var f=h('form',{id:'keyForm',class:'addrow',style:'flex-wrap:wrap',onsubmit:function(ev){ev.preventDefault();var v=inp.value.trim();if(!v)return;fetch('https://api.github.com/repos/'+GH.owner+'/'+GH.repo,{headers:{'Accept':'application/vnd.github+json','Authorization':'Bearer '+v}}).then(function(r){if(!r.ok){toast('GitHub did not accept that key ('+r.status+')');return}return r.json().then(function(j){if(j.permissions&&j.permissions.push===false){toast('That key can only read. It needs Contents: Read and write');return}lsSet(GKEY,v);ghKeyBad=false;canWrite=null;ghKeyUI();ghRefresh();toast('Family key accepted')})},function(){toast('Could not reach GitHub to check the key')})}},(has||ghKeyBad)?[h('button',{class:'btn ghost sm',type:'button',text:'Remove key from this device',onclick:function(){lsSet(GKEY,'');ghKeyBad=false;ghKeyUI();ghRefresh()}})]:[inp,h('button',{class:'btn dark sm',type:'submit',text:'Save key'})]);
     $('shareText').parentNode.appendChild(f);
+    if(!$('ghStat')){$('shareText').parentNode.appendChild(h('div',{id:'ghStat',class:'small',style:'margin-top:8px;color:inherit;opacity:.8'}))}else{$('shareText').parentNode.appendChild($('ghStat'))}ghStatus();
     canWrite=has?null:false;
   }
   function startGitHubDb(){
