@@ -216,6 +216,11 @@
     "note": "Groceries",
     "cur": "SAR"
    }
+  },
+  "school_done": {
+   "t_clubs": {
+    "done": true
+   }
   }
  },
  "docs": {
