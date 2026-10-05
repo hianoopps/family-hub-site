@@ -250,6 +250,13 @@
     "category": "Miscellaneous",
     "note": "Phone and Internet",
     "cur": "SAR"
+   },
+   "e1791192685243": {
+    "date": "2026-10-05",
+    "amount": 71,
+    "category": "Groceries",
+    "note": "Lulu",
+    "cur": "SAR"
    }
   },
   "school_done": {
