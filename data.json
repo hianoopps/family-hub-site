@@ -257,6 +257,13 @@
     "category": "Groceries",
     "note": "Lulu",
     "cur": "SAR"
+   },
+   "e1791233553850": {
+    "date": "2026-10-05",
+    "amount": 60,
+    "category": "Gifts",
+    "note": "Flower malu",
+    "cur": "SAR"
    }
   },
   "school_done": {
