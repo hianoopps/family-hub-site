@@ -278,6 +278,13 @@
     "category": "Transport & Fuel",
     "note": "Petrol",
     "cur": "SAR"
+   },
+   "e1791313475275": {
+    "date": "2026-10-06",
+    "amount": 23,
+    "category": "Food & Dining",
+    "note": "Food & Dining",
+    "cur": "SAR"
    }
   },
   "school_done": {
