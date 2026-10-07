@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T09:00:00Z",
+ "updated": "2026-10-07T04:46:35Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -164,6 +164,15 @@
    "tag": "Events",
    "title": "IB PYP verification visit and club update",
    "id": "n_ibpyp"
+  },
+  {
+   "kind": "announcement",
+   "tag": "News",
+   "title": "Islamic Culture teacher change",
+   "date": "2026-10-07",
+   "body": "The Islamic Culture teacher has decided not to continue with the school. Lessons continue as normal, now led by the existing co-teacher who already knows the children and routines. Parents with questions should contact their child's class teacher first.",
+   "due": "",
+   "id": "n_islamic_culture"
   },
   {
    "body": "Strict no-jewelry rule for all grades, for safety and safeguarding. Exceptions: a simple watch and one pair of small plain studs for girls with pierced ears.",
