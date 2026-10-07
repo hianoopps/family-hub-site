@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T11:00:00Z",
+ "updated": "2026-10-07T12:46:53Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -230,6 +230,15 @@
    "due": "",
    "body": "The school is introducing an Authorised Pick-Up Card for families whose child is regularly collected by a driver, nanny or other authorised person. EduPik through Edunation continues as usual, and a pick-up request must still be created when the child is ready. The card shows the person's photo and details plus the names and classes of the children they may collect. To request one, complete the school's online form with a clear photo, one form per person, and tell the school in advance if the collector changes.",
    "id": "n_pickupcard"
+  },
+  {
+   "kind": "announcement",
+   "tag": "News",
+   "title": "Health notice: respiratory viruses",
+   "date": "2026-10-07",
+   "body": "The school nurse shared a notice after the Ministry of Health reported more respiratory infections this viral season. Families are encouraged to consider the seasonal flu vaccine, teach good hand hygiene and covering coughs, and avoid sharing personal items. Children with flu-like symptoms should stay home until they recover, and families should seek medical advice if symptoms are severe or persistent.",
+   "due": "",
+   "id": "n_respiratory"
   },
   {
    "body": "School back on campus 28 Sep. Arrive on time, return textbooks and handouts, buses run as normal, no clubs due to the IB visit.",
