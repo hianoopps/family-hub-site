@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T12:46:53Z",
+ "updated": "2026-10-07T15:00:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -173,6 +173,15 @@
    "body": "The Islamic Culture teacher has decided not to continue with the school. Lessons continue as normal, now led by the existing co-teacher who already knows the children and routines. Parents with questions should contact their child's class teacher first.",
    "due": "",
    "id": "n_islamic_culture"
+  },
+  {
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Reminder: Jeans Day tomorrow, Thu 8 Oct",
+   "date": "2026-10-07",
+   "body": "Jeans Day is tomorrow, Thursday 8 October 2026. Students may wear light blue or dark blue jeans only. The usual timetable and learning continue as normal, and teachers will explore the history of denim in class.",
+   "due": "",
+   "id": "n_jeans_remind"
   },
   {
    "body": "Strict no-jewelry rule for all grades, for safety and safeguarding. Exceptions: a simple watch and one pair of small plain studs for girls with pierced ears.",
