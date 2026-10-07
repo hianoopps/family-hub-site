@@ -299,6 +299,13 @@
     "category": "Shopping",
     "note": "Shopping",
     "cur": "SAR"
+   },
+   "e1791398273368": {
+    "date": "2026-10-07",
+    "amount": 230,
+    "category": "Leisure & Sports",
+    "note": "Aqua park",
+    "cur": "SAR"
    }
   },
   "school_done": {
