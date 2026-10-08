@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T08:47:00Z",
+ "updated": "2026-10-08T14:48:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -398,6 +398,14 @@
    "kind": "weekly",
    "title": "Year 5, end of week 4",
    "id": "w_week4"
+  },
+  {
+   "body": "Maths: Roman numerals and rounding numbers up to one million. Science: classroom plant observations finished and the plants went home to keep growing. The first Unit of Inquiry, Who We Are, closed with an assembly where students shared projects, freeze-frames and monologues. Photos and short videos of the assembly were attached to the email.",
+   "date": "2026-10-08",
+   "due": "",
+   "kind": "weekly",
+   "title": "Year 5, end of week 5",
+   "id": "w_week5"
   }
  ],
  "events": [
