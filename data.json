@@ -320,6 +320,13 @@
     "category": "Shopping",
     "note": "Medicines",
     "cur": "SAR"
+   },
+   "e1791479729717": {
+    "date": "2026-10-08",
+    "amount": 14700,
+    "category": "Education",
+    "note": "Fees Austin",
+    "cur": "SAR"
    }
   },
   "school_done": {
