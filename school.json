@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T15:00:00Z",
+ "updated": "2026-10-08T08:47:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -36,6 +36,14 @@
    "kind": "activity",
    "title": "Saudi National Day celebration",
    "id": "a_natday"
+  },
+  {
+   "body": "There are no after-school clubs today, Thursday 8 October. Please collect your child at 1:30 pm as usual.",
+   "date": "2026-10-08",
+   "due": "",
+   "kind": "activity",
+   "title": "No after-school clubs today, Thu 8 Oct",
+   "id": "a_noclubs_oct8"
   },
   {
    "body": "Ministry of Education guidance moved learning online for the day. On-campus classes resumed 28 Sep.",
@@ -166,21 +174,21 @@
    "id": "n_ibpyp"
   },
   {
+   "body": "The Islamic Culture teacher has decided not to continue with the school. Lessons continue as normal, now led by the existing co-teacher who already knows the children and routines. Parents with questions should contact their child's class teacher first.",
+   "date": "2026-10-07",
+   "due": "",
    "kind": "announcement",
    "tag": "News",
    "title": "Islamic Culture teacher change",
-   "date": "2026-10-07",
-   "body": "The Islamic Culture teacher has decided not to continue with the school. Lessons continue as normal, now led by the existing co-teacher who already knows the children and routines. Parents with questions should contact their child's class teacher first.",
-   "due": "",
    "id": "n_islamic_culture"
   },
   {
+   "body": "Jeans Day is tomorrow, Thursday 8 October 2026. Students may wear light blue or dark blue jeans only. The usual timetable and learning continue as normal, and teachers will explore the history of denim in class.",
+   "date": "2026-10-07",
+   "due": "",
    "kind": "announcement",
    "tag": "Events",
    "title": "Reminder: Jeans Day tomorrow, Thu 8 Oct",
-   "date": "2026-10-07",
-   "body": "Jeans Day is tomorrow, Thursday 8 October 2026. Students may wear light blue or dark blue jeans only. The usual timetable and learning continue as normal, and teachers will explore the history of denim in class.",
-   "due": "",
    "id": "n_jeans_remind"
   },
   {
@@ -232,21 +240,21 @@
    "id": "n_online"
   },
   {
+   "body": "The school is introducing an Authorised Pick-Up Card for families whose child is regularly collected by a driver, nanny or other authorised person. EduPik through Edunation continues as usual, and a pick-up request must still be created when the child is ready. The card shows the person's photo and details plus the names and classes of the children they may collect. To request one, complete the school's online form with a clear photo, one form per person, and tell the school in advance if the collector changes.",
+   "date": "2026-10-07",
+   "due": "",
    "kind": "announcement",
    "tag": "Logistics",
    "title": "Authorised Pick-Up Card for drivers and nannies",
-   "date": "2026-10-07",
-   "due": "",
-   "body": "The school is introducing an Authorised Pick-Up Card for families whose child is regularly collected by a driver, nanny or other authorised person. EduPik through Edunation continues as usual, and a pick-up request must still be created when the child is ready. The card shows the person's photo and details plus the names and classes of the children they may collect. To request one, complete the school's online form with a clear photo, one form per person, and tell the school in advance if the collector changes.",
    "id": "n_pickupcard"
   },
   {
+   "body": "The school nurse shared a notice after the Ministry of Health reported more respiratory infections this viral season. Families are encouraged to consider the seasonal flu vaccine, teach good hand hygiene and covering coughs, and avoid sharing personal items. Children with flu-like symptoms should stay home until they recover, and families should seek medical advice if symptoms are severe or persistent.",
+   "date": "2026-10-07",
+   "due": "",
    "kind": "announcement",
    "tag": "News",
    "title": "Health notice: respiratory viruses",
-   "date": "2026-10-07",
-   "body": "The school nurse shared a notice after the Ministry of Health reported more respiratory infections this viral season. Families are encouraged to consider the seasonal flu vaccine, teach good hand hygiene and covering coughs, and avoid sharing personal items. Children with flu-like symptoms should stay home until they recover, and families should seek medical advice if symptoms are severe or persistent.",
-   "due": "",
    "id": "n_respiratory"
   },
   {
@@ -264,6 +272,15 @@
    "tag": "Routine",
    "title": "Daily timings at a glance",
    "id": "n_routine"
+  },
+  {
+   "body": "The school reassured families that all students are safe, well and fully accounted for. Staff are supervising students, monitoring the situation in real time and in contact with the relevant authorities. Any further updates or instructions will be shared through the Edunation app.",
+   "date": "2026-10-08",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "Important safety update",
+   "id": "n_safety_update"
   },
   {
    "body": "Front desk note about staff recruitment and development.",
@@ -415,6 +432,14 @@
    "time": "12:30",
    "title": "Saudi National Day celebration, 12:30 to 2:00 pm",
    "id": "natday"
+  },
+  {
+   "end": "2026-10-08",
+   "kind": "school",
+   "start": "2026-10-08",
+   "time": "",
+   "title": "No after-school clubs, collect at 1:30 pm",
+   "id": "noclubs_oct8"
   },
   {
    "end": "2026-10-02",
