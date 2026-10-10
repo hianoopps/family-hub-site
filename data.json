@@ -327,6 +327,13 @@
     "category": "Education",
     "note": "Fees Austin",
     "cur": "SAR"
+   },
+   "e1791621157915": {
+    "date": "2026-10-09",
+    "amount": 23,
+    "category": "Groceries",
+    "note": "Groceries",
+    "cur": "SAR"
    }
   },
   "school_done": {
