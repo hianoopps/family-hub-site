@@ -334,6 +334,13 @@
     "category": "Groceries",
     "note": "Groceries",
     "cur": "SAR"
+   },
+   "e1791667740393": {
+    "date": "2026-10-11",
+    "amount": 240,
+    "category": "Leisure & Sports",
+    "note": "Games and food",
+    "cur": "SAR"
    }
   },
   "school_done": {
