@@ -348,6 +348,13 @@
     "category": "Housing & Utilities",
     "note": "Spects Malu",
     "cur": "SAR"
+   },
+   "e1791667804701": {
+    "date": "2026-10-11",
+    "amount": 43,
+    "category": "Groceries",
+    "note": "Groceries",
+    "cur": "SAR"
    }
   },
   "school_done": {
