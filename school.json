@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T16:52:00Z",
+ "updated": "2026-10-12T09:00:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -66,6 +66,15 @@
    "kind": "activity",
    "title": "Scouts orientation meeting for Year 5 and 6 families",
    "id": "a_scouts"
+  },
+  {
+   "body": "The class is studying the Arabic lesson on desertification, its causes and solutions, on page 36 of the Arabic textbook. Parents are asked to encourage children to listen to the audio text shared in Arabic and English. Students who have not yet collected their Arabic books should collect them from school.",
+   "date": "2026-10-12",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Year 5 Arabic: Desertification lesson",
+   "id": "n_arabic_desert"
   },
   {
    "body": "Birthday celebrations now happen in the last lesson, 12:50 to 1:20 pm. Parents may cut the cake and take photos. Everything must finish by 1:20 pm because school buses leave at 1:25 pm.",
