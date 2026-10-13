@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T12:51:00Z",
+ "updated": "2026-10-13T14:46:56Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -29,6 +29,14 @@
    "kind": "activity",
    "title": "Jeans Day, Thu 8 Oct",
    "id": "a_jeans"
+  },
+  {
+   "body": "Scout Pack 257 is bringing a worldwide Scout radio event to school on Fri 16 Oct, 1:00 to 3:00 pm. All students aged 5 to 11 are invited, Scouts or not, with hands-on radio alphabet, Morse code and two-way radio activities. Families reserve a spot through the online page shared by the school. An online Scout meeting follows on Sat 17 Oct at 11:00 am.",
+   "date": "2026-10-13",
+   "due": "",
+   "kind": "activity",
+   "title": "Scout radio event (Jamboree on the Air), Fri 16 Oct",
+   "id": "a_jota"
   },
   {
    "body": "Families invited 12:30 to 2:00 pm in the Multipurpose Hall. Outfit of choice, nut-free treats welcome. Dismissal 1:30 pm if not attending.",
@@ -512,6 +520,14 @@
    "time": "",
    "title": "Jeans Day, blue jeans only",
    "id": "jeans"
+  },
+  {
+   "end": "2026-10-16",
+   "kind": "school",
+   "start": "2026-10-16",
+   "time": "13:00",
+   "title": "Scout radio event at school, 1:00 to 3:00 pm",
+   "id": "jota"
   },
   {
    "end": "2026-09-22",
