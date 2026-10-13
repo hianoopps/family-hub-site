@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T09:00:00Z",
+ "updated": "2026-10-13T10:46:32Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -249,6 +249,15 @@
    "id": "n_online"
   },
   {
+   "body": "The school shared a parent poster with tips to help children learn well during online classes. It covers getting ready before class, supporting your child during class, healthy routines after class and who to contact for help. Learners are asked to act respectfully, and a teacher may remove a learner who behaves inappropriately. For technical or attendance issues, message the homeroom or relevant teacher on Edunation.",
+   "date": "2026-10-13",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Guide to online learning for parents",
+   "id": "n_online_guide_oct13"
+  },
+  {
    "body": "Following Ministry of Education directives, the school moved to online learning on Sunday 11 October 2026. Students stay home and do not attend campus. All lessons are delivered remotely through Edunation. Further updates on school operations will be shared as needed.",
    "date": "2026-10-11",
    "due": "",
@@ -256,6 +265,15 @@
    "tag": "Logistics",
    "title": "Online learning, Sunday 11 Oct",
    "id": "n_online_oct11"
+  },
+  {
+   "body": "The school shared its Online Learning Rules and etiquette document with parents. Families are asked to go through it with their child and help them understand the importance of being ready, respectful and responsible during online classes.",
+   "date": "2026-10-13",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Online class rules and etiquette",
+   "id": "n_online_rules_oct13"
   },
   {
    "body": "Students should be ready before the first lesson, seated in a quiet place with a charged device and stable internet. Keep the camera on, stay seated and follow the teacher's instructions. The online timetable differs slightly from usual, with a 10-minute break between lessons. A short tutorial video on logging in to Edunation and joining classes was attached.",
