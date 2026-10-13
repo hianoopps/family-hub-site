@@ -381,6 +381,13 @@
     "category": "Groceries",
     "note": "Groceries",
     "cur": "SAR"
+   },
+   "e1791884051309": {
+    "date": "2026-10-13",
+    "amount": 123,
+    "category": "Shopping",
+    "note": "Shopping",
+    "cur": "SAR"
    }
   },
   "school_done": {
