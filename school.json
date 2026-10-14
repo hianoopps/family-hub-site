@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T06:46:39Z",
+ "updated": "2026-10-14T08:47:10Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -342,6 +342,15 @@
    "tag": "Routine",
    "title": "Daily timings at a glance",
    "id": "n_routine"
+  },
+  {
+   "body": "Families are asked to watch for official Civil Defence alerts during online learning. If an alert signals a threat, teachers will pause the lesson and tell students to disconnect straight away. Lessons resume once it is confirmed safe, and children should follow teacher instructions promptly.",
+   "date": "2026-10-14",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Safety guidance during online learning",
+   "id": "n_safety_online_oct14"
   },
   {
    "body": "The school reassured families that all students are safe, well and fully accounted for. Staff are supervising students, monitoring the situation in real time and in contact with the relevant authorities. Any further updates or instructions will be shared through the Edunation app.",
