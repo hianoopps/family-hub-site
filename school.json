@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T12:47:00Z",
+ "updated": "2026-10-15T16:46:16Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -164,6 +164,15 @@
    "tag": "News",
    "title": "A message from Dr. T",
    "id": "n_drt"
+  },
+  {
+   "body": "The head thanked children, parents and teachers for a good first week of online learning and for the feedback shared. The school hopes next week brings everyone back together face to face on campus. No action is needed from families.",
+   "date": "2026-10-15",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "A message from the head: end of first week of online learning",
+   "id": "n_drt_week1_online"
   },
   {
    "body": "EduPik is a new dismissal feature in the Edunation app, trialled from the week of 20 Sep. Send the pickup request in the app between 1:20 and 1:45 pm. Dismissal starts 1:30 pm from the Multipurpose Hall. Keep the Edunation app installed and updated. Parent guides (English and Arabic) were attached to the email.",
