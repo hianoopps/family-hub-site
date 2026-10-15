@@ -395,6 +395,13 @@
     "category": "Groceries",
     "note": "Groceries",
     "cur": "SAR"
+   },
+   "e1792046399815": {
+    "date": "2026-10-15",
+    "amount": 180,
+    "category": "Groceries",
+    "note": "Lilu",
+    "cur": "SAR"
    }
   },
   "school_done": {
