@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T08:47:10Z",
+ "updated": "2026-10-15T06:48:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -45,6 +45,14 @@
    "kind": "activity",
    "title": "Scout radio event reminder, Fri 16 Oct",
    "id": "a_jota_oct14"
+  },
+  {
+   "body": "Final reminder that Scout Pack 257's Jamboree on the Air is at school on Friday 16 Oct 2026, 1:00 to 3:00 pm. A preparation link was shared by the school to help children learn about communication before Friday and Saturday. It is also useful for children who cannot attend.",
+   "date": "2026-10-15",
+   "due": "",
+   "kind": "activity",
+   "title": "Scout radio event tomorrow, Fri 16 Oct",
+   "id": "a_jota_oct15"
   },
   {
    "body": "Families invited 12:30 to 2:00 pm in the Multipurpose Hall. Outfit of choice, nut-free treats welcome. Dismissal 1:30 pm if not attending.",
