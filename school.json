@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T06:48:00Z",
+ "updated": "2026-10-15T12:47:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -519,6 +519,14 @@
    "kind": "weekly",
    "title": "Year 5, end of week 5",
    "id": "w_week5"
+  },
+  {
+   "body": "English: the class began reading The Boy at the Back of the Class, linked to the new Unit of Inquiry, Where We Are in Place and Time (migration, belonging, friendship). Families are encouraged to get their child their own copy if possible. Science: the Earth's orbit and seasons. Maths: column addition, with column subtraction next week. Also covered: global trade in Global Citizenship, Britain's past and present in History, and friendship and inclusion in PSHE.",
+   "date": "2026-10-15",
+   "due": "",
+   "kind": "weekly",
+   "title": "Year 5, end of week 6",
+   "id": "w_week6"
   }
  ],
  "events": [
