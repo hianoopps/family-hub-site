@@ -416,6 +416,13 @@
     "category": "Shopping",
     "note": "Mark and save then shoes",
     "cur": "SAR"
+   },
+   "e1792262516236": {
+    "date": "2026-10-17",
+    "amount": 316,
+    "category": "Groceries",
+    "note": "Groceries",
+    "cur": "SAR"
    }
   },
   "school_done": {
