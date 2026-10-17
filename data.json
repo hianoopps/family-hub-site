@@ -423,6 +423,13 @@
     "category": "Groceries",
     "note": "Groceries",
     "cur": "SAR"
+   },
+   "e1792262538783": {
+    "date": "2026-10-17",
+    "amount": 75,
+    "category": "Shopping",
+    "note": "I tunes Austin",
+    "cur": "SAR"
    }
   },
   "school_done": {
