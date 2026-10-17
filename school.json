@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T16:46:16Z",
+ "updated": "2026-10-17T12:52:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -99,6 +99,15 @@
    "tag": "Learning",
    "title": "Year 5 Arabic: Desertification lesson",
    "id": "n_arabic_desert"
+  },
+  {
+   "body": "The school has not yet received official information on returning to campus or extending online learning. On-site learning remains the normal arrangement unless a new official decision is announced. Families are asked to watch Edunation announcements through the day for confirmation.",
+   "date": "2026-10-17",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Learning arrangements for the coming week: awaiting official guidance",
+   "id": "n_arrangements_oct17"
   },
   {
    "body": "Birthday celebrations now happen in the last lesson, 12:50 to 1:20 pm. Parents may cut the cake and take photos. Everything must finish by 1:20 pm because school buses leave at 1:25 pm.",
@@ -307,6 +316,15 @@
    "tag": "Policy",
    "title": "Online class rules and etiquette",
    "id": "n_online_rules_oct13"
+  },
+  {
+   "body": "To give students more time away from screens, each online lesson is now 35 minutes, with the usual 10-minute breaks between lessons. Two longer breaks were added: 10:05 to 10:30 and 11:50 to 12:10. The school day stays 8:00 am to 1:30 pm. The new timings are already updated on Edunation.",
+   "date": "2026-10-17",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Online learning timetable updates for the coming week",
+   "id": "n_online_timetable_oct17"
   },
   {
    "body": "Students should be ready before the first lesson, seated in a quiet place with a charged device and stable internet. Keep the camera on, stay seated and follow the teacher's instructions. The online timetable differs slightly from usual, with a 10-minute break between lessons. A short tutorial video on logging in to Edunation and joining classes was attached.",
