@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T12:52:00Z",
+ "updated": "2026-10-17T20:46:17Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -289,6 +289,15 @@
    "tag": "Logistics",
    "title": "Online learning arrangements",
    "id": "n_online"
+  },
+  {
+   "body": "Following the latest Ministry of Education directives, online learning continues from Sunday 18 Oct to Thursday 22 Oct 2026. Students stay at home and all lessons are delivered online through Edunation and Zoom. Families should follow the updated online timetable already shared on Edunation.",
+   "date": "2026-10-17",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Online learning extended, 18 to 22 Oct",
+   "id": "n_online_extended_oct17"
   },
   {
    "body": "The school shared a parent poster with tips to help children learn well during online classes. It covers getting ready before class, supporting your child during class, healthy routines after class and who to contact for help. Learners are asked to act respectfully, and a teacher may remove a learner who behaves inappropriately. For technical or attendance issues, message the homeroom or relevant teacher on Edunation.",
@@ -612,6 +621,14 @@
    "time": "",
    "title": "Online learning day, stay home",
    "id": "online_oct11"
+  },
+  {
+   "end": "2026-10-22",
+   "kind": "school",
+   "start": "2026-10-18",
+   "time": "",
+   "title": "Online learning week, students stay home",
+   "id": "online_oct18_22"
   },
   {
    "end": "2026-10-02",
