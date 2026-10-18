@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:46:17Z",
+ "updated": "2026-10-18T12:46:45Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -289,6 +289,15 @@
    "tag": "Logistics",
    "title": "Online learning arrangements",
    "id": "n_online"
+  },
+  {
+   "body": "Mute microphones when talking to family or when there is background noise. Send questions for the teacher through the Edunation messaging app after the lesson ends. Family members who appear on camera should be dressed appropriately, and students should not eat during lessons, only at break times. Keep Edunation push notifications switched on.",
+   "date": "2026-10-18",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Online classes: reminders for parents",
+   "id": "n_online_etiquette_oct18"
   },
   {
    "body": "Following the latest Ministry of Education directives, online learning continues from Sunday 18 Oct to Thursday 22 Oct 2026. Students stay at home and all lessons are delivered online through Edunation and Zoom. Families should follow the updated online timetable already shared on Edunation.",
