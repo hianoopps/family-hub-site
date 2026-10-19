@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T12:47:00Z",
+ "updated": "2026-10-19T18:46:05Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -498,6 +498,14 @@
    "tag": "Learning",
    "title": "Year 5 online activities, Sunday 27 Sep",
    "id": "n_y5online"
+  },
+  {
+   "body": "For the final artwork in the unit Where We Are in Place and Time, Year 5 will use the collage technique. Students are asked to collect and bring old magazines, colourful posters, brochures or other colourful printed materials to the upcoming Art class. The materials will be used after the initial sketches and research are complete.",
+   "date": "2026-10-19",
+   "due": "",
+   "kind": "task",
+   "title": "Year 5 Art: bring materials for the final collage",
+   "id": "t_art_collage_oct19"
   },
   {
    "body": "Online form, first come first served. Swap requests go in the Notes field.",
