@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T06:48:00Z",
+ "updated": "2026-10-19T08:46:43Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -370,6 +370,14 @@
    "tag": "Logistics",
    "title": "Online learning continues until further notice",
    "id": "n_online_until_notice"
+  },
+  {
+   "body": "The class teacher is using a Padlet page to keep students' submitted work in one place during online learning. Last week's spelling test and maths practice are already there under each child's name. Parents are asked to upload this week's spelling test too, even if it was already sent. Feedback and marks stay private on Edunation, and new columns will be added for future work.",
+   "date": "2026-10-19",
+   "due": "",
+   "kind": "task",
+   "title": "Upload Year 5 online work to the class Padlet",
+   "id": "n_padlet_oct19"
   },
   {
    "body": "The school is introducing an Authorised Pick-Up Card for families whose child is regularly collected by a driver, nanny or other authorised person. EduPik through Edunation continues as usual, and a pick-up request must still be created when the child is ready. The card shows the person's photo and details plus the names and classes of the children they may collect. To request one, complete the school's online form with a clear photo, one form per person, and tell the school in advance if the collector changes.",
