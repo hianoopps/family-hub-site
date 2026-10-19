@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T10:47:30Z",
+ "updated": "2026-10-19T12:47:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -119,12 +119,12 @@
    "id": "n_arrangements_oct17"
   },
   {
+   "body": "A student may show as absent in the Conference section of Edunation even after attending every lesson. That section records attendance through individual student accounts, which are still being set up for Primary students. The official attendance record is the one teachers enter manually for every lesson, and Conference absences will not affect a child's attendance record or report card.",
+   "date": "2026-10-19",
+   "due": "",
    "kind": "announcement",
    "tag": "Policy",
    "title": "Attendance shown in Edunation Conference section is not official",
-   "date": "2026-10-19",
-   "body": "A student may show as absent in the Conference section of Edunation even after attending every lesson. That section records attendance through individual student accounts, which are still being set up for Primary students. The official attendance record is the one teachers enter manually for every lesson, and Conference absences will not affect a child's attendance record or report card.",
-   "due": "",
    "id": "n_attendance_oct19"
   },
   {
@@ -334,6 +334,15 @@
    "tag": "Learning",
    "title": "Guide to online learning for parents",
    "id": "n_online_guide_oct13"
+  },
+  {
+   "body": "Families are asked to set up a bright, organised learning space with books and stationery ready before each lesson. Students should keep cameras on throughout lessons unless the teacher says otherwise. Parents should stay quiet and let teachers lead live sessions without interruption, and send any concerns or feedback through Edunation instead. Younger learners may need extra parental support to settle in.",
+   "date": "2026-10-19",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Guidelines for a positive online learning environment",
+   "id": "n_online_guidelines_oct19"
   },
   {
    "body": "Following Ministry of Education directives, the school moved to online learning on Sunday 11 October 2026. Students stay home and do not attend campus. All lessons are delivered remotely through Edunation. Further updates on school operations will be shared as needed.",
