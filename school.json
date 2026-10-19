@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T08:46:43Z",
+ "updated": "2026-10-19T10:47:30Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -117,6 +117,15 @@
    "tag": "Logistics",
    "title": "Learning arrangements for the coming week: awaiting official guidance",
    "id": "n_arrangements_oct17"
+  },
+  {
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Attendance shown in Edunation Conference section is not official",
+   "date": "2026-10-19",
+   "body": "A student may show as absent in the Conference section of Edunation even after attending every lesson. That section records attendance through individual student accounts, which are still being set up for Primary students. The official attendance record is the one teachers enter manually for every lesson, and Conference absences will not affect a child's attendance record or report card.",
+   "due": "",
+   "id": "n_attendance_oct19"
   },
   {
    "body": "Birthday celebrations now happen in the last lesson, 12:50 to 1:20 pm. Parents may cut the cake and take photos. Everything must finish by 1:20 pm because school buses leave at 1:25 pm.",
