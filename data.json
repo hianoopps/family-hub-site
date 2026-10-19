@@ -451,6 +451,13 @@
     "category": "Transport & Fuel",
     "note": "brake pad",
     "cur": "SAR"
+   },
+   "e1792396690184": {
+    "date": "2026-10-19",
+    "amount": 168,
+    "category": "Housing & Utilities",
+    "note": "e bill",
+    "cur": "SAR"
    }
   },
   "school_done": {
