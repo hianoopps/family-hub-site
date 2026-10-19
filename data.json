@@ -437,6 +437,13 @@
     "category": "Leisure & Sports",
     "note": "pet shop",
     "cur": "SAR"
+   },
+   "e1792396639687": {
+    "date": "2026-10-18",
+    "amount": 160,
+    "category": "Transport & Fuel",
+    "note": "Transport & Fuel",
+    "cur": "SAR"
    }
   },
   "school_done": {
