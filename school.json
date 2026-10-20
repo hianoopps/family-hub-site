@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T18:46:05Z",
+ "updated": "2026-10-20T06:47:21Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -82,6 +82,14 @@
    "kind": "activity",
    "title": "PE and Spanish at home",
    "id": "a_pe"
+  },
+  {
+   "body": "Pink Day is on Thursday 22 October while online learning continues. Students are invited to wear something pink during their online lessons. The day celebrates kindness, compassion and community spirit.",
+   "date": "2026-10-20",
+   "due": "",
+   "kind": "activity",
+   "title": "Pink Day, Thu 22 Oct",
+   "id": "a_pinkday"
   },
   {
    "body": "Scouts were welcomed to Buckswood Riyadh for Year 5 and Year 6. An orientation meeting is on Fri 2 Oct at 10:00 am, with a second one on 16 Oct at 10:00 am. Interested families were asked to complete the school's online form by 6:00 pm on 1 Oct.",
@@ -467,6 +475,15 @@
    "id": "n_staff"
   },
   {
+   "body": "Parents were sent two attachments: the child's account details with first-time login steps, and a student videos kit in English and Arabic. Parents are asked to help their child log in for the first time. The parent account continues to work as usual, so keep checking it for announcements.",
+   "date": "2026-10-20",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Edunation student account is ready",
+   "id": "n_student_account_ready"
+  },
+  {
    "body": "Individual student accounts are being introduced on Edunation, starting with Years 7, 6 and 5 and then the younger years. The homeroom teacher will share the student's new login email once the account is ready. Parents are asked to help their child log in for the first time. Parent accounts continue as usual, and some announcements will still go to parents only.",
    "date": "2026-10-13",
    "due": "",
@@ -681,6 +698,14 @@
    "time": "",
    "title": "Online learning week, students stay home",
    "id": "online_oct18_22"
+  },
+  {
+   "end": "2026-10-22",
+   "kind": "school",
+   "start": "2026-10-22",
+   "time": "",
+   "title": "Pink Day, wear pink in online lessons",
+   "id": "pinkday"
   },
   {
    "end": "2026-10-02",
