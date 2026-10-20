@@ -465,6 +465,13 @@
     "category": "Housing & Utilities",
     "note": "Electricity",
     "cur": "SAR"
+   },
+   "e1792505470885": {
+    "date": "2026-10-20",
+    "amount": 95,
+    "category": "Groceries",
+    "note": "Groceries",
+    "cur": "SAR"
    }
   },
   "school_done": {
