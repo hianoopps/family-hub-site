@@ -1,735 +1,744 @@
 {
- "updated": "2026-10-20T06:47:21Z",
+ "updated": "2026-10-20T10:48:00Z",
  "items": [
   {
+   "id": "a_clubs",
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
    "date": "2026-09-14",
    "kind": "activity",
-   "title": "Term 1 Not-So-Boring Clubs",
-   "id": "a_clubs"
+   "title": "Term 1 Not-So-Boring Clubs"
   },
   {
+   "id": "a_coffee",
    "body": "Tue 15 Sep, 2:30 pm, in the classroom. Open chance to ask general questions about routines and subjects. Message the class teacher to confirm. Not for one-to-one discussion of your child.",
    "date": "2026-09-15",
    "kind": "activity",
-   "title": "Year 5 coffee afternoon",
-   "id": "a_coffee"
+   "title": "Year 5 coffee afternoon"
   },
   {
+   "id": "a_ibpyp",
    "body": "28 and 29 Sep. No after-school clubs on both days. Normal 1:30 pm dismissal from the Multipurpose Hall.",
    "date": "2026-09-28",
    "kind": "activity",
-   "title": "IB PYP verification visit",
-   "id": "a_ibpyp"
+   "title": "IB PYP verification visit"
   },
   {
+   "id": "a_jeans",
    "body": "Thursday 8 October is Jeans Day. All students come in light blue or dark blue jeans only, no black, white, grey or other colours. Teachers will introduce the history of denim in class. It remains a normal school day with the usual timetable.",
    "date": "2026-10-04",
    "due": "",
    "kind": "activity",
-   "title": "Jeans Day, Thu 8 Oct",
-   "id": "a_jeans"
+   "title": "Jeans Day, Thu 8 Oct"
   },
   {
+   "id": "a_jota",
    "body": "Scout Pack 257 is bringing a worldwide Scout radio event to school on Fri 16 Oct, 1:00 to 3:00 pm. All students aged 5 to 11 are invited, Scouts or not, with hands-on radio alphabet, Morse code and two-way radio activities. Families reserve a spot through the online page shared by the school. An online Scout meeting follows on Sat 17 Oct at 11:00 am.",
    "date": "2026-10-13",
    "due": "",
    "kind": "activity",
-   "title": "Scout radio event (Jamboree on the Air), Fri 16 Oct",
-   "id": "a_jota"
+   "title": "Scout radio event (Jamboree on the Air), Fri 16 Oct"
   },
   {
+   "id": "a_jota_oct14",
    "body": "Scout Pack 257 repeats its invitation to Jamboree on the Air at school on Friday 16 Oct, 1:00 to 3:00 pm. All students aged 5 to 12 are welcome, Scouts or not. Activities include radio alphabet, Morse code and two-way radios. Families reserve a spot through the online page shared by the school. An online Scout meeting follows on Sat 17 Oct at 11:00 am.",
    "date": "2026-10-14",
    "due": "",
    "kind": "activity",
-   "title": "Scout radio event reminder, Fri 16 Oct",
-   "id": "a_jota_oct14"
+   "title": "Scout radio event reminder, Fri 16 Oct"
   },
   {
+   "id": "a_jota_oct15",
    "body": "Final reminder that Scout Pack 257's Jamboree on the Air is at school on Friday 16 Oct 2026, 1:00 to 3:00 pm. A preparation link was shared by the school to help children learn about communication before Friday and Saturday. It is also useful for children who cannot attend.",
    "date": "2026-10-15",
    "due": "",
    "kind": "activity",
-   "title": "Scout radio event tomorrow, Fri 16 Oct",
-   "id": "a_jota_oct15"
+   "title": "Scout radio event tomorrow, Fri 16 Oct"
   },
   {
+   "id": "a_natday",
    "body": "Families invited 12:30 to 2:00 pm in the Multipurpose Hall. Outfit of choice, nut-free treats welcome. Dismissal 1:30 pm if not attending.",
    "date": "2026-09-22",
    "kind": "activity",
-   "title": "Saudi National Day celebration",
-   "id": "a_natday"
+   "title": "Saudi National Day celebration"
   },
   {
+   "id": "a_noclubs_oct8",
    "body": "There are no after-school clubs today, Thursday 8 October. Please collect your child at 1:30 pm as usual.",
    "date": "2026-10-08",
    "due": "",
    "kind": "activity",
-   "title": "No after-school clubs today, Thu 8 Oct",
-   "id": "a_noclubs_oct8"
+   "title": "No after-school clubs today, Thu 8 Oct"
   },
   {
+   "id": "a_online",
    "body": "Ministry of Education guidance moved learning online for the day. On-campus classes resumed 28 Sep.",
    "date": "2026-09-27",
    "kind": "activity",
-   "title": "Campus closed, learning online",
-   "id": "a_online"
+   "title": "Campus closed, learning online"
   },
   {
+   "id": "a_pe",
    "body": "Light exercise session from the PE teacher and the Year 5 Spanish worksheet, shared for the online day.",
    "date": "2026-09-27",
    "kind": "activity",
-   "title": "PE and Spanish at home",
-   "id": "a_pe"
+   "title": "PE and Spanish at home"
   },
   {
+   "id": "a_pinkday",
    "body": "Pink Day is on Thursday 22 October while online learning continues. Students are invited to wear something pink during their online lessons. The day celebrates kindness, compassion and community spirit.",
    "date": "2026-10-20",
    "due": "",
    "kind": "activity",
-   "title": "Pink Day, Thu 22 Oct",
-   "id": "a_pinkday"
+   "title": "Pink Day, Thu 22 Oct"
   },
   {
+   "id": "a_scouts",
    "body": "Scouts were welcomed to Buckswood Riyadh for Year 5 and Year 6. An orientation meeting is on Fri 2 Oct at 10:00 am, with a second one on 16 Oct at 10:00 am. Interested families were asked to complete the school's online form by 6:00 pm on 1 Oct.",
    "date": "2026-10-02",
    "due": "",
    "kind": "activity",
-   "title": "Scouts orientation meeting for Year 5 and 6 families",
-   "id": "a_scouts"
+   "title": "Scouts orientation meeting for Year 5 and 6 families"
   },
   {
+   "id": "n_arabic_desert",
    "body": "The class is studying the Arabic lesson on desertification, its causes and solutions, on page 36 of the Arabic textbook. Parents are asked to encourage children to listen to the audio text shared in Arabic and English. Students who have not yet collected their Arabic books should collect them from school.",
    "date": "2026-10-12",
    "due": "",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Year 5 Arabic: Desertification lesson",
-   "id": "n_arabic_desert"
+   "title": "Year 5 Arabic: Desertification lesson"
   },
   {
+   "id": "n_arabic_textbooks_oct19",
    "body": "The Arabic teacher asks parents to collect the Arabic language textbook from school. Students need it to follow, review and reinforce the topics covered in the online lessons.",
    "date": "2026-10-19",
    "due": "",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Collect the Arabic language textbook from school",
-   "id": "n_arabic_textbooks_oct19"
+   "title": "Collect the Arabic language textbook from school"
   },
   {
+   "id": "n_arrangements_oct17",
    "body": "The school has not yet received official information on returning to campus or extending online learning. On-site learning remains the normal arrangement unless a new official decision is announced. Families are asked to watch Edunation announcements through the day for confirmation.",
    "date": "2026-10-17",
    "due": "",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Learning arrangements for the coming week: awaiting official guidance",
-   "id": "n_arrangements_oct17"
+   "title": "Learning arrangements for the coming week: awaiting official guidance"
   },
   {
+   "id": "n_attendance_oct19",
    "body": "A student may show as absent in the Conference section of Edunation even after attending every lesson. That section records attendance through individual student accounts, which are still being set up for Primary students. The official attendance record is the one teachers enter manually for every lesson, and Conference absences will not affect a child's attendance record or report card.",
    "date": "2026-10-19",
    "due": "",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "Attendance shown in Edunation Conference section is not official",
-   "id": "n_attendance_oct19"
+   "title": "Attendance shown in Edunation Conference section is not official"
   },
   {
+   "id": "n_birthdays",
    "body": "Birthday celebrations now happen in the last lesson, 12:50 to 1:20 pm. Parents may cut the cake and take photos. Everything must finish by 1:20 pm because school buses leave at 1:25 pm.",
    "date": "2026-09-17",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "Birthdays at Buckswood Riyadh",
-   "id": "n_birthdays"
+   "title": "Birthdays at Buckswood Riyadh"
   },
   {
+   "id": "n_bullying",
    "body": "Students took part in a bullying awareness session led by a behaviour modification specialist, in collaboration with Vigour Locomotion Rehabilitation Center. It covered what bullying is, its effects, and treating others with empathy.",
    "date": "2026-09-21",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "Bullying awareness session",
-   "id": "n_bullying"
+   "title": "Bullying awareness session"
   },
   {
+   "id": "n_circletime",
    "body": "Classroom doors open at 7:40 am and students should be in class by 7:45 am at the latest. Some students keep playing in the playground until 8:00 am and miss Circle Time, which starts at 7:45 am. Families are asked to make sure children enter and join their class on time.",
    "date": "2026-09-30",
    "due": "",
    "kind": "announcement",
    "tag": "Routine",
-   "title": "Morning routine: Circle Time at 7:45 AM",
-   "id": "n_circletime"
+   "title": "Morning routine: Circle Time at 7:45 AM"
   },
   {
+   "id": "n_civil_defence_oct20",
+   "body": "Families are asked to follow official Civil Defence alerts during online learning. If an alert indicates a potential threat, teachers will pause the lesson and tell students to disconnect. Online lessons resume only once it is confirmed safe and in line with official guidance. Parents should help children follow teacher instructions promptly.",
+   "date": "2026-10-20",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Reminder: Online Learning Safety Procedure During Civil Defence Alerts"
+  },
+  {
+   "id": "n_club_confirm",
    "body": "Enrolled children got a confirmation announcement in Edunation. If you got none, your child is not in a Monday club and must be collected at 1:30 pm. Tuesday to Thursday confirmations followed.",
    "date": "2026-09-13",
    "kind": "announcement",
    "tag": "Clubs",
-   "title": "Club enrolment confirmation, Mon 14 Sep",
-   "id": "n_club_confirm"
+   "title": "Club enrolment confirmation, Mon 14 Sep"
   },
   {
+   "id": "n_club_open",
    "body": "Registration for Term 1 Not-So-Boring Clubs opened through an online form. Places are first come, first served.",
    "date": "2026-09-10",
    "kind": "announcement",
    "tag": "Clubs",
-   "title": "Term 1 clubs: registration open",
-   "id": "n_club_open"
+   "title": "Term 1 clubs: registration open"
   },
   {
+   "id": "n_club_remind",
    "body": "Some clubs still had places. Each child may keep at most two clubs. To swap, say in the form Notes which choice to remove, otherwise one is removed at random.",
    "date": "2026-09-11",
    "kind": "announcement",
    "tag": "Clubs",
-   "title": "Club registration reminder: limited spaces",
-   "id": "n_club_remind"
+   "title": "Club registration reminder: limited spaces"
   },
   {
+   "id": "n_collect",
    "body": "Children not in clubs are collected at 1:30 pm. Club children at 2:30 pm sharp. A sibling not in a club must still leave at 1:30 pm. Staff cannot supervise late pick-ups after 2:30 pm.",
    "date": "2026-09-15",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Timely student collection",
-   "id": "n_collect"
+   "title": "Timely student collection"
   },
   {
+   "id": "n_drt",
    "body": "A welcome message to Buckswood families about greeting children at the gate each morning.",
    "date": "2026-09-13",
    "kind": "announcement",
    "tag": "News",
-   "title": "A message from Dr. T",
-   "id": "n_drt"
+   "title": "A message from Dr. T"
   },
   {
+   "id": "n_drt_week1_online",
    "body": "The head thanked children, parents and teachers for a good first week of online learning and for the feedback shared. The school hopes next week brings everyone back together face to face on campus. No action is needed from families.",
    "date": "2026-10-15",
    "due": "",
    "kind": "announcement",
    "tag": "News",
-   "title": "A message from the head: end of first week of online learning",
-   "id": "n_drt_week1_online"
+   "title": "A message from the head: end of first week of online learning"
   },
   {
+   "id": "n_edupik",
    "body": "EduPik is a new dismissal feature in the Edunation app, trialled from the week of 20 Sep. Send the pickup request in the app between 1:20 and 1:45 pm. Dismissal starts 1:30 pm from the Multipurpose Hall. Keep the Edunation app installed and updated. Parent guides (English and Arabic) were attached to the email.",
    "date": "2026-09-16",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "EduPik dismissal system: parent information",
-   "id": "n_edupik"
+   "title": "EduPik dismissal system: parent information"
   },
   {
+   "id": "n_edupik2",
    "body": "EduPik started 20 Sep. Have the Edunation app downloaded, updated and working before collection time. EduPik is open 1:20 to 1:45 pm, dismissal begins 1:30 pm at the Multipurpose Hall. Contact the school if the app gives trouble.",
    "date": "2026-09-20",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Reminder: EduPik dismissal system starts today",
-   "id": "n_edupik2"
+   "title": "Reminder: EduPik dismissal system starts today"
   },
   {
+   "id": "n_hygiene",
    "body": "A brochure about the importance of personal hygiene for children was shared.",
    "date": "2026-09-13",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Personal hygiene awareness",
-   "id": "n_hygiene"
+   "title": "Personal hygiene awareness"
   },
   {
+   "id": "n_ibauth",
    "body": "After the recent IB PYP verification visit, the school received the official letter of acceptance from the IB. Buckswood School Riyadh is now an IB PYP Authorised School. The school thanked staff, students and the parents who met the visiting team.",
    "date": "2026-10-01",
    "due": "",
    "kind": "announcement",
    "tag": "News",
-   "title": "Buckswood is now an IB PYP Authorised School",
-   "id": "n_ibauth"
+   "title": "Buckswood is now an IB PYP Authorised School"
   },
   {
+   "id": "n_ibpyp",
    "body": "IB verification team visits 28 and 29 Sep. No after-school clubs on those days, school day and 1:30 pm dismissal unchanged.",
    "date": "2026-09-24",
    "kind": "announcement",
    "tag": "Events",
-   "title": "IB PYP verification visit and club update",
-   "id": "n_ibpyp"
+   "title": "IB PYP verification visit and club update"
   },
   {
+   "id": "n_islamic_culture",
    "body": "The Islamic Culture teacher has decided not to continue with the school. Lessons continue as normal, now led by the existing co-teacher who already knows the children and routines. Parents with questions should contact their child's class teacher first.",
    "date": "2026-10-07",
    "due": "",
    "kind": "announcement",
    "tag": "News",
-   "title": "Islamic Culture teacher change",
-   "id": "n_islamic_culture"
+   "title": "Islamic Culture teacher change"
   },
   {
+   "id": "n_jeans_remind",
    "body": "Jeans Day is tomorrow, Thursday 8 October 2026. Students may wear light blue or dark blue jeans only. The usual timetable and learning continue as normal, and teachers will explore the history of denim in class.",
    "date": "2026-10-07",
    "due": "",
    "kind": "announcement",
    "tag": "Events",
-   "title": "Reminder: Jeans Day tomorrow, Thu 8 Oct",
-   "id": "n_jeans_remind"
+   "title": "Reminder: Jeans Day tomorrow, Thu 8 Oct"
   },
   {
+   "id": "n_jewelry",
    "body": "Strict no-jewelry rule for all grades, for safety and safeguarding. Exceptions: a simple watch and one pair of small plain studs for girls with pierced ears.",
    "date": "2026-09-30",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "No jewelry policy",
-   "id": "n_jewelry"
+   "title": "No jewelry policy"
   },
   {
+   "id": "n_library",
    "body": "A library book and card came home. Return the book by Sunday and enjoy quiet reading time before then.",
    "date": "2026-09-17",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Year 5 parents: library book and card",
-   "id": "n_library"
+   "title": "Year 5 parents: library book and card"
   },
   {
+   "id": "n_natday2",
    "body": "Tue 22 Sep, 12:30 to 2:00 pm, Multipurpose Hall. Attending parents collect their child from the homeroom teacher after performances. Others: dismissal 1:30 pm. Thu 24 Sep is a normal school day.",
    "date": "2026-09-21",
    "kind": "announcement",
    "tag": "Events",
-   "title": "Saudi National Day celebration and arrangements",
-   "id": "n_natday2"
+   "title": "Saudi National Day celebration and arrangements"
   },
   {
+   "id": "n_natday_inv",
    "body": "Tue 22 Sep was a normal school day. Parents invited 12:30 to 2:00 pm for refreshments and to meet homeroom and subject teachers. Dress code: green and white. No clubs that day. Buses ran as usual.",
    "date": "2026-09-16",
    "kind": "announcement",
    "tag": "Events",
-   "title": "Saudi National Day celebration, 22 Sep",
-   "id": "n_natday_inv"
+   "title": "Saudi National Day celebration, 22 Sep"
   },
   {
+   "id": "n_nutfree",
    "body": "Strict nut-free rule: no peanuts, tree nuts, nut butters or spreads in lunchboxes, because some students and staff have severe allergies. From the Designated Safeguarding Lead and Head of Pastoral Care.",
    "date": "2026-09-15",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "Nut-free school policy",
-   "id": "n_nutfree"
+   "title": "Nut-free school policy"
   },
   {
+   "id": "n_online",
    "body": "Campuses closed on Ministry guidance. Teachers shared handouts in the morning, official online classes started the next day.",
    "date": "2026-09-27",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Online learning arrangements",
-   "id": "n_online"
+   "title": "Online learning arrangements"
   },
   {
+   "id": "n_online_etiquette_oct18",
    "body": "Mute microphones when talking to family or when there is background noise. Send questions for the teacher through the Edunation messaging app after the lesson ends. Family members who appear on camera should be dressed appropriately, and students should not eat during lessons, only at break times. Keep Edunation push notifications switched on.",
    "date": "2026-10-18",
    "due": "",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "Online classes: reminders for parents",
-   "id": "n_online_etiquette_oct18"
+   "title": "Online classes: reminders for parents"
   },
   {
+   "id": "n_online_extended_oct17",
    "body": "Following the latest Ministry of Education directives, online learning continues from Sunday 18 Oct to Thursday 22 Oct 2026. Students stay at home and all lessons are delivered online through Edunation and Zoom. Families should follow the updated online timetable already shared on Edunation.",
    "date": "2026-10-17",
    "due": "",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Online learning extended, 18 to 22 Oct",
-   "id": "n_online_extended_oct17"
+   "title": "Online learning extended, 18 to 22 Oct"
   },
   {
+   "id": "n_online_guide_oct13",
    "body": "The school shared a parent poster with tips to help children learn well during online classes. It covers getting ready before class, supporting your child during class, healthy routines after class and who to contact for help. Learners are asked to act respectfully, and a teacher may remove a learner who behaves inappropriately. For technical or attendance issues, message the homeroom or relevant teacher on Edunation.",
    "date": "2026-10-13",
    "due": "",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Guide to online learning for parents",
-   "id": "n_online_guide_oct13"
+   "title": "Guide to online learning for parents"
   },
   {
+   "id": "n_online_guidelines_oct19",
    "body": "Families are asked to set up a bright, organised learning space with books and stationery ready before each lesson. Students should keep cameras on throughout lessons unless the teacher says otherwise. Parents should stay quiet and let teachers lead live sessions without interruption, and send any concerns or feedback through Edunation instead. Younger learners may need extra parental support to settle in.",
    "date": "2026-10-19",
    "due": "",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "Guidelines for a positive online learning environment",
-   "id": "n_online_guidelines_oct19"
+   "title": "Guidelines for a positive online learning environment"
   },
   {
+   "id": "n_online_oct11",
    "body": "Following Ministry of Education directives, the school moved to online learning on Sunday 11 October 2026. Students stay home and do not attend campus. All lessons are delivered remotely through Edunation. Further updates on school operations will be shared as needed.",
    "date": "2026-10-11",
    "due": "",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Online learning, Sunday 11 Oct",
-   "id": "n_online_oct11"
+   "title": "Online learning, Sunday 11 Oct"
   },
   {
+   "id": "n_online_rules_oct13",
    "body": "The school shared its Online Learning Rules and etiquette document with parents. Families are asked to go through it with their child and help them understand the importance of being ready, respectful and responsible during online classes.",
    "date": "2026-10-13",
    "due": "",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "Online class rules and etiquette",
-   "id": "n_online_rules_oct13"
+   "title": "Online class rules and etiquette"
   },
   {
+   "id": "n_online_timetable_oct17",
    "body": "To give students more time away from screens, each online lesson is now 35 minutes, with the usual 10-minute breaks between lessons. Two longer breaks were added: 10:05 to 10:30 and 11:50 to 12:10. The school day stays 8:00 am to 1:30 pm. The new timings are already updated on Edunation.",
    "date": "2026-10-17",
    "due": "",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Online learning timetable updates for the coming week",
-   "id": "n_online_timetable_oct17"
+   "title": "Online learning timetable updates for the coming week"
   },
   {
+   "id": "n_online_tips_oct11",
    "body": "Students should be ready before the first lesson, seated in a quiet place with a charged device and stable internet. Keep the camera on, stay seated and follow the teacher's instructions. The online timetable differs slightly from usual, with a 10-minute break between lessons. A short tutorial video on logging in to Edunation and joining classes was attached.",
    "date": "2026-10-11",
    "due": "",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Online classes: reminders and tutorial video",
-   "id": "n_online_tips_oct11"
+   "title": "Online classes: reminders and tutorial video"
   },
   {
+   "id": "n_online_until_notice",
    "body": "Online learning will continue until further notice, in line with the latest Ministry of Education guidance. The school will share any change to the arrangements with all families promptly through Edunation.",
    "date": "2026-10-11",
    "due": "",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Online learning continues until further notice",
-   "id": "n_online_until_notice"
+   "title": "Online learning continues until further notice"
   },
   {
+   "id": "n_padlet_oct19",
    "body": "The class teacher is using a Padlet page to keep students' submitted work in one place during online learning. Last week's spelling test and maths practice are already there under each child's name. Parents are asked to upload this week's spelling test too, even if it was already sent. Feedback and marks stay private on Edunation, and new columns will be added for future work.",
    "date": "2026-10-19",
    "due": "",
    "kind": "task",
-   "title": "Upload Year 5 online work to the class Padlet",
-   "id": "n_padlet_oct19"
+   "title": "Upload Year 5 online work to the class Padlet"
   },
   {
+   "id": "n_pickupcard",
    "body": "The school is introducing an Authorised Pick-Up Card for families whose child is regularly collected by a driver, nanny or other authorised person. EduPik through Edunation continues as usual, and a pick-up request must still be created when the child is ready. The card shows the person's photo and details plus the names and classes of the children they may collect. To request one, complete the school's online form with a clear photo, one form per person, and tell the school in advance if the collector changes.",
    "date": "2026-10-07",
    "due": "",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Authorised Pick-Up Card for drivers and nannies",
-   "id": "n_pickupcard"
+   "title": "Authorised Pick-Up Card for drivers and nannies"
   },
   {
+   "id": "n_respiratory",
    "body": "The school nurse shared a notice after the Ministry of Health reported more respiratory infections this viral season. Families are encouraged to consider the seasonal flu vaccine, teach good hand hygiene and covering coughs, and avoid sharing personal items. Children with flu-like symptoms should stay home until they recover, and families should seek medical advice if symptoms are severe or persistent.",
    "date": "2026-10-07",
    "due": "",
    "kind": "announcement",
    "tag": "News",
-   "title": "Health notice: respiratory viruses",
-   "id": "n_respiratory"
+   "title": "Health notice: respiratory viruses"
   },
   {
+   "id": "n_resume",
    "body": "School back on campus 28 Sep. Arrive on time, return textbooks and handouts, buses run as normal, no clubs due to the IB visit.",
    "date": "2026-09-27",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Regular on-campus classes resume",
-   "id": "n_resume"
+   "title": "Regular on-campus classes resume"
   },
   {
+   "id": "n_routine",
    "body": "Dismissal 1:30 pm from the Multipurpose Hall (EduPik pickup window 1:20 to 1:45 pm). Club pick-up 2:30 pm. Birthday celebrations 12:50 to 1:20 pm. Buses leave from 1:25 pm. Nut-free school. No jewelry except a simple watch and small plain studs.",
    "date": "2026-09-20",
    "kind": "announcement",
    "tag": "Routine",
-   "title": "Daily timings at a glance",
-   "id": "n_routine"
+   "title": "Daily timings at a glance"
   },
   {
+   "id": "n_safety_online_oct14",
    "body": "Families are asked to watch for official Civil Defence alerts during online learning. If an alert signals a threat, teachers will pause the lesson and tell students to disconnect straight away. Lessons resume once it is confirmed safe, and children should follow teacher instructions promptly.",
    "date": "2026-10-14",
    "due": "",
    "kind": "announcement",
    "tag": "Policy",
-   "title": "Safety guidance during online learning",
-   "id": "n_safety_online_oct14"
+   "title": "Safety guidance during online learning"
   },
   {
+   "id": "n_safety_update",
    "body": "The school reassured families that all students are safe, well and fully accounted for. Staff are supervising students, monitoring the situation in real time and in contact with the relevant authorities. Any further updates or instructions will be shared through the Edunation app.",
    "date": "2026-10-08",
    "due": "",
    "kind": "announcement",
    "tag": "News",
-   "title": "Important safety update",
-   "id": "n_safety_update"
+   "title": "Important safety update"
   },
   {
+   "id": "n_spanish_online",
    "body": "The Spanish teacher shared the online lesson link for today along with the materials for the activities. A vocabulary image on travel (Mi viaje) was attached to the email.",
    "date": "2026-10-11",
    "due": "",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Year 5 online Spanish lesson, 11 Oct",
-   "id": "n_spanish_online"
+   "title": "Year 5 online Spanish lesson, 11 Oct"
   },
   {
+   "id": "n_staff",
    "body": "Front desk note about staff recruitment and development.",
    "date": "2026-09-24",
    "kind": "announcement",
    "tag": "News",
-   "title": "How Buckswood recruits, welcomes and develops its team",
-   "id": "n_staff"
+   "title": "How Buckswood recruits, welcomes and develops its team"
   },
   {
+   "id": "n_student_account_ready",
    "body": "Parents were sent two attachments: the child's account details with first-time login steps, and a student videos kit in English and Arabic. Parents are asked to help their child log in for the first time. The parent account continues to work as usual, so keep checking it for announcements.",
    "date": "2026-10-20",
    "due": "",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Edunation student account is ready",
-   "id": "n_student_account_ready"
+   "title": "Edunation student account is ready"
   },
   {
+   "id": "n_student_accounts",
    "body": "Individual student accounts are being introduced on Edunation, starting with Years 7, 6 and 5 and then the younger years. The homeroom teacher will share the student's new login email once the account is ready. Parents are asked to help their child log in for the first time. Parent accounts continue as usual, and some announcements will still go to parents only.",
    "date": "2026-10-13",
    "due": "",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Edunation student accounts coming, starting with Years 7, 6 and 5",
-   "id": "n_student_accounts"
+   "title": "Edunation student accounts coming, starting with Years 7, 6 and 5"
   },
   {
+   "id": "n_textbooks",
    "body": "Collect your child's textbooks from school before 3:30 pm because lessons were online this week.",
    "date": "2026-09-27",
    "kind": "announcement",
    "tag": "Logistics",
-   "title": "Textbook collection before 3:30 pm",
-   "id": "n_textbooks"
+   "title": "Textbook collection before 3:30 pm"
   },
   {
+   "id": "n_tutorial",
    "body": "A tutorial video was shared to help families join online classes through Edunation.",
    "date": "2026-09-27",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Edunation tutorial video for online classes",
-   "id": "n_tutorial"
+   "title": "Edunation tutorial video for online classes"
   },
   {
+   "id": "n_y5online",
    "body": "Maths, English and Science worksheets to complete at home, plus a science video.",
    "date": "2026-09-27",
    "kind": "announcement",
    "tag": "Learning",
-   "title": "Year 5 online activities, Sunday 27 Sep",
-   "id": "n_y5online"
+   "title": "Year 5 online activities, Sunday 27 Sep"
   },
   {
+   "id": "t_art_collage_oct19",
    "body": "For the final artwork in the unit Where We Are in Place and Time, Year 5 will use the collage technique. Students are asked to collect and bring old magazines, colourful posters, brochures or other colourful printed materials to the upcoming Art class. The materials will be used after the initial sketches and research are complete.",
    "date": "2026-10-19",
    "due": "",
    "kind": "task",
-   "title": "Year 5 Art: bring materials for the final collage",
-   "id": "t_art_collage_oct19"
+   "title": "Year 5 Art: bring materials for the final collage"
   },
   {
+   "id": "t_clubs",
    "body": "Online form, first come first served. Swap requests go in the Notes field.",
    "date": "2026-09-10",
    "due": "2026-09-13",
    "kind": "task",
-   "title": "Register for Term 1 clubs (max two)",
-   "id": "t_clubs"
+   "title": "Register for Term 1 clubs (max two)"
   },
   {
+   "id": "t_edupik_app",
    "body": "Needed for the daily pickup request (1:20 to 1:45 pm) and to keep receiving announcements.",
    "date": "2026-09-16",
    "due": "2026-09-20",
    "kind": "task",
-   "title": "Install and update the Edunation app for EduPik",
-   "id": "t_edupik_app"
+   "title": "Install and update the Edunation app for EduPik"
   },
   {
+   "id": "t_library",
    "body": "Library book and card came home on 17 Sep. Keep them safe and read together.",
    "date": "2026-09-17",
    "due": "2026-09-20",
    "kind": "task",
-   "title": "Return the library book",
-   "id": "t_library"
+   "title": "Return the library book"
   },
   {
+   "id": "t_spanish",
    "body": "As part of the Who We Are unit, each student does an individual Spanish project and picks ONE option: a short video about themselves and their culture, or a poster with a short class presentation. Deadline is Thursday 15 Oct. A document with instructions, vocabulary and examples was attached; read it together with your child.",
    "date": "2026-10-01",
    "due": "2026-10-15",
    "kind": "task",
-   "title": "Year 5 Spanish project: Mi identidad",
-   "id": "t_spanish"
+   "title": "Year 5 Spanish project: Mi identidad"
   },
   {
+   "id": "t_textbooks",
    "body": "Bring back the books collected for the online day when school reopens.",
    "date": "2026-09-27",
    "due": "2026-09-28",
    "kind": "task",
-   "title": "Return textbooks and handouts",
-   "id": "t_textbooks"
+   "title": "Return textbooks and handouts"
   },
   {
+   "id": "t_textbooks_oct11",
    "body": "Parents of students who were absent on Thursday 8 October, or who have not yet received their textbooks resource pack, are asked to collect them from the school today. Extended online learning is possible, so make sure your child has all needed textbooks and notebooks at home.",
    "date": "2026-10-11",
    "due": "2026-10-11",
    "kind": "task",
-   "title": "Collect textbooks and learning materials",
-   "id": "t_textbooks_oct11"
+   "title": "Collect textbooks and learning materials"
   },
   {
+   "id": "t_uniform",
    "body": "Only a simple watch and one pair of small plain studs for girls with pierced ears. Policy PDF attached to the email.",
    "date": "2026-09-30",
    "due": "",
    "kind": "task",
-   "title": "Read the uniform and no-jewelry policy",
-   "id": "t_uniform"
+   "title": "Read the uniform and no-jewelry policy"
   },
   {
+   "id": "t_worksheets",
    "body": "Seed Dispersal matching activity and counting back in 10s, plus the science video on the class link.",
    "date": "2026-09-27",
    "due": "2026-09-27",
    "kind": "task",
-   "title": "Year 5 worksheets: Maths, English, Science",
-   "id": "t_worksheets"
+   "title": "Year 5 worksheets: Maths, English, Science"
   },
   {
+   "id": "w_week1",
    "body": "Settling in and building friendships. Maths: Place Value unit. Reading: finding each child's level. Unit of Inquiry: Who We Are (culture, values, families, communities). Thanks to parents who contributed to the class Padlet.",
    "date": "2026-09-10",
    "kind": "weekly",
-   "title": "Year 5, end of week 1 (This Week in Leeds)",
-   "id": "w_week1"
+   "title": "Year 5, end of week 1 (This Week in Leeds)"
   },
   {
+   "id": "w_week2",
    "body": "English: biographies and autobiographies, key features and pair work. Maths: numbers in standard, word and expanded form, plus a Saudi Arabia shape project with number facts. Science: seedlings and how plants begin to grow. Drama: Martin Luther King Jr.'s speech and rights and responsibilities. A new student was named Student of the Week.",
    "date": "2026-09-17",
    "kind": "weekly",
-   "title": "Year 5, end of week 2",
-   "id": "w_week2"
+   "title": "Year 5, end of week 2"
   },
   {
+   "id": "w_week3",
    "body": "English, Drama and Unit of Inquiry: monologues and biographies, speaking and performance skills.\nMaths: numbers in standard, word and expanded form, counting in powers of 10.\nScience: pollination, seedlings and early plant growth.\nHighlight: Saudi National Day celebration.",
    "date": "2026-09-24",
    "kind": "weekly",
-   "title": "Year 5, end of week 3",
-   "id": "w_week3"
+   "title": "Year 5, end of week 3"
   },
   {
+   "id": "w_week4",
    "body": "Wrapping up the Who We Are unit: students studied five activists, presented freeze-frames and are writing and performing monologues. Maths: comparing numbers up to one million, negative numbers and a mental-arithmetic test. Science: seeds were planted and will be observed over the coming week. Highlight: the IB observation lesson went very well.",
    "date": "2026-10-01",
    "due": "",
    "kind": "weekly",
-   "title": "Year 5, end of week 4",
-   "id": "w_week4"
+   "title": "Year 5, end of week 4"
   },
   {
+   "id": "w_week5",
    "body": "Maths: Roman numerals and rounding numbers up to one million. Science: classroom plant observations finished and the plants went home to keep growing. The first Unit of Inquiry, Who We Are, closed with an assembly where students shared projects, freeze-frames and monologues. Photos and short videos of the assembly were attached to the email.",
    "date": "2026-10-08",
    "due": "",
    "kind": "weekly",
-   "title": "Year 5, end of week 5",
-   "id": "w_week5"
+   "title": "Year 5, end of week 5"
   },
   {
+   "id": "w_week6",
    "body": "English: the class began reading The Boy at the Back of the Class, linked to the new Unit of Inquiry, Where We Are in Place and Time (migration, belonging, friendship). Families are encouraged to get their child their own copy if possible. Science: the Earth's orbit and seasons. Maths: column addition, with column subtraction next week. Also covered: global trade in Global Citizenship, Britain's past and present in History, and friendship and inclusion in PSHE.",
    "date": "2026-10-15",
    "due": "",
    "kind": "weekly",
-   "title": "Year 5, end of week 6",
-   "id": "w_week6"
+   "title": "Year 5, end of week 6"
   }
  ],
  "events": [
   {
+   "id": "coffee",
    "end": "2026-09-15",
    "kind": "school",
    "start": "2026-09-15",
    "time": "14:30",
-   "title": "Year 5 coffee afternoon, 2:30 pm",
-   "id": "coffee"
+   "title": "Year 5 coffee afternoon, 2:30 pm"
   },
   {
+   "id": "ibpyp",
    "end": "2026-09-29",
    "kind": "school",
    "start": "2026-09-28",
    "time": "",
-   "title": "IB PYP verification visit, no after-school clubs",
-   "id": "ibpyp"
+   "title": "IB PYP verification visit, no after-school clubs"
   },
   {
+   "id": "jeans",
    "end": "2026-10-08",
    "kind": "school",
    "start": "2026-10-08",
    "time": "",
-   "title": "Jeans Day, blue jeans only",
-   "id": "jeans"
+   "title": "Jeans Day, blue jeans only"
   },
   {
+   "id": "jota",
    "end": "2026-10-16",
    "kind": "school",
    "start": "2026-10-16",
    "time": "13:00",
-   "title": "Scout radio event at school, 1:00 to 3:00 pm",
-   "id": "jota"
+   "title": "Scout radio event at school, 1:00 to 3:00 pm"
   },
   {
+   "id": "natday",
    "end": "2026-09-22",
    "kind": "school",
    "start": "2026-09-22",
    "time": "12:30",
-   "title": "Saudi National Day celebration, 12:30 to 2:00 pm",
-   "id": "natday"
+   "title": "Saudi National Day celebration, 12:30 to 2:00 pm"
   },
   {
+   "id": "noclubs_oct8",
    "end": "2026-10-08",
    "kind": "school",
    "start": "2026-10-08",
    "time": "",
-   "title": "No after-school clubs, collect at 1:30 pm",
-   "id": "noclubs_oct8"
+   "title": "No after-school clubs, collect at 1:30 pm"
   },
   {
+   "id": "online_oct11",
    "end": "2026-10-11",
    "kind": "school",
    "start": "2026-10-11",
    "time": "",
-   "title": "Online learning day, stay home",
-   "id": "online_oct11"
+   "title": "Online learning day, stay home"
   },
   {
+   "id": "online_oct18_22",
    "end": "2026-10-22",
    "kind": "school",
    "start": "2026-10-18",
    "time": "",
-   "title": "Online learning week, students stay home",
-   "id": "online_oct18_22"
+   "title": "Online learning week, students stay home"
   },
   {
+   "id": "pinkday",
    "end": "2026-10-22",
    "kind": "school",
    "start": "2026-10-22",
    "time": "",
-   "title": "Pink Day, wear pink in online lessons",
-   "id": "pinkday"
+   "title": "Pink Day, wear pink in online lessons"
   },
   {
+   "id": "scouts1",
    "end": "2026-10-02",
    "kind": "school",
    "start": "2026-10-02",
    "time": "10:00",
-   "title": "Scouts orientation meeting, 10:00 am",
-   "id": "scouts1"
+   "title": "Scouts orientation meeting, 10:00 am"
   },
   {
+   "id": "scouts2",
    "end": "2026-10-16",
    "kind": "school",
    "start": "2026-10-16",
    "time": "10:00",
-   "title": "Scouts orientation meeting (second), 10:00 am",
-   "id": "scouts2"
+   "title": "Scouts orientation meeting (second), 10:00 am"
   },
   {
+   "id": "spanish",
    "end": "2026-10-15",
    "kind": "school",
    "start": "2026-10-15",
    "time": "",
-   "title": "Year 5 Spanish project deadline",
-   "id": "spanish"
+   "title": "Year 5 Spanish project deadline"
   }
  ]
 }
