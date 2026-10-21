@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T10:48:00Z",
+ "updated": "2026-10-21T10:48:25Z",
  "items": [
   {
    "id": "a_clubs",
@@ -424,6 +424,15 @@
    "title": "Authorised Pick-Up Card for drivers and nannies"
   },
   {
+   "id": "n_pinkday_video_oct21",
+   "body": "Thursday 22 Oct is the last day of online learning before the term break, and it is Pink Day, so children wear something pink. Families are invited to record a short video of their child in an online lesson and send it to the school front desk. With permission, the school may feature these moments on its official social media.",
+   "date": "2026-10-21",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Pink Day tomorrow and share a video of online learning"
+  },
+  {
    "id": "n_respiratory",
    "body": "The school nurse shared a notice after the Ministry of Health reported more respiratory infections this viral season. Families are encouraged to consider the seasonal flu vaccine, teach good hand hygiene and covering coughs, and avoid sharing personal items. Children with flu-like symptoms should stay home until they recover, and families should seek medical advice if symptoms are severe or persistent.",
    "date": "2026-10-07",
@@ -540,6 +549,14 @@
    "due": "2026-09-13",
    "kind": "task",
    "title": "Register for Term 1 clubs (max two)"
+  },
+  {
+   "id": "t_creative_showcase_oct21",
+   "body": "Learners from KG1 to Year 7 create one original artwork inspired by one or more of the 12 school pillars, using any medium, including recycled materials from home. Add a label with the child's name, year group, title, chosen pillar(s) and a short explanation. Bring the finished artwork to school after the holidays for the showcase.",
+   "date": "2026-10-21",
+   "due": "",
+   "kind": "task",
+   "title": "Holiday art project for the Buckswood Creative Showcase"
   },
   {
    "id": "t_edupik_app",
