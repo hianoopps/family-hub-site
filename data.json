@@ -479,6 +479,13 @@
     "category": "Groceries",
     "note": "Groceries",
     "cur": "SAR"
+   },
+   "e1792684497637": {
+    "date": "2026-10-22",
+    "amount": 22,
+    "category": "Housing & Utilities",
+    "note": "Iorn",
+    "cur": "SAR"
    }
   },
   "school_done": {
