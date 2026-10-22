@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T09:30:00Z",
+ "updated": "2026-10-22T10:32:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -200,6 +200,15 @@
    "kind": "announcement",
    "tag": "Logistics",
    "title": "Timely student collection"
+  },
+  {
+   "id": "n_creative_showcase_oct22",
+   "body": "The school resent its Creative Showcase notice with the 12 pillars poster attached. Learners from KG1 to Year 7 make one original artwork inspired by one or more school pillars, in any medium including recycled materials. Add a label with name, year group, title, pillar(s) and a short explanation, and bring it to school after the holidays for the showcase.",
+   "date": "2026-10-22",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Buckswood Creative Showcase: holiday art project (resent)"
   },
   {
    "id": "n_drt",
