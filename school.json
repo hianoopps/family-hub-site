@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T10:48:25Z",
+ "updated": "2026-10-22T09:30:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -422,6 +422,15 @@
    "kind": "announcement",
    "tag": "Logistics",
    "title": "Authorised Pick-Up Card for drivers and nannies"
+  },
+  {
+   "id": "n_pinkday_today_oct22",
+   "body": "The school marks Pink Day today, with children wearing pink to spread kindness and hope. The message is that even the smallest act of kindness can brighten someone's day. No action is needed from families.",
+   "date": "2026-10-22",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Pink Day today, Thu 22 Oct"
   },
   {
    "id": "n_pinkday_video_oct21",
