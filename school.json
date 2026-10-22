@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T10:32:00Z",
+ "updated": "2026-10-22T14:35:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -150,6 +150,15 @@
    "kind": "announcement",
    "tag": "Policy",
    "title": "Bullying awareness session"
+  },
+  {
+   "id": "n_chronicles_oct22",
+   "body": "The school shared the first edition of The Buckswood Chronicle, a new weekly newsletter celebrating learning, achievements, activities and special moments. The Week 1 edition was attached to the announcement. No action is needed from families.",
+   "date": "2026-10-22",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "The Buckswood Chronicle: first weekly newsletter"
   },
   {
    "id": "n_circletime",
@@ -583,6 +592,14 @@
    "due": "2026-09-20",
    "kind": "task",
    "title": "Install and update the Edunation app for EduPik"
+  },
+  {
+   "id": "t_halfterm_oct22",
+   "body": "The class teacher asks for mostly offline activities over the half-term break. Maths: complete pages 1, 2 and 4 of the attached column addition and subtraction booklet, leaving the word problems on page 3 until after the break. English: finish the personal narratives about migration and post them on the class Padlet. Science: finish the seasonal changes poster and post it on the Padlet.",
+   "date": "2026-10-22",
+   "due": "",
+   "kind": "task",
+   "title": "Year 5 half-term offline practice"
   },
   {
    "id": "t_library",
