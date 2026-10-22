@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T14:35:00Z",
+ "updated": "2026-10-22T18:46:55Z",
  "items": [
   {
    "id": "a_clubs",
@@ -251,6 +251,15 @@
    "kind": "announcement",
    "tag": "Logistics",
    "title": "Reminder: EduPik dismissal system starts today"
+  },
+  {
+   "id": "n_halfterm_reflections_oct22",
+   "body": "The school thanked students, families and staff for their resilience and kindness during the past two weeks of online learning. It wished everyone a restful and happy half-term break. No action is needed from families.",
+   "date": "2026-10-22",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "End of Half-Term Reflections"
   },
   {
    "id": "n_hygiene",
