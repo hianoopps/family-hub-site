@@ -486,6 +486,13 @@
     "category": "Housing & Utilities",
     "note": "Iorn",
     "cur": "SAR"
+   },
+   "e1792790412000": {
+    "date": "2026-10-24",
+    "amount": 235,
+    "category": "Leisure & Sports",
+    "note": "Park",
+    "cur": "SAR"
    }
   },
   "school_done": {
