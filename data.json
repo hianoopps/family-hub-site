@@ -493,6 +493,13 @@
     "category": "Leisure & Sports",
     "note": "Park",
     "cur": "SAR"
+   },
+   "e1792851691256": {
+    "date": "2026-10-24",
+    "amount": 67,
+    "category": "Groceries",
+    "note": "Groceries",
+    "cur": "SAR"
    }
   },
   "school_done": {
