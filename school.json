@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T18:46:55Z",
+ "updated": "2026-10-25T09:00:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -14,6 +14,14 @@
    "date": "2026-09-15",
    "kind": "activity",
    "title": "Year 5 coffee afternoon"
+  },
+  {
+   "id": "a_hiking_nov13",
+   "body": "Pack 257 invites children aged 7 to 11 on a hike near Hidden Valley outside Riyadh on Friday 13 Nov, 8:00 am to 1:00 pm. Cost is 100 SAR per child, paid on the day, and a parent must stay for the whole event. Children need hiking shoes, a hat, a filled water bottle and a nut-free packed lunch, and those without shoes and a hat cannot take part. Register early through the online form, one per child.",
+   "date": "2026-10-25",
+   "due": "",
+   "kind": "activity",
+   "title": "Scout Pack hiking invitation, Fri 13 Nov"
   },
   {
    "id": "a_ibpyp",
@@ -712,6 +720,14 @@
    "start": "2026-09-15",
    "time": "14:30",
    "title": "Year 5 coffee afternoon, 2:30 pm"
+  },
+  {
+   "id": "hiking_nov13",
+   "end": "2026-11-13",
+   "kind": "school",
+   "start": "2026-11-13",
+   "time": "08:00",
+   "title": "Scout Pack hiking trip, 8:00 am to 1:00 pm"
   },
   {
    "id": "ibpyp",
