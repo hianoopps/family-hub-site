@@ -514,6 +514,13 @@
     "category": "Shopping",
     "note": "Noon",
     "cur": "SAR"
+   },
+   "e1792958095871": {
+    "date": "2026-10-25",
+    "amount": 33,
+    "category": "Food & Dining",
+    "note": "Food & Dining",
+    "cur": "SAR"
    }
   },
   "school_done": {
