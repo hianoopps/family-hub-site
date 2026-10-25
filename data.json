@@ -521,6 +521,13 @@
     "category": "Food & Dining",
     "note": "Food & Dining",
     "cur": "SAR"
+   },
+   "e1792958108448": {
+    "date": "2026-10-25",
+    "amount": 20,
+    "category": "Leisure & Sports",
+    "note": "Leisure & Sports",
+    "cur": "SAR"
    }
   },
   "school_done": {
