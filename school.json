@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T09:00:00Z",
+ "updated": "2026-10-28T13:05:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -98,6 +98,14 @@
    "due": "",
    "kind": "activity",
    "title": "Pink Day, Thu 22 Oct"
+  },
+  {
+   "id": "a_scout_costume_oct31",
+   "body": "Scout Pack 257 invites Buckswood students to an afternoon of costumes, fun and laughter this Saturday, 31 Oct, from 2:00 to 4:00 pm. Each family is asked to bring a sweet treat to share. Parents must stay with their children throughout, as it is not a drop-off event.",
+   "date": "2026-10-28",
+   "due": "",
+   "kind": "activity",
+   "title": "Scout Pack costume afternoon, Sat 31 Oct"
   },
   {
    "id": "a_scouts",
@@ -792,6 +800,14 @@
    "start": "2026-10-22",
    "time": "",
    "title": "Pink Day, wear pink in online lessons"
+  },
+  {
+   "id": "scout_costume_oct31",
+   "end": "2026-10-31",
+   "kind": "school",
+   "start": "2026-10-31",
+   "time": "14:00",
+   "title": "Scout Pack costume afternoon, 2:00 to 4:00 pm"
   },
   {
    "id": "scouts1",
