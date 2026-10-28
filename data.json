@@ -535,6 +535,13 @@
     "category": "Food & Dining",
     "note": "Food & Dining",
     "cur": "SAR"
+   },
+   "e1793194515227": {
+    "date": "2026-10-28",
+    "amount": 31,
+    "category": "Education",
+    "note": "Malu arts",
+    "cur": "SAR"
    }
   },
   "school_done": {
