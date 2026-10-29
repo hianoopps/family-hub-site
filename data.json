@@ -549,6 +549,13 @@
     "category": "Shopping",
     "note": "Shopping",
     "cur": "SAR"
+   },
+   "e1793300552534": {
+    "date": "2026-10-29",
+    "amount": 300,
+    "category": "Leisure & Sports",
+    "note": "Aqaarabia",
+    "cur": "SAR"
    }
   },
   "school_done": {
