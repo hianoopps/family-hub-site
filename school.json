@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T13:02:00Z",
+ "updated": "2026-10-31T21:00:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -405,6 +405,15 @@
    "title": "Guidelines for a positive online learning environment"
   },
   {
+   "id": "n_online_nov1_5",
+   "body": "Following Ministry of Education guidance, online learning continues from Sunday 1 Nov to Thursday 5 Nov 2026 through Edunation, on the regular timetable. Students should attend registration and all lessons on time, keep cameras on where possible and wear school uniform. Use a quiet learning space and keep family members off camera. Updates on returning to campus will follow when official information arrives.",
+   "date": "2026-10-31",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Online learning continues, 1 to 5 Nov"
+  },
+  {
    "id": "n_online_oct11",
    "body": "Following Ministry of Education directives, the school moved to online learning on Sunday 11 October 2026. Students stay home and do not attend campus. All lessons are delivered remotely through Edunation. Further updates on school operations will be shared as needed.",
    "date": "2026-10-11",
@@ -793,6 +802,14 @@
    "start": "2026-10-08",
    "time": "",
    "title": "No after-school clubs, collect at 1:30 pm"
+  },
+  {
+   "id": "online_nov1_5",
+   "end": "2026-11-05",
+   "kind": "school",
+   "start": "2026-11-01",
+   "time": "",
+   "title": "Online learning week, students stay home"
   },
   {
    "id": "online_oct11",
