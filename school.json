@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T13:05:00Z",
+ "updated": "2026-10-31T12:35:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -641,6 +641,14 @@
    "due": "2026-10-15",
    "kind": "task",
    "title": "Year 5 Spanish project: Mi identidad"
+  },
+  {
+   "id": "t_spanish_print_oct31",
+   "body": "The Spanish teacher asks parents to print the attached worksheet in advance, in case online learning continues, so the child is ready for this week's Spanish lesson.",
+   "date": "2026-10-31",
+   "due": "",
+   "kind": "task",
+   "title": "Print the Year 5 Spanish worksheet in case of online learning"
   },
   {
    "id": "t_textbooks",
