@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:35:00Z",
+ "updated": "2026-10-31T13:02:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -448,6 +448,15 @@
    "kind": "announcement",
    "tag": "Logistics",
    "title": "Online learning continues until further notice"
+  },
+  {
+   "id": "n_onsite_nov1",
+   "body": "After the half-term break, the school is awaiting final confirmation from the Ministry of Education and other authorities on returning to campus on Sunday 1 November 2026. The school plans to welcome students back, but this depends on official guidance. Any change to learning arrangements will be shared as soon as guidance is received.",
+   "date": "2026-10-31",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "On-site learning on Sun 1 Nov: awaiting official confirmation"
   },
   {
    "id": "n_padlet_oct19",
