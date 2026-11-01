@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T21:00:00Z",
+ "updated": "2026-11-01T08:10:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -570,6 +570,15 @@
    "kind": "announcement",
    "tag": "Learning",
    "title": "Edunation student account is ready"
+  },
+  {
+   "id": "n_student_account_reminder_nov1",
+   "body": "Student accounts for Years 4 to 7 are ready, and the homeroom teacher has already shared login details and instructions. Parents are asked to help their child activate the account and log in for the first time if not done yet. Student accounts give access to learning materials, activities and quizzes. Parent accounts remain the main channel for school communication, so keep checking them.",
+   "date": "2026-11-01",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Reminder: Edunation student accounts, Years 4 to 7"
   },
   {
    "id": "n_student_accounts",
