@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T08:10:00Z",
+ "updated": "2026-11-01T12:35:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -620,6 +620,14 @@
    "due": "",
    "kind": "task",
    "title": "Year 5 Art: bring materials for the final collage"
+  },
+  {
+   "id": "t_art_keep_nov1",
+   "body": "When in-person classes resume, bring all artwork completed during online art classes, including the 12 Pillars Exhibition piece. Write the child's full name, grade and section, and the artwork title on the back; 3D work needs a small label with the same details. Keep everything safe in a file or folder and do not discard any of it. The artwork will be displayed when learners return.",
+   "date": "2026-11-01",
+   "due": "",
+   "kind": "task",
+   "title": "Keep and label online-class artwork for school display"
   },
   {
    "id": "t_clubs",
