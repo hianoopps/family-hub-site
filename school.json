@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T12:35:00Z",
+ "updated": "2026-11-01T14:46:06Z",
  "items": [
   {
    "id": "a_clubs",
@@ -630,6 +630,14 @@
    "title": "Keep and label online-class artwork for school display"
   },
   {
+   "id": "t_art_materials_nov2",
+   "body": "Tomorrow's art lesson is the final outcome of the Animal Migration and Seasons project. Learners should bring old magazines (or coloured paper), glue sticks and scissors. They will make a collage showing how animal migration, seasons and environments connect.",
+   "date": "2026-11-01",
+   "due": "2026-11-02",
+   "kind": "task",
+   "title": "Bring art materials for Monday's art class"
+  },
+  {
    "id": "t_clubs",
    "body": "Online form, first come first served. Swap requests go in the Notes field.",
    "date": "2026-09-10",
@@ -764,6 +772,14 @@
   }
  ],
  "events": [
+  {
+   "id": "art_nov2",
+   "end": "2026-11-02",
+   "kind": "school",
+   "start": "2026-11-02",
+   "time": "",
+   "title": "Art class: bring magazines, glue, scissors"
+  },
   {
    "id": "coffee",
    "end": "2026-09-15",
