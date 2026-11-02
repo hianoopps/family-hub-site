@@ -598,6 +598,13 @@
     "category": "Groceries",
     "note": "Lulu",
     "cur": "SAR"
+   },
+   "e1793653247825": {
+    "date": "2026-11-03",
+    "amount": 62,
+    "category": "Food & Dining",
+    "note": "Food & Dining",
+    "cur": "SAR"
    }
   },
   "school_done": {
