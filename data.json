@@ -591,6 +591,13 @@
     "category": "Transport & Fuel",
     "note": "Car wash",
     "cur": "SAR"
+   },
+   "e1793653234890": {
+    "date": "2026-11-02",
+    "amount": 218,
+    "category": "Groceries",
+    "note": "Lulu",
+    "cur": "SAR"
    }
   },
   "school_done": {
