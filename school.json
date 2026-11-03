@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T10:00:00Z",
+ "updated": "2026-11-03T11:06:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -114,6 +114,14 @@
    "due": "",
    "kind": "activity",
    "title": "Scouts orientation meeting for Year 5 and 6 families"
+  },
+  {
+   "id": "a_spelling_nov8",
+   "body": "The next Year 5 spelling test is on Sunday 8 November. The word list was attached to the announcement as a PDF. The teacher will also send materials through announcements as well as group messages from now on.",
+   "date": "2026-11-03",
+   "due": "",
+   "kind": "activity",
+   "title": "Year 5 spelling test, Sun 8 Nov"
   },
   {
    "id": "n_arabic_desert",
@@ -932,6 +940,14 @@
    "start": "2026-10-15",
    "time": "",
    "title": "Year 5 Spanish project deadline"
+  },
+  {
+   "id": "spelling_nov8",
+   "end": "2026-11-08",
+   "kind": "school",
+   "start": "2026-11-08",
+   "time": "",
+   "title": "Year 5 spelling test"
   }
  ]
 }
