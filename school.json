@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:06:00Z",
+ "updated": "2026-11-03T15:00:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -122,6 +122,15 @@
    "due": "",
    "kind": "activity",
    "title": "Year 5 spelling test, Sun 8 Nov"
+  },
+  {
+   "id": "n_absence_islamic_nov3",
+   "body": "The Islamic Culture co-teacher recorded an absence for a student in the Year 5 online lesson on Tuesday 3 Nov. This is an automatic attendance notice from Edunation. If the child did attend, message the homeroom teacher on Edunation.",
+   "date": "2026-11-03",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Routine",
+   "title": "Absence recorded in Islamic Culture lesson, 3 Nov"
   },
   {
    "id": "n_arabic_desert",
