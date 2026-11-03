@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T08:12:00Z",
+ "updated": "2026-11-03T10:00:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -693,6 +693,14 @@
    "due": "2026-09-20",
    "kind": "task",
    "title": "Return the library book"
+  },
+  {
+   "id": "t_padlet_nov3",
+   "body": "The class teacher has added this week's sections on the Padlet for work that needs to be submitted. A finished draft of the English migration story is also due on the Padlet by Thursday. Upload each piece of work to the correct column, as shown in the screenshot the teacher shared.",
+   "date": "2026-11-03",
+   "due": "2026-11-05",
+   "kind": "task",
+   "title": "Upload this week's Year 5 work to the class Padlet"
   },
   {
    "id": "t_spanish",
