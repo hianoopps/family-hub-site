@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T14:46:06Z",
+ "updated": "2026-11-03T08:12:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -150,6 +150,15 @@
    "kind": "announcement",
    "tag": "Policy",
    "title": "Attendance shown in Edunation Conference section is not official"
+  },
+  {
+   "id": "n_bebras_nov3",
+   "body": "The school shares the Bebras Mawhiba Competition on logical and computational thinking, open to Years 4 to 7 with no coding experience needed. It is held online on 5 Dec 2026 in English and Arabic, with a registration fee of SAR 60. Parents register and pay on the official competition website.",
+   "date": "2026-11-03",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Bebras Mawhiba 2026 competition for Years 4 to 7"
   },
   {
    "id": "n_birthdays",
@@ -638,6 +647,14 @@
    "title": "Bring art materials for Monday's art class"
   },
   {
+   "id": "t_bebras_nov3",
+   "body": "Families who want their child to take part register and pay SAR 60 on the official competition website, ideally by 20 Nov. After registering, tell the homeroom teacher so the school can keep a record.",
+   "date": "2026-11-03",
+   "due": "2026-11-20",
+   "kind": "task",
+   "title": "Register for Bebras Mawhiba (optional)"
+  },
+  {
    "id": "t_clubs",
    "body": "Online form, first come first served. Swap requests go in the Notes field.",
    "date": "2026-09-10",
@@ -779,6 +796,14 @@
    "start": "2026-11-02",
    "time": "",
    "title": "Art class: bring magazines, glue, scissors"
+  },
+  {
+   "id": "bebras_dec5",
+   "end": "2026-12-05",
+   "kind": "school",
+   "start": "2026-12-05",
+   "time": "",
+   "title": "Bebras Mawhiba online competition"
   },
   {
    "id": "coffee",
