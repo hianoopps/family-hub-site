@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T06:50:00Z",
+ "updated": "2026-11-04T10:08:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -518,6 +518,14 @@
    "kind": "announcement",
    "tag": "Logistics",
    "title": "Authorised Pick-Up Card for drivers and nannies"
+  },
+  {
+   "id": "n_pillars_share_nov4",
+   "body": "Parents and learners are asked to share clear pictures of completed 12 Pillars artwork or projects so the school can showcase them on its social media. Keep the original projects safe and in good condition, as they will be displayed at the on-site school exhibition once students return.",
+   "date": "2026-11-04",
+   "due": "",
+   "kind": "task",
+   "title": "Share photos of 12 Pillars projects; keep originals safe"
   },
   {
    "id": "n_pinkday_today_oct22",
