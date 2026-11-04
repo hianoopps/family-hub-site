@@ -612,6 +612,13 @@
     "category": "Food & Dining",
     "note": "Food & Dining",
     "cur": "SAR"
+   },
+   "e1793790547727": {
+    "date": "2026-11-04",
+    "amount": 680,
+    "category": "Leisure & Sports",
+    "note": "Malu skating",
+    "cur": "SAR"
    }
   },
   "school_done": {
