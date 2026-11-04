@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T15:00:00Z",
+ "updated": "2026-11-04T06:50:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -420,6 +420,15 @@
    "kind": "announcement",
    "tag": "Learning",
    "title": "Guide to online learning for parents"
+  },
+  {
+   "id": "n_online_guidelines_nov4",
+   "body": "As online learning continues, families are asked to provide a bright, organised learning area with books and stationery ready before each lesson. Students keep cameras on throughout lessons unless the teacher says otherwise. Parents should keep the room quiet and not interrupt live lessons, and send any concerns through Edunation instead. Younger learners may need extra parental support.",
+   "date": "2026-11-04",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Reminder: guidelines for a positive online learning environment"
   },
   {
    "id": "n_online_guidelines_oct19",
