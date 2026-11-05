@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T10:08:00Z",
+ "updated": "2026-11-05T08:25:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -520,6 +520,15 @@
    "title": "Authorised Pick-Up Card for drivers and nannies"
   },
   {
+   "id": "n_pillars_challenge_nov5",
+   "body": "The school invites families to join the Buckswood 12 Pillars Challenge, a campaign running through the year. Choose an experience linked to one of the 12 Pillars, take a photo of your child taking part and email it to the school's PR officer, saying which Pillar it shows and whether it may be featured on social media. There is no deadline and no competition; a poster with details was attached.",
+   "date": "2026-11-05",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "The 12 Pillars Challenge: family adventures across Saudi Arabia"
+  },
+  {
    "id": "n_pillars_share_nov4",
    "body": "Parents and learners are asked to share clear pictures of completed 12 Pillars artwork or projects so the school can showcase them on its social media. Keep the original projects safe and in good condition, as they will be displayed at the on-site school exhibition once students return.",
    "date": "2026-11-04",
@@ -729,6 +738,14 @@
    "title": "Return the library book"
   },
   {
+   "id": "t_migration_tables_nov5",
+   "body": "The class data collection on the reasons people around us have migrated was attached as a PDF. Learners should draw these tables in their maths notebooks, with tally marks drawn in the tally section.",
+   "date": "2026-11-05",
+   "due": "",
+   "kind": "task",
+   "title": "Year 5 Maths: draw the migration data tables in the notebook"
+  },
+  {
    "id": "t_padlet_nov3",
    "body": "The class teacher has added this week's sections on the Padlet for work that needs to be submitted. A finished draft of the English migration story is also due on the Padlet by Thursday. Upload each piece of work to the correct column, as shown in the screenshot the teacher shared.",
    "date": "2026-11-03",
@@ -751,6 +768,14 @@
    "due": "",
    "kind": "task",
    "title": "Print the Year 5 Spanish worksheet in case of online learning"
+  },
+  {
+   "id": "t_spanish_ser_estar_nov5",
+   "body": "The Spanish teacher shared two short videos and practice games on the verbs SER and ESTAR, both meaning to be. Children should watch the videos and memorise the present-tense conjugation of both verbs with all pronouns. SER is for identity, origin and characteristics; ESTAR is for location, feelings and temporary states.",
+   "date": "2026-11-05",
+   "due": "",
+   "kind": "task",
+   "title": "Spanish revision: SER and ESTAR (Years 4 to 7)"
   },
   {
    "id": "t_textbooks",
