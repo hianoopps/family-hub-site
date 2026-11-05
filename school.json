@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T10:06:00Z",
+ "updated": "2026-11-05T12:12:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -200,6 +200,15 @@
    "kind": "announcement",
    "tag": "Policy",
    "title": "Bullying awareness session"
+  },
+  {
+   "id": "n_chronicle_wk2_nov5",
+   "body": "The school shared the second edition of The Buckswood Chronicle, its weekly newsletter on learning, achievements, activities and special moments. The Week 2 edition was attached to the announcement. No action is needed from families.",
+   "date": "2026-11-05",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "The Buckswood Chronicle: Week 2 edition"
   },
   {
    "id": "n_chronicles_oct22",
@@ -613,6 +622,15 @@
    "kind": "announcement",
    "tag": "Learning",
    "title": "Year 5 online Spanish lesson, 11 Oct"
+  },
+  {
+   "id": "n_spanish_weekly_nov5",
+   "body": "This week Year 5 practised writing 'Me gustaría viajar...' sentences with a destination, who they travel with and the means of transport, using the words con and en. A short revision of the verbs ser and estar was shared again, and students should review it at home. A worksheet was attached; please print it in advance in case online learning continues next week.",
+   "date": "2026-11-05",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Year 5 Spanish weekly update: travel sentences"
   },
   {
    "id": "n_staff",
