@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T08:25:00Z",
+ "updated": "2026-11-05T10:06:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -7,6 +7,14 @@
    "date": "2026-09-14",
    "kind": "activity",
    "title": "Term 1 Not-So-Boring Clubs"
+  },
+  {
+   "id": "a_coding_olympiad_nov28",
+   "body": "The school recommends the free International Coding Olympiad (Computer Science) for Years 4 to 7. It is held online from home on Saturday 28 Nov 2026 at 10:00 am (local time): 60 minutes, 25 multiple-choice questions, in English. Parents register on the official website, choosing Computer Science (Free), then tell the homeroom teacher so the school can keep a record.",
+   "date": "2026-11-05",
+   "due": "",
+   "kind": "activity",
+   "title": "International Coding Olympiad (free), Sat 28 Nov"
   },
   {
    "id": "a_coffee",
@@ -871,6 +879,14 @@
    "start": "2026-12-05",
    "time": "",
    "title": "Bebras Mawhiba online competition"
+  },
+  {
+   "id": "coding_olympiad_nov28",
+   "end": "2026-11-28",
+   "kind": "school",
+   "start": "2026-11-28",
+   "time": "10:00",
+   "title": "International Coding Olympiad (online, 10:00 am)"
   },
   {
    "id": "coffee",
