@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T12:12:00Z",
+ "updated": "2026-11-05T14:47:08Z",
  "items": [
   {
    "id": "a_clubs",
@@ -879,6 +879,14 @@
    "due": "",
    "kind": "weekly",
    "title": "Year 5, end of week 6"
+  },
+  {
+   "id": "w_week7",
+   "body": "The class teacher thanked students, parents and the school for another week of online learning and praised the children's progress over the past three weeks. This week students made their own bar graphs from the migration data the class collected and organised into a table. Parents are reminded to check the class Padlet and upload any work from this week. The teacher hopes for a return to offline learning soon.",
+   "date": "2026-11-05",
+   "due": "",
+   "kind": "weekly",
+   "title": "Year 5, end of week 7 (online learning)"
   }
  ],
  "events": [
