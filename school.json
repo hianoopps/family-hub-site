@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T14:47:08Z",
+ "updated": "2026-11-07T12:46:19Z",
  "items": [
   {
    "id": "a_clubs",
@@ -518,6 +518,15 @@
    "kind": "announcement",
    "tag": "Logistics",
    "title": "On-site learning on Sun 1 Nov: awaiting official confirmation"
+  },
+  {
+   "id": "n_onsite_nov8",
+   "body": "The school is awaiting final confirmation from the Ministry of Education and other authorities on resuming on-site learning on Sunday 8 November 2026. The school hopes to welcome students back, but this depends on official guidance. Any change to learning arrangements will be shared through Edunation as soon as guidance is received.",
+   "date": "2026-11-07",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "On-site learning on Sun 8 Nov: awaiting official confirmation"
   },
   {
    "id": "n_padlet_oct19",
