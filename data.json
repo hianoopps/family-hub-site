@@ -682,6 +682,13 @@
     "category": "Shopping",
     "note": "IKEA",
     "cur": "SAR"
+   },
+   "e1794080406048": {
+    "date": "2026-11-07",
+    "amount": 37,
+    "category": "Food & Dining",
+    "note": "Food & Dining",
+    "cur": "SAR"
    }
   },
   "school_done": {
