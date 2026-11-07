@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:46:19Z",
+ "updated": "2026-11-07T19:00:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -529,6 +529,15 @@
    "title": "On-site learning on Sun 8 Nov: awaiting official confirmation"
   },
   {
+   "id": "n_onsite_resume_nov8",
+   "body": "Buckswood School Riyadh resumes on-site learning tomorrow, Sunday 8 November 2026, following guidance from the Ministry of Education and other authorities. Established safety protocols, including emergency and shelter-in-place procedures, remain in place. Families with concerns about their child's return should contact the school.",
+   "date": "2026-11-07",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "On-site learning resumes Sun 8 Nov"
+  },
+  {
    "id": "n_padlet_oct19",
    "body": "The class teacher is using a Padlet page to keep students' submitted work in one place during online learning. Last week's spelling test and maths practice are already there under each child's name. Parents are asked to upload this week's spelling test too, even if it was already sent. Feedback and marks stay private on Edunation, and new columns will be added for future work.",
    "date": "2026-10-19",
@@ -1002,6 +1011,14 @@
    "start": "2026-10-18",
    "time": "",
    "title": "Online learning week, students stay home"
+  },
+  {
+   "id": "onsite_resume_nov8",
+   "end": "2026-11-08",
+   "kind": "school",
+   "start": "2026-11-08",
+   "time": "",
+   "title": "Back on campus: on-site learning resumes"
   },
   {
    "id": "pinkday",
