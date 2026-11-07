@@ -675,6 +675,13 @@
     "category": "Shopping",
     "note": "Dress",
     "cur": "SAR"
+   },
+   "e1794080369156": {
+    "date": "2026-11-07",
+    "amount": 160,
+    "category": "Shopping",
+    "note": "IKEA",
+    "cur": "SAR"
    }
   },
   "school_done": {
