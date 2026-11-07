@@ -668,6 +668,13 @@
     "category": "Food & Dining",
     "note": "Food & Dining",
     "cur": "SAR"
+   },
+   "e1794080348988": {
+    "date": "2026-11-07",
+    "amount": 90,
+    "category": "Shopping",
+    "note": "Dress",
+    "cur": "SAR"
    }
   },
   "school_done": {
