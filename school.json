@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:00:00Z",
+ "updated": "2026-11-08T06:46:30Z",
  "items": [
   {
    "id": "a_clubs",
@@ -310,6 +310,15 @@
    "kind": "announcement",
    "tag": "Logistics",
    "title": "Reminder: EduPik dismissal system starts today"
+  },
+  {
+   "id": "n_emergency_guide_nov8",
+   "body": "The school shared its Emergency Preparedness Guide as an attachment. It explains how the school prepares for emergencies, keeps students safe, and informs families. It also covers how parents can help during an emergency, student collection procedures, and how to get updates through official channels. Parents are encouraged to read it.",
+   "date": "2026-11-08",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Policy",
+   "title": "Emergency Preparedness Guide"
   },
   {
    "id": "n_halfterm_reflections_oct22",
@@ -631,6 +640,15 @@
    "kind": "announcement",
    "tag": "News",
    "title": "Important safety update"
+  },
+  {
+   "id": "n_safety_wellbeing_nov8",
+   "body": "The school reassured families that all students are safe and well and the situation remains stable. Parents will be contacted directly if anything needs their attention. No action is needed from families.",
+   "date": "2026-11-08",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "Student safety and well-being: important update"
   },
   {
    "id": "n_spanish_online",
