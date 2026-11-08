@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:46:30Z",
+ "updated": "2026-11-08T12:31:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -7,6 +7,14 @@
    "date": "2026-09-14",
    "kind": "activity",
    "title": "Term 1 Not-So-Boring Clubs"
+  },
+  {
+   "id": "a_clubs_resume_nov16",
+   "body": "After the extended period of online learning, the school is giving children time to settle back into routines first. Clubs will resume from Monday 16 November 2026.",
+   "date": "2026-11-08",
+   "due": "",
+   "kind": "activity",
+   "title": "After-school clubs resume Mon 16 Nov"
   },
   {
    "id": "a_coding_olympiad_nov28",
@@ -941,6 +949,14 @@
    "start": "2026-12-05",
    "time": "",
    "title": "Bebras Mawhiba online competition"
+  },
+  {
+   "id": "clubs_resume_nov16",
+   "end": "2026-11-16",
+   "kind": "school",
+   "start": "2026-11-16",
+   "time": "",
+   "title": "After-school clubs resume"
   },
   {
    "id": "coding_olympiad_nov28",
