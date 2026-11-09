@@ -710,6 +710,13 @@
     "category": "Food & Dining",
     "note": "Food & Dining",
     "cur": "SAR"
+   },
+   "e1794258162414": {
+    "date": "2026-11-10",
+    "amount": 477,
+    "category": "Groceries",
+    "note": "Carrefour",
+    "cur": "SAR"
    }
   },
   "school_done": {
