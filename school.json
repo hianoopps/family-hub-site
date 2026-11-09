@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T12:31:00Z",
+ "updated": "2026-11-09T12:30:00Z",
  "items": [
   {
    "id": "a_clubs",
@@ -130,6 +130,14 @@
    "due": "",
    "kind": "activity",
    "title": "Scouts orientation meeting for Year 5 and 6 families"
+  },
+  {
+   "id": "a_spelling_nov15",
+   "body": "The next Year 5 spelling test is on Sunday 15 November. The word list was attached to the announcement as a PDF. The class will practise the words over the week, and families are asked to review them over the weekend.",
+   "date": "2026-11-09",
+   "due": "",
+   "kind": "activity",
+   "title": "Year 5 spelling test, Sun 15 Nov"
   },
   {
    "id": "a_spelling_nov8",
@@ -659,6 +667,15 @@
    "title": "Student safety and well-being: important update"
   },
   {
+   "id": "n_safety_wellbeing_nov9",
+   "body": "The school reassured families that all learners are safe and doing well. It is closely monitoring the current situation, and the safety and wellbeing of students and staff remain its highest priority. Families will be updated on any important developments. No action is needed.",
+   "date": "2026-11-09",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "Update on students' safety and wellbeing, 9 Nov"
+  },
+  {
    "id": "n_spanish_online",
    "body": "The Spanish teacher shared the online lesson link for today along with the materials for the activities. A vocabulary image on travel (Mi viaje) was attached to the email.",
    "date": "2026-10-11",
@@ -1093,6 +1110,14 @@
    "start": "2026-10-15",
    "time": "",
    "title": "Year 5 Spanish project deadline"
+  },
+  {
+   "id": "spelling_nov15",
+   "end": "2026-11-15",
+   "kind": "school",
+   "start": "2026-11-15",
+   "time": "",
+   "title": "Year 5 spelling test"
   },
   {
    "id": "spelling_nov8",
