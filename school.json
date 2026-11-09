@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T12:30:00Z",
+ "updated": "2026-11-09T08:46:36Z",
  "items": [
   {
    "id": "a_clubs",
@@ -825,6 +825,14 @@
    "title": "Return the library book"
   },
   {
+   "id": "t_library_return_nov10",
+   "body": "Parents are asked to make sure their child returns the library book, library card and all worksheets from the online classes. Send the items to school tomorrow, Tuesday 10 Nov, and hand them to the class teacher.",
+   "date": "2026-11-09",
+   "due": "2026-11-10",
+   "kind": "task",
+   "title": "Return library book, card and online-class worksheets"
+  },
+  {
    "id": "t_migration_tables_nov5",
    "body": "The class data collection on the reasons people around us have migrated was attached as a PDF. Learners should draw these tables in their maths notebooks, with tally marks drawn in the tally section.",
    "date": "2026-11-05",
@@ -839,6 +847,14 @@
    "due": "2026-11-05",
    "kind": "task",
    "title": "Upload this week's Year 5 work to the class Padlet"
+  },
+  {
+   "id": "t_return_materials_art_nov9",
+   "body": "After the period of online schooling, all students bring back the worksheets completed at home, the notebooks used during online learning and the textbooks used at home, so teachers can review and grade the work. Students should also bring their 12 Pillars artwork for the competition, with the child's name and class clearly written on the back.",
+   "date": "2026-11-09",
+   "due": "",
+   "kind": "task",
+   "title": "Return online-learning materials and bring 12 Pillars artwork"
   },
   {
    "id": "t_spanish",
@@ -1022,6 +1038,14 @@
    "start": "2026-10-16",
    "time": "13:00",
    "title": "Scout radio event at school, 1:00 to 3:00 pm"
+  },
+  {
+   "id": "library_return_nov10",
+   "end": "2026-11-10",
+   "kind": "school",
+   "start": "2026-11-10",
+   "time": "",
+   "title": "Return library book, card and worksheets"
   },
   {
    "id": "natday",
