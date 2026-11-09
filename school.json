@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T08:46:36Z",
+ "updated": "2026-11-09T18:47:30Z",
  "items": [
   {
    "id": "a_clubs",
@@ -480,6 +480,15 @@
    "kind": "announcement",
    "tag": "Policy",
    "title": "Guidelines for a positive online learning environment"
+  },
+  {
+   "id": "n_online_nov10",
+   "body": "Following the latest government announcement, learning continues online on Tuesday 10 November 2026 through Edunation. Arrangements for the rest of the week will be shared once official guidance is received. Parents are asked to follow official announcements and school communications.",
+   "date": "2026-11-09",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Online learning on Tuesday 10 Nov"
   },
   {
    "id": "n_online_nov1_5",
@@ -1062,6 +1071,14 @@
    "start": "2026-10-08",
    "time": "",
    "title": "No after-school clubs, collect at 1:30 pm"
+  },
+  {
+   "id": "online_nov10",
+   "end": "2026-11-10",
+   "kind": "school",
+   "start": "2026-11-10",
+   "time": "",
+   "title": "Online learning, students stay home"
   },
   {
    "id": "online_nov1_5",
