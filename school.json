@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:45:00Z",
+ "updated": "2026-11-12T12:47:13Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -234,6 +234,15 @@
    "tag": "News",
    "title": "The Buckswood Chronicle: Week 2 edition",
    "id": "n_chronicle_wk2_nov5"
+  },
+  {
+   "body": "The school shared the third edition of The Buckswood Chronicle, its weekly newsletter on learning, achievements, activities and special moments. The Week 3 edition was attached to the announcement. No action is needed from families.",
+   "date": "2026-11-12",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "The Buckswood Chronicle: Week 3 edition",
+   "id": "n_chronicle_wk3_nov12"
   },
   {
    "body": "The school shared the first edition of The Buckswood Chronicle, a new weekly newsletter celebrating learning, achievements, activities and special moments. The Week 1 edition was attached to the announcement. No action is needed from families.",
@@ -949,6 +958,14 @@
    "id": "t_worksheets"
   },
   {
+   "body": "The class teacher shared a Maths worksheet and an English template for the final draft of the migration story. The second page of the English template can be printed more than once if a child needs more space. For World Kindness Day on Fri 13 Nov there is a weekend Kindness Bingo activity; send it in by Sunday.",
+   "date": "2026-11-12",
+   "due": "2026-11-15",
+   "kind": "task",
+   "title": "Year 5 worksheets for next week and Kindness Bingo",
+   "id": "t_worksheets_kindness_nov12"
+  },
+  {
    "body": "Settling in and building friendships. Maths: Place Value unit. Reading: finding each child's level. Unit of Inquiry: Who We Are (culture, values, families, communities). Thanks to parents who contributed to the class Padlet.",
    "date": "2026-09-10",
    "kind": "weekly",
@@ -1000,6 +1017,14 @@
    "kind": "weekly",
    "title": "Year 5, end of week 7 (online learning)",
    "id": "w_week7"
+  },
+  {
+   "body": "The class teacher thanked families for another week of support and for submitting tasks on time. It was an odd week, with two days in person and then back to online learning. Two students were named Students of the Week.",
+   "date": "2026-11-12",
+   "due": "",
+   "kind": "weekly",
+   "title": "Year 5, end of week 8 (online learning)",
+   "id": "w_week8"
   }
  ],
  "events": [
@@ -1074,6 +1099,14 @@
    "time": "13:00",
    "title": "Scout radio event at school, 1:00 to 3:00 pm",
    "id": "jota"
+  },
+  {
+   "end": "2026-11-15",
+   "kind": "school",
+   "start": "2026-11-15",
+   "time": "",
+   "title": "Kindness Bingo due",
+   "id": "kindness_bingo_nov15"
   },
   {
    "end": "2026-11-10",
