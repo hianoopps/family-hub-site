@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T12:47:13Z",
+ "updated": "2026-11-14T18:46:39Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -579,6 +579,15 @@
    "tag": "Logistics",
    "title": "Online learning continues until further notice",
    "id": "n_online_until_notice_nov10"
+  },
+  {
+   "body": "The school confirms online learning continues until further notice. Students should keep following their regular online timetables through Edunation. Parents who have not yet collected textbooks and notebooks are asked to collect them from school at their earliest convenience.",
+   "date": "2026-11-14",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Online learning remains in place until further notice",
+   "id": "n_online_until_notice_nov14"
   },
   {
    "body": "After the half-term break, the school is awaiting final confirmation from the Ministry of Education and other authorities on returning to campus on Sunday 1 November 2026. The school plans to welcome students back, but this depends on official guidance. Any change to learning arrangements will be shared as soon as guidance is received.",
