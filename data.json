@@ -738,6 +738,13 @@
     "category": "Shopping",
     "note": "Jarir",
     "cur": "SAR"
+   },
+   "e1794730528518": {
+    "date": "2026-11-14",
+    "amount": 735,
+    "category": "Leisure & Sports",
+    "note": "Party office",
+    "cur": "SAR"
    }
   },
   "school_done": {
