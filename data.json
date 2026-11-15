@@ -731,6 +731,13 @@
     "category": "Groceries",
     "note": "Lulu",
     "cur": "SAR"
+   },
+   "e1794730450230": {
+    "date": "2026-11-15",
+    "amount": 55,
+    "category": "Shopping",
+    "note": "Jarir",
+    "cur": "SAR"
    }
   },
   "school_done": {
