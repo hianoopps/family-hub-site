@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:30:00Z",
+ "updated": "2026-11-15T20:46:01Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -173,6 +173,15 @@
    "tag": "Logistics",
    "title": "Collect the Arabic language textbook from school",
    "id": "n_arabic_textbooks_oct19"
+  },
+  {
+   "body": "A new Arabic unit called \"Where we are\" was published on Edunation for the Year 5 Arabic class. Families can open Edunation to view the unit and its content. No action is needed.",
+   "date": "2026-11-15",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "New Arabic unit \"Where we are\" published",
+   "id": "n_arabic_unit_nov15"
   },
   {
    "body": "The school has not yet received official information on returning to campus or extending online learning. On-site learning remains the normal arrangement unless a new official decision is announced. Families are asked to watch Edunation announcements through the day for confirmation.",
