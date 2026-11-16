@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:47:16Z",
+ "updated": "2026-11-16T13:00:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -963,12 +963,28 @@
    "id": "t_spanish_print_oct31"
   },
   {
+   "body": "To close the unit Where We Are in Place and Time, each student chooses a traditional dish from their own or another country and presents it in simple Spanish next week. The presentation covers the dish's name, origin, main ingredients and taste, and can be the dish itself, a photo, a poster or a short video. If learning stays online, presentations can be done virtually. Parents are asked to send photos as evidence of learning and use the attached vocabulary to practise.",
+   "date": "2026-11-16",
+   "due": "",
+   "kind": "task",
+   "title": "Year 5 Spanish project: Sabores que viajan (Flavours That Travel)",
+   "id": "t_spanish_sabores_nov16"
+  },
+  {
    "body": "The Spanish teacher shared two short videos and practice games on the verbs SER and ESTAR, both meaning to be. Children should watch the videos and memorise the present-tense conjugation of both verbs with all pronouns. SER is for identity, origin and characteristics; ESTAR is for location, feelings and temporary states.",
    "date": "2026-11-05",
    "due": "",
    "kind": "task",
    "title": "Spanish revision: SER and ESTAR (Years 4 to 7)",
    "id": "t_spanish_ser_estar_nov5"
+  },
+  {
+   "body": "Learners are asked to complete their chosen Street Art artwork and share a clear picture of the finished work with the Art teacher. The artwork should carry a clear message, idea or meaning, with creative colours, lettering, symbols and designs. A reference presentation was attached to guide the work.",
+   "date": "2026-11-16",
+   "due": "",
+   "kind": "task",
+   "title": "Year 5 Art: finish and share Street Art artwork",
+   "id": "t_street_art_nov16"
   },
   {
    "body": "Bring back the books collected for the online day when school reopens.",
