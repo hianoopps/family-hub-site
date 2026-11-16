@@ -745,6 +745,13 @@
     "category": "Leisure & Sports",
     "note": "Party office",
     "cur": "SAR"
+   },
+   "e1794815709861": {
+    "date": "2026-11-15",
+    "amount": 30,
+    "category": "Food & Dining",
+    "note": "Food & Dining",
+    "cur": "SAR"
    }
   },
   "school_done": {
