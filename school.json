@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:00:00Z",
+ "updated": "2026-11-17T12:47:12Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -138,6 +138,14 @@
    "kind": "activity",
    "title": "Year 5 spelling test, Sun 15 Nov",
    "id": "a_spelling_nov15"
+  },
+  {
+   "body": "The next Year 5 spelling test is on Sunday 22 November. The word list was attached to the announcement as a PDF. The school apologised for the delay in sending it.",
+   "date": "2026-11-17",
+   "due": "",
+   "kind": "activity",
+   "title": "Year 5 spelling test, Sun 22 Nov",
+   "id": "a_spelling_nov22"
   },
   {
    "body": "The next Year 5 spelling test is on Sunday 8 November. The word list was attached to the announcement as a PDF. The teacher will also send materials through announcements as well as group messages from now on.",
@@ -1280,6 +1288,14 @@
    "time": "",
    "title": "Year 5 spelling test",
    "id": "spelling_nov15"
+  },
+  {
+   "end": "2026-11-22",
+   "kind": "school",
+   "start": "2026-11-22",
+   "time": "",
+   "title": "Year 5 spelling test",
+   "id": "spelling_nov22"
   },
   {
    "end": "2026-11-08",
