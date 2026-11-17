@@ -766,6 +766,13 @@
     "category": "Food & Dining",
     "note": "Food & Dining",
     "cur": "SAR"
+   },
+   "e1794944687075": {
+    "date": "2026-11-17",
+    "amount": 20,
+    "category": "Housing & Utilities",
+    "note": "Iorning",
+    "cur": "SAR"
    }
   },
   "school_done": {
