@@ -752,6 +752,13 @@
     "category": "Food & Dining",
     "note": "Food & Dining",
     "cur": "SAR"
+   },
+   "e1794944650331": {
+    "date": "2026-11-17",
+    "amount": 67,
+    "category": "Groceries",
+    "note": "Lulu",
+    "cur": "SAR"
    }
   },
   "school_done": {
