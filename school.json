@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:47:30Z",
+ "updated": "2026-11-18T16:47:30Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -860,6 +860,14 @@
    "id": "n_y5online"
   },
   {
+   "body": "After the lessons on desertification, children print and complete the attached brochure, then colour and decorate it. They write about one or more causes of desertification and suggest solutions, such as protecting the soil and planting trees. Parents take photos of the child working and of the finished brochure and send them to the Arabic teacher by 26 November.",
+   "date": "2026-11-18",
+   "due": "2026-11-26",
+   "kind": "task",
+   "title": "Year 5 Arabic: desertification awareness brochure",
+   "id": "t_arabic_desertification_nov18"
+  },
+  {
    "body": "For the final artwork in the unit Where We Are in Place and Time, Year 5 will use the collage technique. Students are asked to collect and bring old magazines, colourful posters, brochures or other colourful printed materials to the upcoming Art class. The materials will be used after the initial sketches and research are complete.",
    "date": "2026-10-19",
    "due": "",
@@ -1106,6 +1114,14 @@
   }
  ],
  "events": [
+  {
+   "end": "2026-11-26",
+   "kind": "school",
+   "start": "2026-11-26",
+   "time": "",
+   "title": "Arabic desertification brochure due",
+   "id": "arabic_brochure_nov26"
+  },
   {
    "end": "2026-11-02",
    "kind": "school",
