@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:46:29Z",
+ "updated": "2026-11-19T12:00:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -278,6 +278,15 @@
    "tag": "News",
    "title": "The Buckswood Chronicle: Week 3 edition",
    "id": "n_chronicle_wk3_nov12"
+  },
+  {
+   "body": "The school shared the fourth edition of The Buckswood Chronicle, its weekly newsletter on learning, achievements, activities and special moments. The Week 4 edition was attached to the announcement. No action is needed from families.",
+   "date": "2026-11-19",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "The Buckswood Chronicle: Week 4 edition",
+   "id": "n_chronicle_wk4_nov19"
   },
   {
    "body": "The school shared the first edition of The Buckswood Chronicle, a new weekly newsletter celebrating learning, achievements, activities and special moments. The Week 1 edition was attached to the announcement. No action is needed from families.",
@@ -1129,6 +1138,14 @@
    "kind": "weekly",
    "title": "Year 5, end of week 8 (online learning)",
    "id": "w_week8"
+  },
+  {
+   "body": "The class teacher thanked families for their ideas and support during online learning and reminded everyone about cameras on, a quiet space, uniform and materials ready. Unit of Inquiry: students complete a Global Citizenship and PSHE project on welcoming and supporting new students, and can post a video on the class Padlet or send it privately. English: personal narratives were finished in class, and anyone needing more time can complete them at home. Science: answer the written questions on page 168 of the Learner's Book in the science notebook and upload pages 167 and 168 to the class Padlet. Two Year 5 students were named Students of the Week.",
+   "date": "2026-11-19",
+   "due": "",
+   "kind": "weekly",
+   "title": "Year 5, end of week 9 (online learning)",
+   "id": "w_week9"
   }
  ],
  "events": [
