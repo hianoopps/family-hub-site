@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T08:46:42Z",
+ "updated": "2026-11-19T10:46:29Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -731,6 +731,15 @@
    "id": "n_pinkday_video_oct21"
   },
   {
+   "body": "Early Years and Primary parents are invited to an onsite Parent–Teacher Meeting and Coffee Afternoon on Saturday 28 November 2026, 1:00 to 4:00 p.m. at the school. Teachers and leadership will discuss learning, progress, wellbeing, online teaching approaches and extra student support. Parents are asked to attend without children where possible.",
+   "date": "2026-11-19",
+   "due": "",
+   "kind": "activity",
+   "tag": "Events",
+   "title": "Parent–Teacher Meeting & Coffee Afternoon",
+   "id": "n_ptm_coffee_nov28"
+  },
+  {
    "body": "The school nurse shared a notice after the Ministry of Health reported more respiratory infections this viral season. Families are encouraged to consider the seasonal flu vaccine, teach good hand hygiene and covering coughs, and avoid sharing personal items. Children with flu-like symptoms should stay home until they recover, and families should seek medical advice if symptoms are severe or persistent.",
    "date": "2026-10-07",
    "due": "",
@@ -1282,6 +1291,14 @@
    "time": "",
    "title": "Pink Day, wear pink in online lessons",
    "id": "pinkday"
+  },
+  {
+   "end": "2026-11-28",
+   "kind": "school",
+   "start": "2026-11-28",
+   "time": "13:00-16:00",
+   "title": "Parent–Teacher Meeting & Coffee Afternoon",
+   "id": "ptm_coffee_nov28"
   },
   {
    "end": "2026-10-31",
