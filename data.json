@@ -773,6 +773,13 @@
     "category": "Housing & Utilities",
     "note": "Iorning",
     "cur": "SAR"
+   },
+   "e1795279327467": {
+    "date": "2026-11-21",
+    "amount": 155,
+    "category": "Transport & Fuel",
+    "note": "Transport & Fuel",
+    "cur": "SAR"
    }
   },
   "school_done": {
