@@ -815,6 +815,13 @@
     "category": "Gifts",
     "note": "Gifts",
     "cur": "SAR"
+   },
+   "e1795279583737": {
+    "date": "2026-11-21",
+    "amount": 40,
+    "category": "Food & Dining",
+    "note": "Food & Dining",
+    "cur": "SAR"
    }
   },
   "school_done": {
