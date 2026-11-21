@@ -787,6 +787,13 @@
     "category": "Groceries",
     "note": "Groceries",
     "cur": "SAR"
+   },
+   "e1795279404844": {
+    "date": "2026-11-20",
+    "amount": 460,
+    "category": "Miscellaneous",
+    "note": "Birthday party",
+    "cur": "SAR"
    }
   },
   "school_done": {
