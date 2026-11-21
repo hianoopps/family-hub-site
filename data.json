@@ -808,6 +808,13 @@
     "category": "Housing & Utilities",
     "note": "Mobile",
     "cur": "SAR"
+   },
+   "e1795279544858": {
+    "date": "2026-11-21",
+    "amount": 140,
+    "category": "Gifts",
+    "note": "Gifts",
+    "cur": "SAR"
    }
   },
   "school_done": {
