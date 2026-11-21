@@ -801,6 +801,13 @@
     "category": "Shopping",
     "note": "Max",
     "cur": "SAR"
+   },
+   "e1795279529524": {
+    "date": "2026-11-21",
+    "amount": 81,
+    "category": "Housing & Utilities",
+    "note": "Mobile",
+    "cur": "SAR"
    }
   },
   "school_done": {
