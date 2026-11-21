@@ -794,6 +794,13 @@
     "category": "Miscellaneous",
     "note": "Birthday party",
     "cur": "SAR"
+   },
+   "e1795279470449": {
+    "date": "2026-11-21",
+    "amount": 410,
+    "category": "Shopping",
+    "note": "Max",
+    "cur": "SAR"
    }
   },
   "school_done": {
