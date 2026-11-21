@@ -780,6 +780,13 @@
     "category": "Transport & Fuel",
     "note": "Transport & Fuel",
     "cur": "SAR"
+   },
+   "e1795279341829": {
+    "date": "2026-11-21",
+    "amount": 40,
+    "category": "Groceries",
+    "note": "Groceries",
+    "cur": "SAR"
    }
   },
   "school_done": {
