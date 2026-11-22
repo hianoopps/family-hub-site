@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:50:00Z",
+ "updated": "2026-11-22T12:53:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -1097,6 +1097,14 @@
    "id": "t_textbooks_oct11",
    "kind": "task",
    "title": "Collect textbooks and learning materials"
+  },
+  {
+   "body": "As part of the 2D shapes unit, each child creates one display of triangles classified by sides (equilateral, isosceles, scalene) and by angles (acute, right-angled, obtuse), using clear labels and colours. Choose one format, such as a triangle museum, foldable booklet, triangle artwork, digital slides or a sorting game. Parents should supervise any cutting and let the child make and explain their own work.",
+   "date": "2026-11-22",
+   "due": "",
+   "id": "t_triangle_challenge_nov22",
+   "kind": "task",
+   "title": "Year 5 Maths: Creative Triangle Challenge"
   },
   {
    "body": "Only a simple watch and one pair of small plain studs for girls with pierced ears. Policy PDF attached to the email.",
