@@ -1,5 +1,238 @@
 {
- "updated": "2026-11-22T12:53:00Z",
+ "events": [
+  {
+   "end": "2026-11-26",
+   "id": "arabic_brochure_nov26",
+   "kind": "school",
+   "start": "2026-11-26",
+   "time": "",
+   "title": "Arabic desertification brochure due"
+  },
+  {
+   "end": "2026-11-02",
+   "id": "art_nov2",
+   "kind": "school",
+   "start": "2026-11-02",
+   "time": "",
+   "title": "Art class: bring magazines, glue, scissors"
+  },
+  {
+   "end": "2026-12-05",
+   "id": "bebras_dec5",
+   "kind": "school",
+   "start": "2026-12-05",
+   "time": "",
+   "title": "Bebras Mawhiba online competition"
+  },
+  {
+   "end": "2026-11-16",
+   "id": "clubs_resume_nov16",
+   "kind": "school",
+   "start": "2026-11-16",
+   "time": "",
+   "title": "After-school clubs resume"
+  },
+  {
+   "end": "2026-11-28",
+   "id": "coding_olympiad_nov28",
+   "kind": "school",
+   "start": "2026-11-28",
+   "time": "10:00",
+   "title": "International Coding Olympiad (online, 10:00 am)"
+  },
+  {
+   "end": "2026-09-15",
+   "id": "coffee",
+   "kind": "school",
+   "start": "2026-09-15",
+   "time": "14:30",
+   "title": "Year 5 coffee afternoon, 2:30 pm"
+  },
+  {
+   "end": "2026-11-13",
+   "id": "hiking_nov13",
+   "kind": "school",
+   "start": "2026-11-13",
+   "time": "08:00",
+   "title": "Scout Pack hiking trip, 8:00 am to 1:00 pm"
+  },
+  {
+   "end": "2026-09-29",
+   "id": "ibpyp",
+   "kind": "school",
+   "start": "2026-09-28",
+   "time": "",
+   "title": "IB PYP verification visit, no after-school clubs"
+  },
+  {
+   "end": "2026-10-08",
+   "id": "jeans",
+   "kind": "school",
+   "start": "2026-10-08",
+   "time": "",
+   "title": "Jeans Day, blue jeans only"
+  },
+  {
+   "end": "2026-10-16",
+   "id": "jota",
+   "kind": "school",
+   "start": "2026-10-16",
+   "time": "13:00",
+   "title": "Scout radio event at school, 1:00 to 3:00 pm"
+  },
+  {
+   "end": "2026-11-15",
+   "id": "kindness_bingo_nov15",
+   "kind": "school",
+   "start": "2026-11-15",
+   "time": "",
+   "title": "Kindness Bingo due"
+  },
+  {
+   "end": "2026-11-10",
+   "id": "library_return_nov10",
+   "kind": "school",
+   "start": "2026-11-10",
+   "time": "",
+   "title": "Return library book, card and worksheets"
+  },
+  {
+   "end": "2026-09-22",
+   "id": "natday",
+   "kind": "school",
+   "start": "2026-09-22",
+   "time": "12:30",
+   "title": "Saudi National Day celebration, 12:30 to 2:00 pm"
+  },
+  {
+   "end": "2026-10-08",
+   "id": "noclubs_oct8",
+   "kind": "school",
+   "start": "2026-10-08",
+   "time": "",
+   "title": "No after-school clubs, collect at 1:30 pm"
+  },
+  {
+   "end": "2026-11-10",
+   "id": "online_nov10",
+   "kind": "school",
+   "start": "2026-11-10",
+   "time": "",
+   "title": "Online learning, students stay home"
+  },
+  {
+   "end": "2026-11-05",
+   "id": "online_nov1_5",
+   "kind": "school",
+   "start": "2026-11-01",
+   "time": "",
+   "title": "Online learning week, students stay home"
+  },
+  {
+   "end": "2026-10-11",
+   "id": "online_oct11",
+   "kind": "school",
+   "start": "2026-10-11",
+   "time": "",
+   "title": "Online learning day, stay home"
+  },
+  {
+   "end": "2026-10-22",
+   "id": "online_oct18_22",
+   "kind": "school",
+   "start": "2026-10-18",
+   "time": "",
+   "title": "Online learning week, students stay home"
+  },
+  {
+   "end": "2026-11-08",
+   "id": "onsite_resume_nov8",
+   "kind": "school",
+   "start": "2026-11-08",
+   "time": "",
+   "title": "Back on campus: on-site learning resumes"
+  },
+  {
+   "end": "2026-10-22",
+   "id": "pinkday",
+   "kind": "school",
+   "start": "2026-10-22",
+   "time": "",
+   "title": "Pink Day, wear pink in online lessons"
+  },
+  {
+   "end": "2026-11-28",
+   "id": "ptm_coffee_nov28",
+   "kind": "school",
+   "start": "2026-11-28",
+   "time": "13:00-16:00",
+   "title": "Parent–Teacher Meeting & Coffee Afternoon"
+  },
+  {
+   "end": "2026-10-31",
+   "id": "scout_costume_oct31",
+   "kind": "school",
+   "start": "2026-10-31",
+   "time": "14:00",
+   "title": "Scout Pack costume afternoon, 2:00 to 4:00 pm"
+  },
+  {
+   "end": "2026-10-02",
+   "id": "scouts1",
+   "kind": "school",
+   "start": "2026-10-02",
+   "time": "10:00",
+   "title": "Scouts orientation meeting, 10:00 am"
+  },
+  {
+   "end": "2026-10-16",
+   "id": "scouts2",
+   "kind": "school",
+   "start": "2026-10-16",
+   "time": "10:00",
+   "title": "Scouts orientation meeting (second), 10:00 am"
+  },
+  {
+   "end": "2026-10-15",
+   "id": "spanish",
+   "kind": "school",
+   "start": "2026-10-15",
+   "time": "",
+   "title": "Year 5 Spanish project deadline"
+  },
+  {
+   "end": "2026-11-15",
+   "id": "spelling_nov15",
+   "kind": "school",
+   "start": "2026-11-15",
+   "time": "",
+   "title": "Year 5 spelling test"
+  },
+  {
+   "end": "2026-11-22",
+   "id": "spelling_nov22",
+   "kind": "school",
+   "start": "2026-11-22",
+   "time": "",
+   "title": "Year 5 spelling test"
+  },
+  {
+   "end": "2026-11-29",
+   "id": "spelling_nov29",
+   "kind": "school",
+   "start": "2026-11-29",
+   "time": "",
+   "title": "Year 5 spelling test"
+  },
+  {
+   "end": "2026-11-08",
+   "id": "spelling_nov8",
+   "kind": "school",
+   "start": "2026-11-08",
+   "time": "",
+   "title": "Year 5 spelling test"
+  }
+ ],
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -1198,240 +1431,16 @@
    "id": "w_week9",
    "kind": "weekly",
    "title": "Year 5, end of week 9 (online learning)"
+  },
+  {
+   "body": "The free International Coding Olympiad is this Saturday, 28 Nov, at 10:00 am. Families who have not registered can still do so on the official website, choosing Computer Science (Free) and adding the school's ICT mentor as supervisor with the code given in the announcement. Registered students are encouraged to practise with the sample questions this week. Full exam details and instructions will be shared towards the end of the week.",
+   "date": "2026-11-23",
+   "due": "",
+   "id": "n_coding_olympiad_final_nov23",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Final reminder: International Coding Olympiad this Saturday, 28 Nov"
   }
  ],
- "events": [
-  {
-   "end": "2026-11-26",
-   "id": "arabic_brochure_nov26",
-   "kind": "school",
-   "start": "2026-11-26",
-   "time": "",
-   "title": "Arabic desertification brochure due"
-  },
-  {
-   "end": "2026-11-02",
-   "id": "art_nov2",
-   "kind": "school",
-   "start": "2026-11-02",
-   "time": "",
-   "title": "Art class: bring magazines, glue, scissors"
-  },
-  {
-   "end": "2026-12-05",
-   "id": "bebras_dec5",
-   "kind": "school",
-   "start": "2026-12-05",
-   "time": "",
-   "title": "Bebras Mawhiba online competition"
-  },
-  {
-   "end": "2026-11-16",
-   "id": "clubs_resume_nov16",
-   "kind": "school",
-   "start": "2026-11-16",
-   "time": "",
-   "title": "After-school clubs resume"
-  },
-  {
-   "end": "2026-11-28",
-   "id": "coding_olympiad_nov28",
-   "kind": "school",
-   "start": "2026-11-28",
-   "time": "10:00",
-   "title": "International Coding Olympiad (online, 10:00 am)"
-  },
-  {
-   "end": "2026-09-15",
-   "id": "coffee",
-   "kind": "school",
-   "start": "2026-09-15",
-   "time": "14:30",
-   "title": "Year 5 coffee afternoon, 2:30 pm"
-  },
-  {
-   "end": "2026-11-13",
-   "id": "hiking_nov13",
-   "kind": "school",
-   "start": "2026-11-13",
-   "time": "08:00",
-   "title": "Scout Pack hiking trip, 8:00 am to 1:00 pm"
-  },
-  {
-   "end": "2026-09-29",
-   "id": "ibpyp",
-   "kind": "school",
-   "start": "2026-09-28",
-   "time": "",
-   "title": "IB PYP verification visit, no after-school clubs"
-  },
-  {
-   "end": "2026-10-08",
-   "id": "jeans",
-   "kind": "school",
-   "start": "2026-10-08",
-   "time": "",
-   "title": "Jeans Day, blue jeans only"
-  },
-  {
-   "end": "2026-10-16",
-   "id": "jota",
-   "kind": "school",
-   "start": "2026-10-16",
-   "time": "13:00",
-   "title": "Scout radio event at school, 1:00 to 3:00 pm"
-  },
-  {
-   "end": "2026-11-15",
-   "id": "kindness_bingo_nov15",
-   "kind": "school",
-   "start": "2026-11-15",
-   "time": "",
-   "title": "Kindness Bingo due"
-  },
-  {
-   "end": "2026-11-10",
-   "id": "library_return_nov10",
-   "kind": "school",
-   "start": "2026-11-10",
-   "time": "",
-   "title": "Return library book, card and worksheets"
-  },
-  {
-   "end": "2026-09-22",
-   "id": "natday",
-   "kind": "school",
-   "start": "2026-09-22",
-   "time": "12:30",
-   "title": "Saudi National Day celebration, 12:30 to 2:00 pm"
-  },
-  {
-   "end": "2026-10-08",
-   "id": "noclubs_oct8",
-   "kind": "school",
-   "start": "2026-10-08",
-   "time": "",
-   "title": "No after-school clubs, collect at 1:30 pm"
-  },
-  {
-   "end": "2026-11-10",
-   "id": "online_nov10",
-   "kind": "school",
-   "start": "2026-11-10",
-   "time": "",
-   "title": "Online learning, students stay home"
-  },
-  {
-   "end": "2026-11-05",
-   "id": "online_nov1_5",
-   "kind": "school",
-   "start": "2026-11-01",
-   "time": "",
-   "title": "Online learning week, students stay home"
-  },
-  {
-   "end": "2026-10-11",
-   "id": "online_oct11",
-   "kind": "school",
-   "start": "2026-10-11",
-   "time": "",
-   "title": "Online learning day, stay home"
-  },
-  {
-   "end": "2026-10-22",
-   "id": "online_oct18_22",
-   "kind": "school",
-   "start": "2026-10-18",
-   "time": "",
-   "title": "Online learning week, students stay home"
-  },
-  {
-   "end": "2026-11-08",
-   "id": "onsite_resume_nov8",
-   "kind": "school",
-   "start": "2026-11-08",
-   "time": "",
-   "title": "Back on campus: on-site learning resumes"
-  },
-  {
-   "end": "2026-10-22",
-   "id": "pinkday",
-   "kind": "school",
-   "start": "2026-10-22",
-   "time": "",
-   "title": "Pink Day, wear pink in online lessons"
-  },
-  {
-   "end": "2026-11-28",
-   "id": "ptm_coffee_nov28",
-   "kind": "school",
-   "start": "2026-11-28",
-   "time": "13:00-16:00",
-   "title": "Parent–Teacher Meeting & Coffee Afternoon"
-  },
-  {
-   "end": "2026-10-31",
-   "id": "scout_costume_oct31",
-   "kind": "school",
-   "start": "2026-10-31",
-   "time": "14:00",
-   "title": "Scout Pack costume afternoon, 2:00 to 4:00 pm"
-  },
-  {
-   "end": "2026-10-02",
-   "id": "scouts1",
-   "kind": "school",
-   "start": "2026-10-02",
-   "time": "10:00",
-   "title": "Scouts orientation meeting, 10:00 am"
-  },
-  {
-   "end": "2026-10-16",
-   "id": "scouts2",
-   "kind": "school",
-   "start": "2026-10-16",
-   "time": "10:00",
-   "title": "Scouts orientation meeting (second), 10:00 am"
-  },
-  {
-   "end": "2026-10-15",
-   "id": "spanish",
-   "kind": "school",
-   "start": "2026-10-15",
-   "time": "",
-   "title": "Year 5 Spanish project deadline"
-  },
-  {
-   "end": "2026-11-15",
-   "id": "spelling_nov15",
-   "kind": "school",
-   "start": "2026-11-15",
-   "time": "",
-   "title": "Year 5 spelling test"
-  },
-  {
-   "end": "2026-11-22",
-   "id": "spelling_nov22",
-   "kind": "school",
-   "start": "2026-11-22",
-   "time": "",
-   "title": "Year 5 spelling test"
-  },
-  {
-   "end": "2026-11-29",
-   "id": "spelling_nov29",
-   "kind": "school",
-   "start": "2026-11-29",
-   "time": "",
-   "title": "Year 5 spelling test"
-  },
-  {
-   "end": "2026-11-08",
-   "id": "spelling_nov8",
-   "kind": "school",
-   "start": "2026-11-08",
-   "time": "",
-   "title": "Year 5 spelling test"
-  }
- ]
+ "updated": "2026-11-23T18:46:27Z"
 }
