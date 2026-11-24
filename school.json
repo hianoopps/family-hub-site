@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:47:01Z",
+ "updated": "2026-11-24T11:10:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -30,6 +30,14 @@
    "kind": "activity",
    "title": "Year 5 coffee afternoon",
    "id": "a_coffee"
+  },
+  {
+   "body": "Colour Week runs Sunday 29 Nov to Thursday 3 Dec, linked to the theme How We Express Ourselves. Students dress in the colour of the day, in class or online: Sun red, Mon yellow, Tue green, Wed blue, Thu rainbow (all colours). A poster was attached to the announcement.",
+   "date": "2026-11-24",
+   "due": "",
+   "kind": "activity",
+   "title": "Buckswood Colour Week, 29 Nov to 3 Dec",
+   "id": "a_colour_week_nov29"
   },
   {
    "body": "Pack 257 invites children aged 7 to 11 on a hike near Hidden Valley outside Riyadh on Friday 13 Nov, 8:00 am to 1:00 pm. Cost is 100 SAR per child, paid on the day, and a parent must stay for the whole event. Children need hiking shoes, a hat, a filled water bottle and a nut-free packed lunch, and those without shoes and a hat cannot take part. Register early through the online form, one per child.",
@@ -1283,6 +1291,14 @@
    "time": "14:30",
    "title": "Year 5 coffee afternoon, 2:30 pm",
    "id": "coffee"
+  },
+  {
+   "end": "2026-12-03",
+   "kind": "school",
+   "start": "2026-11-29",
+   "time": "",
+   "title": "Colour Week: red Sun, yellow Mon, green Tue, blue Wed, rainbow Thu",
+   "id": "colour_week_nov29"
   },
   {
    "end": "2026-11-13",
