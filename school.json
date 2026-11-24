@@ -406,6 +406,15 @@
    "title": "Absence recorded in Arabic lesson, 16 Nov"
   },
   {
+   "body": "The Islamic Studies teacher recorded an absence for a student in the Year 5 lesson on Tuesday 24 Nov. This is an automatic attendance notice from Edunation. If the child did attend, message the homeroom teacher on Edunation.",
+   "date": "2026-11-24",
+   "due": "",
+   "id": "n_absence_islamic_nov24",
+   "kind": "announcement",
+   "tag": "Routine",
+   "title": "Absence recorded in Islamic lesson, 24 Nov"
+  },
+  {
    "body": "The Islamic Culture co-teacher recorded an absence for a student in the Year 5 online lesson on Tuesday 3 Nov. This is an automatic attendance notice from Edunation. If the child did attend, message the homeroom teacher on Edunation.",
    "date": "2026-11-03",
    "due": "",
@@ -597,6 +606,15 @@
    "kind": "announcement",
    "tag": "Clubs",
    "title": "Club registration reminder: limited spaces"
+  },
+  {
+   "body": "The free International Coding Olympiad is this Saturday, 28 Nov, at 10:00 am. Families who have not registered can still do so on the official website, choosing Computer Science (Free) and adding the school's ICT mentor as supervisor with the code given in the announcement. Registered students are encouraged to practise with the sample questions this week. Full exam details and instructions will be shared towards the end of the week.",
+   "date": "2026-11-23",
+   "due": "",
+   "id": "n_coding_olympiad_final_nov23",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Final reminder: International Coding Olympiad this Saturday, 28 Nov"
   },
   {
    "body": "The school reminds Year 4 to Year 7 families about the free International Coding Olympiad on Saturday 28 Nov at 10:00 am. When registering, choose Computer Science (Free). Parents are asked to add the school's ICT mentor as the child's supervisor using the code given in the announcement, and to tell the homeroom teacher once registered.",
@@ -1431,16 +1449,7 @@
    "id": "w_week9",
    "kind": "weekly",
    "title": "Year 5, end of week 9 (online learning)"
-  },
-  {
-   "body": "The free International Coding Olympiad is this Saturday, 28 Nov, at 10:00 am. Families who have not registered can still do so on the official website, choosing Computer Science (Free) and adding the school's ICT mentor as supervisor with the code given in the announcement. Registered students are encouraged to practise with the sample questions this week. Full exam details and instructions will be shared towards the end of the week.",
-   "date": "2026-11-23",
-   "due": "",
-   "id": "n_coding_olympiad_final_nov23",
-   "kind": "announcement",
-   "tag": "Events",
-   "title": "Final reminder: International Coding Olympiad this Saturday, 28 Nov"
   }
  ],
- "updated": "2026-11-23T18:46:27Z"
+ "updated": "2026-11-24T06:48:00Z"
 }
