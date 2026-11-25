@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T06:46:55Z",
+ "updated": "2026-11-25T08:46:30Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -1033,6 +1033,14 @@
    "id": "t_bebras_nov3"
   },
   {
+   "body": "The school shared a preparation guide, a teaching video and a practice game for the Bebras Mawhiba competition. Students sign in to their Bebras account with the code sent by Mawhiba and complete the official practice test before 29 November. The exam is on 5 December at 2:00 pm (60 minutes, 10 problems) on a laptop or desktop with a working camera and microphone. Phones, headphones, calculators, other tabs and outside help are not allowed during the exam.",
+   "date": "2026-11-25",
+   "due": "2026-11-29",
+   "kind": "task",
+   "title": "Bebras practice: complete the official test before 29 Nov",
+   "id": "t_bebras_practice_nov25"
+  },
+  {
    "body": "Online form, first come first served. Swap requests go in the Notes field.",
    "date": "2026-09-10",
    "due": "2026-09-13",
@@ -1291,9 +1299,17 @@
    "end": "2026-12-05",
    "kind": "school",
    "start": "2026-12-05",
-   "time": "",
+   "time": "14:00",
    "title": "Bebras Mawhiba online competition",
    "id": "bebras_dec5"
+  },
+  {
+   "end": "2026-11-29",
+   "kind": "school",
+   "start": "2026-11-29",
+   "time": "",
+   "title": "Bebras official practice test deadline",
+   "id": "bebras_practice_nov29"
   },
   {
    "end": "2026-11-16",
