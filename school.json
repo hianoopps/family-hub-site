@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:46:30Z",
+ "updated": "2026-11-25T10:46:00Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -188,6 +188,15 @@
    "tag": "Routine",
    "title": "Absence recorded in Islamic lesson, 24 Nov",
    "id": "n_absence_islamic_nov24"
+  },
+  {
+   "body": "An absence was recorded for a student in the Islamic lesson on Wednesday 25 Nov. This is an automatic attendance notice from Edunation. If the child did attend, message the homeroom teacher on Edunation.",
+   "date": "2026-11-25",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Routine",
+   "title": "Absence recorded in Islamic lesson, 25 Nov",
+   "id": "n_absence_islamic_nov25"
   },
   {
    "body": "The Islamic Culture co-teacher recorded an absence for a student in the Year 5 online lesson on Tuesday 3 Nov. This is an automatic attendance notice from Edunation. If the child did attend, message the homeroom teacher on Edunation.",
