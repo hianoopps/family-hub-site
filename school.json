@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:25:00Z",
+ "updated": "2026-11-25T06:46:55Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -434,6 +434,15 @@
    "tag": "Logistics",
    "title": "Timely student collection",
    "id": "n_collect"
+  },
+  {
+   "body": "The school explained that Colour Week is a non-academic, fun activity linked to the IB PYP theme How We Express Ourselves. There are no extra lessons, academic tasks or learning resources. Children simply dress in the colour or attire of the day and share their ideas, including during online classes.",
+   "date": "2026-11-25",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Events",
+   "title": "Update on next week's Colour Week",
+   "id": "n_colour_week_update_nov25"
   },
   {
    "body": "The school resent its Creative Showcase notice with the 12 pillars poster attached. Learners from KG1 to Year 7 make one original artwork inspired by one or more school pillars, in any medium including recycled materials. Add a label with name, year group, title, pillar(s) and a short explanation, and bring it to school after the holidays for the showcase.",
