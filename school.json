@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T06:46:30Z",
+ "updated": "2026-11-26T10:46:23Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -1302,6 +1302,15 @@
    "kind": "weekly",
    "title": "Year 5, end of week 9 (online learning)",
    "id": "w_week9"
+  },
+  {
+   "body": "The school shared the fifth edition of The Buckswood Chronicle, its weekly newsletter on learning, achievements, activities and special moments. The Week 5 edition was attached to the announcement. No action is needed from families.",
+   "date": "2026-11-26",
+   "due": "",
+   "kind": "announcement",
+   "tag": "News",
+   "title": "The Buckswood Chronicle: Week 5 edition",
+   "id": "n_chronicle_wk5_nov26"
   }
  ],
  "events": [
