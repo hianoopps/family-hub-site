@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:46:00Z",
+ "updated": "2026-11-26T06:46:30Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -600,6 +600,15 @@
    "id": "n_mena_awards_nov15"
   },
   {
+   "body": "The worksheet used in the morning's catch-up English lesson, held instead of PSHE, was shared as an attachment. Learners who prefer may print it out instead of writing each sentence in their English notebook.",
+   "date": "2026-11-26",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Learning",
+   "title": "Year 5 English: Modal Verbs in the Media worksheet",
+   "id": "n_modal_verbs_nov26"
+  },
+  {
    "body": "Tue 22 Sep, 12:30 to 2:00 pm, Multipurpose Hall. Attending parents collect their child from the homeroom teacher after performances. Others: dismissal 1:30 pm. Thu 24 Sep is a normal school day.",
    "date": "2026-09-21",
    "kind": "announcement",
@@ -1034,6 +1043,14 @@
    "id": "t_art_materials_nov2"
   },
   {
+   "body": "Parents are asked to bring their child's artwork completed during online classes, including the 12 Pillars project, to the upcoming Coffee Session. Teachers will collect and celebrate the work. The Parent–Teacher Meeting and Coffee Afternoon was announced for Saturday 28 Nov, 1:00 to 4:00 pm.",
+   "date": "2026-11-26",
+   "due": "2026-11-28",
+   "kind": "task",
+   "title": "Bring online-class artwork and 12 Pillars project to the Coffee Session",
+   "id": "t_artwork_coffee_nov26"
+  },
+  {
    "body": "Families who want their child to take part register and pay SAR 60 on the official competition website, ideally by 20 Nov. After registering, tell the homeroom teacher so the school can keep a record.",
    "date": "2026-11-03",
    "due": "2026-11-20",
@@ -1303,6 +1320,14 @@
    "time": "",
    "title": "Art class: bring magazines, glue, scissors",
    "id": "art_nov2"
+  },
+  {
+   "end": "2026-11-28",
+   "kind": "school",
+   "start": "2026-11-28",
+   "time": "13:00-16:00",
+   "title": "Bring artwork and 12 Pillars project to Coffee Session",
+   "id": "artwork_coffee_nov28"
   },
   {
    "end": "2026-12-05",
