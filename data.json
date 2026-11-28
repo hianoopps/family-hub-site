@@ -857,6 +857,13 @@
     "category": "Transport & Fuel",
     "note": "Car oil",
     "cur": "SAR"
+   },
+   "e1795864311557": {
+    "date": "2026-11-28",
+    "amount": 144,
+    "category": "Shopping",
+    "note": "Shopping",
+    "cur": "SAR"
    }
   },
   "school_done": {
