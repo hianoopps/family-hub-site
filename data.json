@@ -871,6 +871,13 @@
     "category": "Leisure & Sports",
     "note": "Dog pet",
     "cur": "SAR"
+   },
+   "e1795864368436": {
+    "date": "2026-11-28",
+    "amount": 73,
+    "category": "Groceries",
+    "note": "Groceries",
+    "cur": "SAR"
    }
   },
   "school_done": {
