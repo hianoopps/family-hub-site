@@ -878,6 +878,13 @@
     "category": "Groceries",
     "note": "Groceries",
     "cur": "SAR"
+   },
+   "e1795864385435": {
+    "date": "2026-11-28",
+    "amount": 91,
+    "category": "Housing & Utilities",
+    "note": "Housing & Utilities",
+    "cur": "SAR"
    }
   },
   "school_done": {
