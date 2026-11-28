@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T12:49:00Z",
+ "updated": "2026-11-28T16:46:44Z",
  "items": [
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
@@ -1327,6 +1327,15 @@
    "kind": "activity",
    "title": "Scout overnight campout, 4 to 5 Dec",
    "id": "a_scout_campout_dec4"
+  },
+  {
+   "body": "Following the latest Ministry of Education guidance, online learning continues until further notice. All students are expected to follow their regular online timetables through Edunation. Families who need assistance or support can contact the school.",
+   "date": "2026-11-28",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Online learning continues until further notice (28 Nov)",
+   "id": "n_online_until_notice_nov28"
   }
  ],
  "events": [
