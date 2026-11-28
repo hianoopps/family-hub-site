@@ -850,6 +850,13 @@
     "category": "Housing & Utilities",
     "note": "Electricity",
     "cur": "SAR"
+   },
+   "e1795864285705": {
+    "date": "2026-11-28",
+    "amount": 360,
+    "category": "Transport & Fuel",
+    "note": "Car oil",
+    "cur": "SAR"
    }
   },
   "school_done": {
