@@ -1,6 +1,14 @@
 {
- "updated": "2026-11-28T16:46:44Z",
+ "updated": "2026-11-28T18:46:13Z",
  "items": [
+  {
+   "kind": "activity",
+   "title": "Bebras exam, Sat 5 Dec: key dates and AI proctoring rules",
+   "date": "2026-11-28",
+   "body": "The official Bebras exam is on Saturday 5 Dec at 2:00 pm (60 minutes, 10 problems), and the official practice test stays open until 29 Nov. Use a charged desktop or laptop with a working camera and microphone in a quiet, well-lit room, log in 10 to 15 minutes early and keep the student code ready. Phones, headphones, calculators, other tabs or apps, blocking the camera or microphone and any outside help void the test. Results are due on 5 Jan 2027 and the medal presentation is on 7 Feb 2027.",
+   "due": "",
+   "id": "a_bebras_rules_nov28"
+  },
   {
    "body": "Clubs began Mon 14 Sep and run Mon to Thu. Maximum two clubs per child. Club children are collected at 2:30 pm. No clubs on 22 Sep, 28 Sep or 29 Sep.",
    "date": "2026-09-14",
@@ -122,6 +130,14 @@
    "kind": "activity",
    "title": "Pink Day, Thu 22 Oct",
    "id": "a_pinkday"
+  },
+  {
+   "body": "Scouting America Pack 257 invites students aged 9 to 10 to an overnight campout at Lakes Park, Al Haeer, from Friday 4 Dec to Saturday 5 Dec. The fee is SAR 200 per student, including all meals, and parents are welcome to attend. Register by Tuesday 1 Dec at 7:00 pm. The schedule, packing list, camp policies and registration details are in the letter attached to the announcement.",
+   "date": "2026-11-28",
+   "due": "",
+   "kind": "activity",
+   "title": "Scout overnight campout, 4 to 5 Dec",
+   "id": "a_scout_campout_dec4"
   },
   {
    "body": "Scout Pack 257 invites Buckswood students to an afternoon of costumes, fun and laughter this Saturday, 31 Oct, from 2:00 to 4:00 pm. Each family is asked to bring a sweet treat to share. Parents must stay with their children throughout, as it is not a drop-off event.",
@@ -785,6 +801,15 @@
    "id": "n_online_until_notice_nov21"
   },
   {
+   "body": "Following the latest Ministry of Education guidance, online learning continues until further notice. All students are expected to follow their regular online timetables through Edunation. Families who need assistance or support can contact the school.",
+   "date": "2026-11-28",
+   "due": "",
+   "kind": "announcement",
+   "tag": "Logistics",
+   "title": "Online learning continues until further notice (28 Nov)",
+   "id": "n_online_until_notice_nov28"
+  },
+  {
    "body": "After the half-term break, the school is awaiting final confirmation from the Ministry of Education and other authorities on returning to campus on Sunday 1 November 2026. The school plans to welcome students back, but this depends on official guidance. Any change to learning arrangements will be shared as soon as guidance is received.",
    "date": "2026-10-31",
    "due": "",
@@ -1251,6 +1276,14 @@
    "id": "w_week1"
   },
   {
+   "body": "The class started the new Unit of Inquiry, How We Express Ourselves, with persuasive reading and writing about media in English, properties of materials in Science, and shapes and triangles in Maths. History presentations from the previous unit were completed. Science experiment videos can still be submitted until Sunday 29 Nov. Parents are asked to bring in all completed worksheets and projects for every subject when they attend on Saturday 28 Nov, and two students were named Students of the Week.",
+   "date": "2026-11-26",
+   "due": "",
+   "kind": "weekly",
+   "title": "Year 5, end of week 10 (online learning)",
+   "id": "w_week10"
+  },
+  {
    "body": "English: biographies and autobiographies, key features and pair work. Maths: numbers in standard, word and expanded form, plus a Saudi Arabia shape project with number facts. Science: seedlings and how plants begin to grow. Drama: Martin Luther King Jr.'s speech and rights and responsibilities. A new student was named Student of the Week.",
    "date": "2026-09-17",
    "kind": "weekly",
@@ -1311,31 +1344,6 @@
    "kind": "weekly",
    "title": "Year 5, end of week 9 (online learning)",
    "id": "w_week9"
-  },
-  {
-   "body": "The class started the new Unit of Inquiry, How We Express Ourselves, with persuasive reading and writing about media in English, properties of materials in Science, and shapes and triangles in Maths. History presentations from the previous unit were completed. Science experiment videos can still be submitted until Sunday 29 Nov. Parents are asked to bring in all completed worksheets and projects for every subject when they attend on Saturday 28 Nov, and two students were named Students of the Week.",
-   "date": "2026-11-26",
-   "due": "",
-   "kind": "weekly",
-   "title": "Year 5, end of week 10 (online learning)",
-   "id": "w_week10"
-  },
-  {
-   "body": "Scouting America Pack 257 invites students aged 9 to 10 to an overnight campout at Lakes Park, Al Haeer, from Friday 4 Dec to Saturday 5 Dec. The fee is SAR 200 per student, including all meals, and parents are welcome to attend. Register by Tuesday 1 Dec at 7:00 pm. The schedule, packing list, camp policies and registration details are in the letter attached to the announcement.",
-   "date": "2026-11-28",
-   "due": "",
-   "kind": "activity",
-   "title": "Scout overnight campout, 4 to 5 Dec",
-   "id": "a_scout_campout_dec4"
-  },
-  {
-   "body": "Following the latest Ministry of Education guidance, online learning continues until further notice. All students are expected to follow their regular online timetables through Edunation. Families who need assistance or support can contact the school.",
-   "date": "2026-11-28",
-   "due": "",
-   "kind": "announcement",
-   "tag": "Logistics",
-   "title": "Online learning continues until further notice (28 Nov)",
-   "id": "n_online_until_notice_nov28"
   }
  ],
  "events": [
@@ -1540,6 +1548,14 @@
    "id": "ptm_coffee_nov28"
   },
   {
+   "end": "2026-12-05",
+   "kind": "school",
+   "start": "2026-12-04",
+   "time": "",
+   "title": "Scout overnight campout, Lakes Park, Al Haeer",
+   "id": "scout_campout_dec4"
+  },
+  {
    "end": "2026-10-31",
    "kind": "school",
    "start": "2026-10-31",
@@ -1602,14 +1618,6 @@
    "time": "",
    "title": "Year 5 spelling test",
    "id": "spelling_nov8"
-  },
-  {
-   "end": "2026-12-05",
-   "kind": "school",
-   "start": "2026-12-04",
-   "time": "",
-   "title": "Scout overnight campout, Lakes Park, Al Haeer",
-   "id": "scout_campout_dec4"
   }
  ]
 }
